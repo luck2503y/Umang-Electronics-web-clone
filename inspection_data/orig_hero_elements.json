@@ -1,0 +1,724 @@
+{
+  "allHeroEls": [
+    {
+      "tag": "DIV",
+      "classes": "framer-302mu8",
+      "name": "Container",
+      "text": "Official Framer Expert\n\nTurning ideas into high — impact Framer websites\n\nTurning ideas\n\ninto\n\nhigh — impact\n\nFramer\n\nwebsites\n\nAvailable for new projects\n\nAvailable for new projects\n\nKota Studio creates motion-rich, interactive websites\nthat engage users and boost conversions.\n\nScroll for more\n\n11:54 AM\n\n(GMT +7)",
+      "box": {
+        "x": 40,
+        "y": 0,
+        "width": 1360,
+        "height": 900,
+        "top": 0,
+        "right": 1400,
+        "bottom": 900,
+        "left": 40
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-m7x9f6",
+      "name": "Header",
+      "text": "Official Framer Expert\n\nTurning ideas into high — impact Framer websites\n\nTurning ideas\n\ninto\n\nhigh — impact\n\nFramer\n\nwebsites\n\nAvailable for new projects\n\nAvailable for new projects",
+      "box": {
+        "x": 371.078125,
+        "y": 262.5,
+        "width": 697.84375,
+        "height": 370,
+        "top": 262.5,
+        "right": 1068.921875,
+        "bottom": 632.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-2rwt3d",
+      "name": "Title",
+      "text": "Official Framer Expert",
+      "box": {
+        "x": 371.078125,
+        "y": 262.5,
+        "width": 697.84375,
+        "height": 30,
+        "top": 262.5,
+        "right": 1068.921875,
+        "bottom": 292.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-ifk8m2",
+      "name": "Framer Expert",
+      "text": "Official Framer Expert",
+      "box": {
+        "x": 371.078125,
+        "y": 262.5,
+        "width": 149.359375,
+        "height": 30,
+        "top": 262.5,
+        "right": 520.4375,
+        "bottom": 292.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-2ynltp",
+      "name": "Official Framer Expert",
+      "text": "Official Framer Expert",
+      "box": {
+        "x": 395.078125,
+        "y": 269.5,
+        "width": 116.359375,
+        "height": 16,
+        "top": 269.5,
+        "right": 511.4375,
+        "bottom": 285.5,
+        "left": 395.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "framer-text framer-styles-preset-omyfwx",
+      "name": null,
+      "text": "Official Framer Expert",
+      "box": {
+        "x": 395.078125,
+        "y": 269.5,
+        "width": 116.359375,
+        "height": 16,
+        "top": 269.5,
+        "right": 511.4375,
+        "bottom": 285.5,
+        "left": 395.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "12px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-f5mwa1",
+      "name": "Main Header",
+      "text": "Turning ideas into high — impact Framer websites\n\nTurning ideas\n\ninto\n\nhigh — impact\n\nFramer\n\nwebsites",
+      "box": {
+        "x": 371.078125,
+        "y": 308.5,
+        "width": 697.84375,
+        "height": 288,
+        "top": 308.5,
+        "right": 1068.921875,
+        "bottom": 596.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-3zufs4",
+      "name": "Row 1",
+      "text": "Turning ideas into high — impact Framer websites\n\nTurning ideas\n\ninto",
+      "box": {
+        "x": 373.921875,
+        "y": 308.5,
+        "width": 692.15625,
+        "height": 96,
+        "top": 308.5,
+        "right": 1066.078125,
+        "bottom": 404.5,
+        "left": 373.921875
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-10fdh5w",
+      "name": null,
+      "text": "Turning ideas into high — impact Framer websites",
+      "box": {
+        "x": 373.921875,
+        "y": 308.5,
+        "width": 1,
+        "height": 1,
+        "top": 308.5,
+        "right": 374.921875,
+        "bottom": 309.5,
+        "left": 373.921875
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "H1",
+      "classes": "framer-text framer-styles-preset-dzxyv4",
+      "name": null,
+      "text": "Turning ideas into high — impact Framer websites",
+      "box": {
+        "x": 373.921875,
+        "y": 308.5,
+        "width": 1,
+        "height": 3936,
+        "top": 308.5,
+        "right": 374.921875,
+        "bottom": 4244.5,
+        "left": 373.921875
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "88px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-ml67vj",
+      "name": null,
+      "text": "Turning ideas",
+      "box": {
+        "x": 373.921875,
+        "y": 308.5,
+        "width": 496.703125,
+        "height": 96,
+        "top": 308.5,
+        "right": 870.625,
+        "bottom": 404.5,
+        "left": 373.921875
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "framer-text framer-styles-preset-dzxyv4",
+      "name": null,
+      "text": "Turning ideas",
+      "box": {
+        "x": 373.921875,
+        "y": 308.5,
+        "width": 496.703125,
+        "height": 96,
+        "top": 308.5,
+        "right": 870.625,
+        "bottom": 404.5,
+        "left": 373.921875
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "88px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-huikzh",
+      "name": null,
+      "text": "into",
+      "box": {
+        "x": 926.625,
+        "y": 308.5,
+        "width": 139.453125,
+        "height": 96,
+        "top": 308.5,
+        "right": 1066.078125,
+        "bottom": 404.5,
+        "left": 926.625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "framer-text framer-styles-preset-dzxyv4",
+      "name": null,
+      "text": "into",
+      "box": {
+        "x": 926.625,
+        "y": 308.5,
+        "width": 139.453125,
+        "height": 96,
+        "top": 308.5,
+        "right": 1066.078125,
+        "bottom": 404.5,
+        "left": 926.625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "88px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-1jv3i5v",
+      "name": "Row 2",
+      "text": "high — impact",
+      "box": {
+        "x": 374.40625,
+        "y": 404.5,
+        "width": 691.171875,
+        "height": 96,
+        "top": 404.5,
+        "right": 1065.578125,
+        "bottom": 500.5,
+        "left": 374.40625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-fk7jrs",
+      "name": null,
+      "text": "high — impact",
+      "box": {
+        "x": 532.40625,
+        "y": 404.5,
+        "width": 533.171875,
+        "height": 96,
+        "top": 404.5,
+        "right": 1065.578125,
+        "bottom": 500.5,
+        "left": 532.40625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "framer-text framer-styles-preset-dzxyv4",
+      "name": null,
+      "text": "high — impact",
+      "box": {
+        "x": 532.40625,
+        "y": 404.5,
+        "width": 533.171875,
+        "height": 96,
+        "top": 404.5,
+        "right": 1065.578125,
+        "bottom": 500.5,
+        "left": 532.40625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "88px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-1x9ytnk",
+      "name": "Row 3",
+      "text": "Framer\n\nwebsites",
+      "box": {
+        "x": 371.078125,
+        "y": 500.5,
+        "width": 697.84375,
+        "height": 96,
+        "top": 500.5,
+        "right": 1068.921875,
+        "bottom": 596.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-7mapvy",
+      "name": null,
+      "text": "Framer",
+      "box": {
+        "x": 371.078125,
+        "y": 500.5,
+        "width": 260.5,
+        "height": 96,
+        "top": 500.5,
+        "right": 631.578125,
+        "bottom": 596.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "framer-text framer-styles-preset-dzxyv4",
+      "name": null,
+      "text": "Framer",
+      "box": {
+        "x": 371.078125,
+        "y": 500.5,
+        "width": 260.5,
+        "height": 96,
+        "top": 500.5,
+        "right": 631.578125,
+        "bottom": 596.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "88px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-1ui26rq",
+      "name": null,
+      "text": "websites",
+      "box": {
+        "x": 735.578125,
+        "y": 500.5,
+        "width": 333.34375,
+        "height": 96,
+        "top": 500.5,
+        "right": 1068.921875,
+        "bottom": 596.5,
+        "left": 735.578125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "framer-text framer-styles-preset-dzxyv4",
+      "name": null,
+      "text": "websites",
+      "box": {
+        "x": 735.578125,
+        "y": 500.5,
+        "width": 333.34375,
+        "height": 96,
+        "top": 500.5,
+        "right": 1068.921875,
+        "bottom": 596.5,
+        "left": 735.578125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "88px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-1o3z42v",
+      "name": null,
+      "text": "Available for new projects\n\nAvailable for new projects",
+      "box": {
+        "x": 371.078125,
+        "y": 612.5,
+        "width": 697.84375,
+        "height": 20,
+        "top": 612.5,
+        "right": 1068.921875,
+        "bottom": 632.5,
+        "left": 371.078125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-14ijf2v-container",
+      "name": null,
+      "text": "Available for new projects\n\nAvailable for new projects",
+      "box": {
+        "x": 908.3125,
+        "y": 612.5,
+        "width": 160.609375,
+        "height": 20,
+        "top": 612.5,
+        "right": 1068.921875,
+        "bottom": 632.5,
+        "left": 908.3125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "",
+      "name": null,
+      "text": "Available for new projects\n\nAvailable for new projects",
+      "box": {
+        "x": 908.3125,
+        "y": 612.5,
+        "width": 160.609375,
+        "height": 20,
+        "top": 612.5,
+        "right": 1068.921875,
+        "bottom": 632.5,
+        "left": 908.3125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "",
+      "name": null,
+      "text": "Available for new projects",
+      "box": {
+        "x": 908.3125,
+        "y": 612.5,
+        "width": 160.609375,
+        "height": 20,
+        "top": 612.5,
+        "right": 1068.921875,
+        "bottom": 632.5,
+        "left": 908.3125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(109, 109, 109)",
+        "fontSize": "14px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "text-shimmer-Rdpc6mlp",
+      "name": null,
+      "text": "Available for new projects",
+      "box": {
+        "x": 908.3125,
+        "y": 612.5,
+        "width": 160.609375,
+        "height": 20,
+        "top": 612.5,
+        "right": 1068.921875,
+        "bottom": 632.5,
+        "left": 908.3125
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) linear-gradient(120deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 30.5%, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0) 69.5%, rgba(0, 0, 0, 0) 100%) no-repeat scroll 115.22% 50% / 200% 200% padding-box text",
+        "color": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px",
+        "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "framer-1pq06lh",
+      "name": null,
+      "text": "Kota Studio creates motion-rich, interactive websites\nthat engage users and boost conversions.",
+      "box": {
+        "x": 557.15625,
+        "y": 820,
+        "width": 325.6875,
+        "height": 40,
+        "top": 820,
+        "right": 882.84375,
+        "bottom": 860,
+        "left": 557.15625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(0, 0, 0)",
+        "fontSize": "12px",
+        "fontFamily": "sans-serif",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "P",
+      "classes": "framer-text",
+      "name": null,
+      "text": "Kota Studio creates motion-rich, interactive websites\nthat engage users and boost conversions.",
+      "box": {
+        "x": 557.15625,
+        "y": 820,
+        "width": 325.6875,
+        "height": 40,
+        "top": 820,
+        "right": 882.84375,
+        "bottom": 860,
+        "left": 557.15625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgba(255, 255, 255, 0.6)",
+        "fontSize": "14px",
+        "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "classes": "framer-text",
+      "name": null,
+      "text": "Kota Studio",
+      "box": {
+        "x": 557.15625,
+        "y": 822,
+        "width": 74.921875,
+        "height": 16,
+        "top": 822,
+        "right": 632.078125,
+        "bottom": 838,
+        "left": 557.15625
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgba(255, 255, 255, 0.96)",
+        "fontSize": "14px",
+        "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+        "display": "inline",
+        "position": "static"
+      }
+    }
+  ]
+}

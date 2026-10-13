@@ -1,0 +1,497 @@
+[
+  {
+    "scrollY": 1200,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.001",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 1350,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.0089724",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 1500,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.171925",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 1650,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.588242",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 1800,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.829875",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 1950,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.935488",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 2100,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.975745",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 2250,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "0.999716",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  },
+  {
+    "scrollY": 2400,
+    "sampleLetters": [
+      {
+        "char": "Y",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "o",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "u",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "’",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "v",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "a",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "l",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "r",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      },
+      {
+        "char": "e",
+        "opacity": "1",
+        "color": "rgba(0, 0, 0, 0.96)"
+      }
+    ]
+  }
+]

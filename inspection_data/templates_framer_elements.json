@@ -1,0 +1,242 @@
+[
+  {
+    "framerName": "Sticky",
+    "tag": "DIV",
+    "className": "framer-1fj6pzi",
+    "style": null
+  },
+  {
+    "framerName": "Container",
+    "tag": "DIV",
+    "className": "framer-1cno30j",
+    "style": null
+  },
+  {
+    "framerName": "Center Pagination",
+    "tag": "DIV",
+    "className": "framer-1h58pzc",
+    "style": null
+  },
+  {
+    "framerName": "1",
+    "tag": "DIV",
+    "className": "framer-63WUg framer-YE4dE framer-6jbdkg framer-v-6jbdkg",
+    "style": "height: 100%; width: 100%; opacity: 1;"
+  },
+  {
+    "framerName": "Circle-1",
+    "tag": "DIV",
+    "className": "framer-a9lpab",
+    "style": "--border-bottom-width:2px;--border-color:rgb(255, 255, 255);--border-left-width:2px;--border-right-width:2px;--border-style:solid;--border-top-width:2px;mask:conic-gradient(from 0deg at 50% 50%, rgba(0, 0, 0, 0) 7.2deg, rgba(0,0,0,1) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0,0,0,0) 64.8deg) add;-webkit-mask:conic-gradient(from 0deg at 50% 50%, rgba(0, 0, 0, 0) 7.2deg, rgba(0,0,0,1) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0,0,0,0) 64.8deg) add;border-bottom-left-radius:1000px;border-bottom-right-radius:1000px;border-top-left-radius:1000px;border-top-right-radius:1000px;opacity:1"
+  },
+  {
+    "framerName": "Circle-2",
+    "tag": "DIV",
+    "className": "framer-1izlzgy",
+    "style": "--border-bottom-width: 2px; --border-color: rgb(255, 255, 255); --border-left-width: 2px; --border-right-width: 2px; --border-style: solid; --border-top-width: 2px; mask: conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg); border-radius: 1000px; opacity: 0.2; transform: rotate(72deg);"
+  },
+  {
+    "framerName": "Circle-3",
+    "tag": "DIV",
+    "className": "framer-1yam4x0",
+    "style": "--border-bottom-width: 2px; --border-color: rgb(255, 255, 255); --border-left-width: 2px; --border-right-width: 2px; --border-style: solid; --border-top-width: 2px; mask: conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg); border-radius: 1000px; opacity: 0.2; transform: rotate(144deg);"
+  },
+  {
+    "framerName": "Circle-4",
+    "tag": "DIV",
+    "className": "framer-xau3aw",
+    "style": "--border-bottom-width: 2px; --border-color: rgb(255, 255, 255); --border-left-width: 2px; --border-right-width: 2px; --border-style: solid; --border-top-width: 2px; mask: conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg); border-radius: 1000px; opacity: 0.2; transform: rotate(216deg);"
+  },
+  {
+    "framerName": "Circle-5",
+    "tag": "DIV",
+    "className": "framer-1v75ibc",
+    "style": "--border-bottom-width: 2px; --border-color: rgb(255, 255, 255); --border-left-width: 2px; --border-right-width: 2px; --border-style: solid; --border-top-width: 2px; mask: conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg); border-radius: 1000px; opacity: 0.2; transform: rotate(288deg);"
+  },
+  {
+    "framerName": "Number 2",
+    "tag": "DIV",
+    "className": "framer-rzjm8v",
+    "style": "border-radius: 1000px; opacity: 0.2; transform: rotate(108deg);"
+  },
+  {
+    "framerName": null,
+    "tag": "DIV",
+    "className": "framer-ti6oo5",
+    "style": "--extracted-r6o4lv: var(--token-141149f5-f5ff-460a-8da8-3e30ed915293, rgb(255, 255, 255)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: translateX(-50%) rotate(-108deg); opacity: 1;"
+  },
+  {
+    "framerName": "Number 1",
+    "tag": "DIV",
+    "className": "framer-xqms2s",
+    "style": "border-radius: 1000px; opacity: 1; transform: rotate(36deg);"
+  },
+  {
+    "framerName": null,
+    "tag": "DIV",
+    "className": "framer-bqzhqc",
+    "style": "--extracted-r6o4lv: var(--token-141149f5-f5ff-460a-8da8-3e30ed915293, rgb(255, 255, 255)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: translateX(-50%) rotate(-36deg); opacity: 1;"
+  },
+  {
+    "framerName": "Number 3",
+    "tag": "DIV",
+    "className": "framer-17vwbjz",
+    "style": "border-radius: 1000px; opacity: 0.2; transform: rotate(180deg);"
+  },
+  {
+    "framerName": null,
+    "tag": "DIV",
+    "className": "framer-qfa2gx",
+    "style": "--extracted-r6o4lv: var(--token-141149f5-f5ff-460a-8da8-3e30ed915293, rgb(255, 255, 255)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: translateX(-50%) rotate(-180deg); opacity: 1;"
+  },
+  {
+    "framerName": "Number 4",
+    "tag": "DIV",
+    "className": "framer-johct3",
+    "style": "border-radius: 1000px; opacity: 0.2; transform: rotate(252deg);"
+  },
+  {
+    "framerName": null,
+    "tag": "DIV",
+    "className": "framer-10sv13h",
+    "style": "--extracted-r6o4lv: var(--token-141149f5-f5ff-460a-8da8-3e30ed915293, rgb(255, 255, 255)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: translateX(-50%) rotate(-252deg); opacity: 1;"
+  },
+  {
+    "framerName": "Number 5",
+    "tag": "DIV",
+    "className": "framer-1f0h90n",
+    "style": "border-radius: 1000px; opacity: 0.2; transform: rotate(324deg);"
+  },
+  {
+    "framerName": "5",
+    "tag": "DIV",
+    "className": "framer-1jcs6rq",
+    "style": "--extracted-r6o4lv: var(--token-141149f5-f5ff-460a-8da8-3e30ed915293, rgb(255, 255, 255)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: translateX(-50%) rotate(-324deg); opacity: 1;"
+  },
+  {
+    "framerName": "On Dark (Small)",
+    "tag": "A",
+    "className": "framer-D3m9b framer-omQih framer-1n13i4p framer-v-jyztes framer-ksxelh",
+    "style": "opacity: 1;"
+  },
+  {
+    "framerName": "Button",
+    "tag": "DIV",
+    "className": "framer-1stjw0m",
+    "style": "border-radius: 1000px; transform: none; opacity: 1;"
+  },
+  {
+    "framerName": "On Dark",
+    "tag": "DIV",
+    "className": "framer-GBP2G framer-3cyfrz framer-v-3cyfrz",
+    "style": "height: 100%; width: 100%; opacity: 1;"
+  },
+  {
+    "framerName": "fill + shadow",
+    "tag": "DIV",
+    "className": "framer-1ahjgix",
+    "style": "backdrop-filter: blur(4px); background-color: rgba(153, 153, 153, 0.16); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.25) 1px 0px 0px 0px, rgba(0, 0, 0, 0.25) -1px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 8px 16px 0px; opacity: 1;"
+  },
+  {
+    "framerName": "fog",
+    "tag": "DIV",
+    "className": "framer-d9lhr",
+    "style": "backdrop-filter:blur(10px);background-color:rgba(0, 0, 0, 0.01);-webkit-backdrop-filter:blur(10px);border-bottom-left-radius:100px;border-bottom-right-radius:100px;border-top-left-radius:100px;border-top-right-radius:100px;opacity:0.64"
+  },
+  {
+    "framerName": "inner shadow",
+    "tag": "DIV",
+    "className": "framer-fhx09m",
+    "style": "background-color: rgba(0, 0, 0, 0.01); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.3) -20px 0px 20px -30px inset, rgba(0, 0, 0, 0.3) 20px 0px 20px -30px inset; opacity: 1;"
+  },
+  {
+    "framerName": "highlights",
+    "tag": "DIV",
+    "className": "framer-1k2vii9",
+    "style": "background-color:rgba(0, 0, 0, 0);border-bottom-left-radius:100px;border-bottom-right-radius:100px;border-top-left-radius:100px;border-top-right-radius:100px;box-shadow:inset 0px 4px 1px -4px rgb(255, 255, 255), inset 0px -4px 1px -4px rgb(255, 255, 255), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.88), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.88), inset 0px 40px 10px -40px rgba(255, 255, 255, 0.96), inset 0px -40px 10px -40px rgba(255, 255, 255, 0.96);opacity:0.3"
+  },
+  {
+    "framerName": "Templates",
+    "tag": "DIV",
+    "className": "framer-1eew47i",
+    "style": null
+  },
+  {
+    "framerName": "Template 1",
+    "tag": "DIV",
+    "className": "framer-1o0twfp",
+    "style": null
+  },
+  {
+    "framerName": "Content",
+    "tag": "DIV",
+    "className": "framer-1opwspi",
+    "style": null
+  },
+  {
+    "framerName": "Main",
+    "tag": "DIV",
+    "className": "framer-1nsykhy",
+    "style": null
+  },
+  {
+    "framerName": "Variant 1",
+    "tag": "DIV",
+    "className": "framer-udUqP framer-qircx5 framer-v-qircx5",
+    "style": "height: 100%; width: 100%; border-radius: 1000px; opacity: 1;"
+  },
+  {
+    "framerName": "Image 1",
+    "tag": "A",
+    "className": "framer-mkuz6n framer-1c2ch3o",
+    "style": "opacity:1"
+  },
+  {
+    "framerName": "Image 2",
+    "tag": "A",
+    "className": "framer-b6h41a framer-1c2ch3o",
+    "style": "opacity: 1;"
+  },
+  {
+    "framerName": "Template Name",
+    "tag": "DIV",
+    "className": "framer-cybdo8",
+    "style": null
+  },
+  {
+    "framerName": "Container",
+    "tag": "DIV",
+    "className": "framer-18dmt2s",
+    "style": null
+  },
+  {
+    "framerName": "Name Mask",
+    "tag": "DIV",
+    "className": "framer-dkhho1",
+    "style": null
+  },
+  {
+    "framerName": "Category & price",
+    "tag": "DIV",
+    "className": "framer-1073oe3",
+    "style": null
+  },
+  {
+    "framerName": "BG",
+    "tag": "DIV",
+    "className": "framer-1acojty",
+    "style": null
+  },
+  {
+    "framerName": "Template 2",
+    "tag": "DIV",
+    "className": "framer-aorvfk",
+    "style": null
+  },
+  {
+    "framerName": "Content",
+    "tag": "DIV",
+    "className": "framer-14h6nf0",
+    "style": null
+  }
+]

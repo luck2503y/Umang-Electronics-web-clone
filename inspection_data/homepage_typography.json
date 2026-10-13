@@ -1,0 +1,1354 @@
+[
+  {
+    "tag": "P",
+    "text": "100%",
+    "className": "",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgb(0, 0, 0)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "100%",
+    "className": "",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "KOTA Studio",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "KOTA",
+    "className": "framer-text framer-styles-preset-1vgrqbn",
+    "style": {
+      "fontSize": "28px",
+      "fontWeight": "500",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 500\", \"TWK Lausanne 500 Placeholder\", sans-serif",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.28px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Get in touch",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Official Framer Expert",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "H1",
+    "text": "Turning ideas into high — impact Framer websites",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Turning ideas",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "into",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "high — impact",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Framer",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "websites",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Available for new projects",
+    "className": "",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(109, 109, 109)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Available for new projects",
+    "className": "text-shimmer-Rdpc6mlp",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Kota Studio creates motion-rich, interactive websites\nthat engage users and boost conversions.",
+    "className": "framer-text",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Scroll for more",
+    "className": "framer-text",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "11:09 AM",
+    "className": "",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "(GMT +7)",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "[ 00:44 ]",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "PLAY",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "REEL",
+    "className": "framer-text framer-styles-preset-dzxyv4",
+    "style": {
+      "fontSize": "88px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "96px",
+      "letterSpacing": "-2.64px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "©2026",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "About",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "You’ve already built something great. Whether it’s just taking shape or already scaling — it deserves a website that matches the work you’ve put in. Kota Studio has everything you need to make that happen.",
+    "className": "framer-text framer-styles-preset-1oj0580",
+    "style": {
+      "fontSize": "44px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "52px",
+      "letterSpacing": "-0.88px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Project completed",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "15+",
+    "className": "",
+    "style": {
+      "fontSize": "180px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "164px",
+      "letterSpacing": "-5.4px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "15+",
+    "className": "",
+    "style": {
+      "fontSize": "180px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "164px",
+      "letterSpacing": "-5.4px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "We've designed and shipped websites for founders, SaaS companies, and agencies around the world.",
+    "className": "framer-text framer-styles-preset-888m0p",
+    "style": {
+      "fontSize": "20px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.1px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Our Services",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Landing Page",
+    "className": "framer-text framer-styles-preset-181bxy",
+    "style": {
+      "fontSize": "64px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "72px",
+      "letterSpacing": "-1.92px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Timeline",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "1-2 weeks",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Deliverables",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "1 page",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "A single Framer page built to earn its traffic. For launches, fundraises, campaigns, and paid ads. One page, conversion-led, shipped fast. Built to scale into a full site later if you need it.",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Starting from",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "$4,000",
+    "className": "framer-text framer-styles-preset-1v7qiui",
+    "style": {
+      "fontSize": "56px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "64px",
+      "letterSpacing": "-1.68px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Start a project",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Landing Page",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Marketing Site",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Motion Design",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Testimonial",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "– Tim Hafner, OpenServ",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "- Aryaman Chhaya, BETTER",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "– LoganCee Studio",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "2",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "1",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "3",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "4",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "5",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "View all templates",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "Featured Templates",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Orionix",
+    "className": "framer-text framer-styles-preset-zros4u",
+    "style": {
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "80px",
+      "letterSpacing": "-2.16px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Agency",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "/",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "$99",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Fizens",
+    "className": "framer-text framer-styles-preset-zros4u",
+    "style": {
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "80px",
+      "letterSpacing": "-2.16px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Finance",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "/",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "$99",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Intelly",
+    "className": "framer-text framer-styles-preset-zros4u",
+    "style": {
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "80px",
+      "letterSpacing": "-2.16px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "AI",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "/",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "$99",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "AUREA",
+    "className": "framer-text framer-styles-preset-zros4u",
+    "style": {
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "80px",
+      "letterSpacing": "-2.16px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Agency",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "/",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "$99",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "James Nolan",
+    "className": "framer-text framer-styles-preset-zros4u",
+    "style": {
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "80px",
+      "letterSpacing": "-2.16px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Portfolio",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "/",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "$99",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "Question before you decide.",
+    "className": "framer-text framer-styles-preset-181bxy",
+    "style": {
+      "fontSize": "64px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "72px",
+      "letterSpacing": "-1.92px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Ask a question",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Who is this for?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Founders, SaaS teams, and agency owners who need a site that looks like a $10k build without the $10k timeline. If you need something live in weeks, not months, you're in the right place.",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "What do you actually help with?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Four things: Landing Pages that convert, full Marketing Sites, Motion Design that makes a site feel alive instead of static, and Framer Implementation if you already have a design and just need it built right. Pick one, or all four.",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Are you a designer, or do you also build the site?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Both. I design and build in Framer myself — no handoff, no waiting on a separate developer to \"translate\" the Figma file. What you approve is what ships.",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Can you build my site from scratch?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Yes. Bring an idea, a rough deck, or nothing but a product — I'll shape it into a site that's ready to launch, not just \"pretty.\"",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "How much does it cost?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Landing pages start at $4k, full marketing sites at $6k. Motion design and Framer implementation are quoted based on scope. No hourly billing surprises — you get a fixed price before we start.",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "How fast can you start?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Usually right away. I keep my schedule open for quick turnarounds — if you need something live this month, tell me and I'll confirm what's realistic.",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "How do we work together day to day?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Simple: a kickoff call to lock scope, async updates as I build (no need for daily calls), and a review round before launch. You always know what's done and what's next — no chasing.",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "What happens after the site launches?",
+    "className": "framer-text framer-styles-preset-vq8ve3",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.18px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "No. Every project includes 2 weeks of support after launch for any fixes. Need anything beyond that? We'll just scope and price it separately.",
+    "className": "framer-text framer-styles-preset-9nbv7p",
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.08px"
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "Let’s get started!",
+    "className": "framer-text framer-styles-preset-zros4u",
+    "style": {
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "color": "rgba(0, 0, 0, 0.96)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "80px",
+      "letterSpacing": "-2.16px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Start a project",
+    "className": "framer-text framer-styles-preset-1u9d1dc",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Designed by LoganCee Studio\nMade by Kota Studio\nBuild in Framer",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Index",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Home",
+    "className": "framer-text framer-styles-preset-1j6ll0b",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.24px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Templates",
+    "className": "framer-text framer-styles-preset-1j6ll0b",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.24px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Contact",
+    "className": "framer-text framer-styles-preset-1j6ll0b",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.24px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Socials",
+    "className": "framer-text framer-styles-preset-omyfwx",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.06px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Twitter (X)",
+    "className": "framer-text framer-styles-preset-1j6ll0b",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.24px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Instagram",
+    "className": "framer-text framer-styles-preset-1j6ll0b",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.24px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Thread",
+    "className": "framer-text framer-styles-preset-1j6ll0b",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.24px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Contra",
+    "className": "framer-text framer-styles-preset-1j6ll0b",
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.24px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "11:09 AM",
+    "className": "",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  },
+  {
+    "tag": "P",
+    "text": "(GMT +7)",
+    "className": "framer-text framer-styles-preset-urvfh9",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.07px"
+    }
+  }
+]

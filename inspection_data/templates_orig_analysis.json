@@ -1,0 +1,4226 @@
+[
+  {
+    "stepIndex": 0,
+    "scrollY": 8342,
+    "transformedCount": 16,
+    "transformed": [
+      {
+        "tag": "DIV",
+        "className": "framer-1izlzgy",
+        "framerName": "Circle-2",
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1yam4x0",
+        "framerName": "Circle-3",
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xau3aw",
+        "framerName": "Circle-4",
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1v75ibc",
+        "framerName": "Circle-5",
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-rzjm8v",
+        "framerName": "Number 2",
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-ti6oo5",
+        "framerName": null,
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, -3.49219, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 972.342041015625,
+          "width": 6.984375,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xqms2s",
+        "framerName": "Number 1",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-bqzhqc",
+        "framerName": null,
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, -2.57812, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 875.5361328125,
+          "width": 5.15625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-17vwbjz",
+        "framerName": "Number 3",
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 201,
+          "left": 471,
+          "width": 498,
+          "height": 498
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-qfa2gx",
+        "framerName": null,
+        "transform": "matrix(-1, 0, 0, -1, -3.4375, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 711,
+          "left": 716.5625,
+          "width": 6.875,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-johct3",
+        "framerName": "Number 4",
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-10sv13h",
+        "framerName": null,
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, -3.41406, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 460.7517395019531,
+          "width": 6.828125,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1f0h90n",
+        "framerName": "Number 5",
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1jcs6rq",
+        "framerName": "5",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, -3.50781, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 558.3779296875,
+          "width": 7.015625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1glrnb9-container",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, -80.5312, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 820,
+          "left": 639.46875,
+          "width": 161.0625,
+          "height": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-16r7nc9",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, 0, -8)",
+        "opacity": "1",
+        "rect": {
+          "top": 442,
+          "left": 40,
+          "width": 105.875,
+          "height": 16
+        }
+      }
+    ],
+    "texts": [
+      {
+        "text": "2",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 972.342041015625,
+          "y": 525.1256103515625,
+          "width": 6.984375,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 979.326416015625,
+          "bottom": 541.1256103515625,
+          "left": 972.342041015625
+        }
+      },
+      {
+        "text": "1",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 875.5361328125,
+          "y": 224.3744354248047,
+          "width": 5.15625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 880.6923828125,
+          "bottom": 240.37442016601562,
+          "left": 875.5361328125
+        }
+      },
+      {
+        "text": "3",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 716.5625,
+          "y": 711,
+          "width": 6.875,
+          "height": 16,
+          "top": 711,
+          "right": 723.4375,
+          "bottom": 727,
+          "left": 716.5625
+        }
+      },
+      {
+        "text": "4",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 460.7517395019531,
+          "y": 525.1256103515625,
+          "width": 6.828125,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 467.5798645019531,
+          "bottom": 541.1256103515625,
+          "left": 460.7517395019531
+        }
+      },
+      {
+        "text": "5",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 558.3779296875,
+          "y": 224.3744354248047,
+          "width": 7.015625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 565.3935546875,
+          "bottom": 240.37442016601562,
+          "left": 558.3779296875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": "On Dark (Small)",
+        "opacity": "1",
+        "color": "rgb(0, 0, 238)",
+        "rect": {
+          "x": 639.46875,
+          "y": 820,
+          "width": 161.0625,
+          "height": 40,
+          "top": 820,
+          "right": 800.53125,
+          "bottom": 860,
+          "left": 639.46875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 113.0625,
+          "height": 20,
+          "top": 830,
+          "right": 776.53125,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "V",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 9.171875,
+          "height": 20,
+          "top": 830,
+          "right": 672.640625,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "i",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 672.640625,
+          "y": 830,
+          "width": 3.234375,
+          "height": 20,
+          "top": 830,
+          "right": 675.875,
+          "bottom": 850,
+          "left": 672.640625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 675.875,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 683.75,
+          "bottom": 850,
+          "left": 675.875
+        }
+      },
+      {
+        "text": "w",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 683.75,
+          "y": 830,
+          "width": 10.640625,
+          "height": 20,
+          "top": 830,
+          "right": 694.390625,
+          "bottom": 850,
+          "left": 683.75
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 697.46875,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 705.046875,
+          "bottom": 850,
+          "left": 697.46875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 705.046875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 708.1875,
+          "bottom": 850,
+          "left": 705.046875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 708.1875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 711.328125,
+          "bottom": 850,
+          "left": 708.1875
+        }
+      },
+      {
+        "text": "t",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 714.40625,
+          "y": 830,
+          "width": 4.40625,
+          "height": 20,
+          "top": 830,
+          "right": 718.8125,
+          "bottom": 850,
+          "left": 714.40625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 718.8125,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 726.6875,
+          "bottom": 850,
+          "left": 718.8125
+        }
+      },
+      {
+        "text": "m",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 726.6875,
+          "y": 830,
+          "width": 11.65625,
+          "height": 20,
+          "top": 830,
+          "right": 738.34375,
+          "bottom": 850,
+          "left": 726.6875
+        }
+      },
+      {
+        "text": "p",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 738.34375,
+          "y": 830,
+          "width": 8.46875,
+          "height": 20,
+          "top": 830,
+          "right": 746.8125,
+          "bottom": 850,
+          "left": 738.34375
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 746.8125,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 749.953125,
+          "bottom": 850,
+          "left": 746.8125
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 749.953125,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 757.53125,
+          "bottom": 850,
+          "left": 749.953125
+        }
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/KcY1FYoVm3s5tUqhiaoSCFJZ9hE.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&he",
+        "rect": {
+          "x": 0,
+          "y": -50,
+          "width": 1440,
+          "height": 900,
+          "top": -50,
+          "right": 1440,
+          "bottom": 850,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/lUGnpm8XXv9P9Fp6LUSkY0hrM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/IUwksVCrkbxWayX3Cth7OYvDYAk.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 850,
+          "width": 1440,
+          "height": 900,
+          "top": 850,
+          "right": 1440,
+          "bottom": 1750,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/nvQOinkiaBAYZFldL8Y24pFQMo.png?width=900&he",
+        "rect": {
+          "x": 495,
+          "y": 1075,
+          "width": 450,
+          "height": 450,
+          "top": 1075,
+          "right": 945,
+          "bottom": 1525,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Onf67uBszn2DbJx0Agkfu4SEOiA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 1750,
+          "width": 1440,
+          "height": 900,
+          "top": 1750,
+          "right": 1440,
+          "bottom": 2650,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/XZZVtSkMDDXeJSrL8rEJp411g.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 1975,
+          "width": 450,
+          "height": 450,
+          "top": 1975,
+          "right": 945,
+          "bottom": 2425,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0GvsMeyXgiFE9PLQeiuGB6NIZsA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 2650,
+          "width": 1440,
+          "height": 900,
+          "top": 2650,
+          "right": 1440,
+          "bottom": 3550,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/aajDLN9Dr5StMI9pvlIsP0khM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 2875,
+          "width": 450,
+          "height": 450,
+          "top": 2875,
+          "right": 945,
+          "bottom": 3325,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0dyhnsQN0YGvdi6LZDdDcaFCxWY.png?width=3840&",
+        "rect": {
+          "x": 0,
+          "y": 3550,
+          "width": 1440,
+          "height": 900,
+          "top": 3550,
+          "right": 1440,
+          "bottom": 4450,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "stepIndex": 1,
+    "scrollY": 9192,
+    "transformedCount": 16,
+    "transformed": [
+      {
+        "tag": "DIV",
+        "className": "framer-1izlzgy",
+        "framerName": "Circle-2",
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1yam4x0",
+        "framerName": "Circle-3",
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xau3aw",
+        "framerName": "Circle-4",
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1v75ibc",
+        "framerName": "Circle-5",
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-rzjm8v",
+        "framerName": "Number 2",
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-ti6oo5",
+        "framerName": null,
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, -3.49219, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 972.342041015625,
+          "width": 6.984375,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xqms2s",
+        "framerName": "Number 1",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-bqzhqc",
+        "framerName": null,
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, -2.57812, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 875.5361328125,
+          "width": 5.15625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-17vwbjz",
+        "framerName": "Number 3",
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 201,
+          "left": 471,
+          "width": 498,
+          "height": 498
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-qfa2gx",
+        "framerName": null,
+        "transform": "matrix(-1, 0, 0, -1, -3.4375, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 711,
+          "left": 716.5625,
+          "width": 6.875,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-johct3",
+        "framerName": "Number 4",
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-10sv13h",
+        "framerName": null,
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, -3.41406, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 460.7517395019531,
+          "width": 6.828125,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1f0h90n",
+        "framerName": "Number 5",
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1jcs6rq",
+        "framerName": "5",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, -3.50781, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 558.3779296875,
+          "width": 7.015625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1glrnb9-container",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, -80.5312, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 820,
+          "left": 639.46875,
+          "width": 161.0625,
+          "height": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-16r7nc9",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, 0, -8)",
+        "opacity": "1",
+        "rect": {
+          "top": 442,
+          "left": 40,
+          "width": 105.875,
+          "height": 16
+        }
+      }
+    ],
+    "texts": [
+      {
+        "text": "2",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 972.342041015625,
+          "y": 525.1256103515625,
+          "width": 6.984375,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 979.326416015625,
+          "bottom": 541.1256103515625,
+          "left": 972.342041015625
+        }
+      },
+      {
+        "text": "1",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 875.5361328125,
+          "y": 224.3744354248047,
+          "width": 5.15625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 880.6923828125,
+          "bottom": 240.37442016601562,
+          "left": 875.5361328125
+        }
+      },
+      {
+        "text": "3",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 716.5625,
+          "y": 711,
+          "width": 6.875,
+          "height": 16,
+          "top": 711,
+          "right": 723.4375,
+          "bottom": 727,
+          "left": 716.5625
+        }
+      },
+      {
+        "text": "4",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 460.7517395019531,
+          "y": 525.1256103515625,
+          "width": 6.828125,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 467.5798645019531,
+          "bottom": 541.1256103515625,
+          "left": 460.7517395019531
+        }
+      },
+      {
+        "text": "5",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 558.3779296875,
+          "y": 224.3744354248047,
+          "width": 7.015625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 565.3935546875,
+          "bottom": 240.37442016601562,
+          "left": 558.3779296875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": "On Dark (Small)",
+        "opacity": "1",
+        "color": "rgb(0, 0, 238)",
+        "rect": {
+          "x": 639.46875,
+          "y": 820,
+          "width": 161.0625,
+          "height": 40,
+          "top": 820,
+          "right": 800.53125,
+          "bottom": 860,
+          "left": 639.46875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 113.0625,
+          "height": 20,
+          "top": 830,
+          "right": 776.53125,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "V",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 9.171875,
+          "height": 20,
+          "top": 830,
+          "right": 672.640625,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "i",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 672.640625,
+          "y": 830,
+          "width": 3.234375,
+          "height": 20,
+          "top": 830,
+          "right": 675.875,
+          "bottom": 850,
+          "left": 672.640625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 675.875,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 683.75,
+          "bottom": 850,
+          "left": 675.875
+        }
+      },
+      {
+        "text": "w",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 683.75,
+          "y": 830,
+          "width": 10.640625,
+          "height": 20,
+          "top": 830,
+          "right": 694.390625,
+          "bottom": 850,
+          "left": 683.75
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 697.46875,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 705.046875,
+          "bottom": 850,
+          "left": 697.46875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 705.046875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 708.1875,
+          "bottom": 850,
+          "left": 705.046875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 708.1875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 711.328125,
+          "bottom": 850,
+          "left": 708.1875
+        }
+      },
+      {
+        "text": "t",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 714.40625,
+          "y": 830,
+          "width": 4.40625,
+          "height": 20,
+          "top": 830,
+          "right": 718.8125,
+          "bottom": 850,
+          "left": 714.40625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 718.8125,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 726.6875,
+          "bottom": 850,
+          "left": 718.8125
+        }
+      },
+      {
+        "text": "m",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 726.6875,
+          "y": 830,
+          "width": 11.65625,
+          "height": 20,
+          "top": 830,
+          "right": 738.34375,
+          "bottom": 850,
+          "left": 726.6875
+        }
+      },
+      {
+        "text": "p",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 738.34375,
+          "y": 830,
+          "width": 8.46875,
+          "height": 20,
+          "top": 830,
+          "right": 746.8125,
+          "bottom": 850,
+          "left": 738.34375
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 746.8125,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 749.953125,
+          "bottom": 850,
+          "left": 746.8125
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 749.953125,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 757.53125,
+          "bottom": 850,
+          "left": 749.953125
+        }
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/KcY1FYoVm3s5tUqhiaoSCFJZ9hE.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&he",
+        "rect": {
+          "x": 0,
+          "y": -900,
+          "width": 1440,
+          "height": 900,
+          "top": -900,
+          "right": 1440,
+          "bottom": 0,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/lUGnpm8XXv9P9Fp6LUSkY0hrM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/IUwksVCrkbxWayX3Cth7OYvDYAk.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/nvQOinkiaBAYZFldL8Y24pFQMo.png?width=900&he",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Onf67uBszn2DbJx0Agkfu4SEOiA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 900,
+          "width": 1440,
+          "height": 900,
+          "top": 900,
+          "right": 1440,
+          "bottom": 1800,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/XZZVtSkMDDXeJSrL8rEJp411g.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 1125,
+          "width": 450,
+          "height": 450,
+          "top": 1125,
+          "right": 945,
+          "bottom": 1575,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0GvsMeyXgiFE9PLQeiuGB6NIZsA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 1800,
+          "width": 1440,
+          "height": 900,
+          "top": 1800,
+          "right": 1440,
+          "bottom": 2700,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/aajDLN9Dr5StMI9pvlIsP0khM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 2025,
+          "width": 450,
+          "height": 450,
+          "top": 2025,
+          "right": 945,
+          "bottom": 2475,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0dyhnsQN0YGvdi6LZDdDcaFCxWY.png?width=3840&",
+        "rect": {
+          "x": 0,
+          "y": 2700,
+          "width": 1440,
+          "height": 900,
+          "top": 2700,
+          "right": 1440,
+          "bottom": 3600,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "stepIndex": 2,
+    "scrollY": 10092,
+    "transformedCount": 16,
+    "transformed": [
+      {
+        "tag": "DIV",
+        "className": "framer-1izlzgy",
+        "framerName": "Circle-2",
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1yam4x0",
+        "framerName": "Circle-3",
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xau3aw",
+        "framerName": "Circle-4",
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1v75ibc",
+        "framerName": "Circle-5",
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-rzjm8v",
+        "framerName": "Number 2",
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-ti6oo5",
+        "framerName": null,
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, -3.49219, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 972.342041015625,
+          "width": 6.984375,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xqms2s",
+        "framerName": "Number 1",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-bqzhqc",
+        "framerName": null,
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, -2.57812, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 875.5361328125,
+          "width": 5.15625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-17vwbjz",
+        "framerName": "Number 3",
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 201,
+          "left": 471,
+          "width": 498,
+          "height": 498
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-qfa2gx",
+        "framerName": null,
+        "transform": "matrix(-1, 0, 0, -1, -3.4375, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 711,
+          "left": 716.5625,
+          "width": 6.875,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-johct3",
+        "framerName": "Number 4",
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-10sv13h",
+        "framerName": null,
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, -3.41406, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 460.7517395019531,
+          "width": 6.828125,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1f0h90n",
+        "framerName": "Number 5",
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1jcs6rq",
+        "framerName": "5",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, -3.50781, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 558.3779296875,
+          "width": 7.015625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1glrnb9-container",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, -80.5312, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 820,
+          "left": 639.46875,
+          "width": 161.0625,
+          "height": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-16r7nc9",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, 0, -8)",
+        "opacity": "1",
+        "rect": {
+          "top": 442,
+          "left": 40,
+          "width": 105.875,
+          "height": 16
+        }
+      }
+    ],
+    "texts": [
+      {
+        "text": "2",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 972.342041015625,
+          "y": 525.1256103515625,
+          "width": 6.984375,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 979.326416015625,
+          "bottom": 541.1256103515625,
+          "left": 972.342041015625
+        }
+      },
+      {
+        "text": "1",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 875.5361328125,
+          "y": 224.3744354248047,
+          "width": 5.15625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 880.6923828125,
+          "bottom": 240.37442016601562,
+          "left": 875.5361328125
+        }
+      },
+      {
+        "text": "3",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 716.5625,
+          "y": 711,
+          "width": 6.875,
+          "height": 16,
+          "top": 711,
+          "right": 723.4375,
+          "bottom": 727,
+          "left": 716.5625
+        }
+      },
+      {
+        "text": "4",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 460.7517395019531,
+          "y": 525.1256103515625,
+          "width": 6.828125,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 467.5798645019531,
+          "bottom": 541.1256103515625,
+          "left": 460.7517395019531
+        }
+      },
+      {
+        "text": "5",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 558.3779296875,
+          "y": 224.3744354248047,
+          "width": 7.015625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 565.3935546875,
+          "bottom": 240.37442016601562,
+          "left": 558.3779296875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": "On Dark (Small)",
+        "opacity": "1",
+        "color": "rgb(0, 0, 238)",
+        "rect": {
+          "x": 639.46875,
+          "y": 820,
+          "width": 161.0625,
+          "height": 40,
+          "top": 820,
+          "right": 800.53125,
+          "bottom": 860,
+          "left": 639.46875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 113.0625,
+          "height": 20,
+          "top": 830,
+          "right": 776.53125,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "V",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 9.171875,
+          "height": 20,
+          "top": 830,
+          "right": 672.640625,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "i",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 672.640625,
+          "y": 830,
+          "width": 3.234375,
+          "height": 20,
+          "top": 830,
+          "right": 675.875,
+          "bottom": 850,
+          "left": 672.640625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 675.875,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 683.75,
+          "bottom": 850,
+          "left": 675.875
+        }
+      },
+      {
+        "text": "w",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 683.75,
+          "y": 830,
+          "width": 10.640625,
+          "height": 20,
+          "top": 830,
+          "right": 694.390625,
+          "bottom": 850,
+          "left": 683.75
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 697.46875,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 705.046875,
+          "bottom": 850,
+          "left": 697.46875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 705.046875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 708.1875,
+          "bottom": 850,
+          "left": 705.046875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 708.1875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 711.328125,
+          "bottom": 850,
+          "left": 708.1875
+        }
+      },
+      {
+        "text": "t",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 714.40625,
+          "y": 830,
+          "width": 4.40625,
+          "height": 20,
+          "top": 830,
+          "right": 718.8125,
+          "bottom": 850,
+          "left": 714.40625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 718.8125,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 726.6875,
+          "bottom": 850,
+          "left": 718.8125
+        }
+      },
+      {
+        "text": "m",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 726.6875,
+          "y": 830,
+          "width": 11.65625,
+          "height": 20,
+          "top": 830,
+          "right": 738.34375,
+          "bottom": 850,
+          "left": 726.6875
+        }
+      },
+      {
+        "text": "p",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 738.34375,
+          "y": 830,
+          "width": 8.46875,
+          "height": 20,
+          "top": 830,
+          "right": 746.8125,
+          "bottom": 850,
+          "left": 738.34375
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 746.8125,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 749.953125,
+          "bottom": 850,
+          "left": 746.8125
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 749.953125,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 757.53125,
+          "bottom": 850,
+          "left": 749.953125
+        }
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -675,
+          "width": 450,
+          "height": 450,
+          "top": -675,
+          "right": 945,
+          "bottom": -225,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/KcY1FYoVm3s5tUqhiaoSCFJZ9hE.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -675,
+          "width": 450,
+          "height": 450,
+          "top": -675,
+          "right": 945,
+          "bottom": -225,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&he",
+        "rect": {
+          "x": 0,
+          "y": -1800,
+          "width": 1440,
+          "height": 900,
+          "top": -1800,
+          "right": 1440,
+          "bottom": -900,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/lUGnpm8XXv9P9Fp6LUSkY0hrM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/IUwksVCrkbxWayX3Cth7OYvDYAk.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -900,
+          "width": 1440,
+          "height": 900,
+          "top": -900,
+          "right": 1440,
+          "bottom": 0,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/nvQOinkiaBAYZFldL8Y24pFQMo.png?width=900&he",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Onf67uBszn2DbJx0Agkfu4SEOiA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/XZZVtSkMDDXeJSrL8rEJp411g.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0GvsMeyXgiFE9PLQeiuGB6NIZsA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 900,
+          "width": 1440,
+          "height": 900,
+          "top": 900,
+          "right": 1440,
+          "bottom": 1800,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/aajDLN9Dr5StMI9pvlIsP0khM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 1125,
+          "width": 450,
+          "height": 450,
+          "top": 1125,
+          "right": 945,
+          "bottom": 1575,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0dyhnsQN0YGvdi6LZDdDcaFCxWY.png?width=3840&",
+        "rect": {
+          "x": 0,
+          "y": 1800,
+          "width": 1440,
+          "height": 900,
+          "top": 1800,
+          "right": 1440,
+          "bottom": 2700,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "stepIndex": 3,
+    "scrollY": 10992,
+    "transformedCount": 16,
+    "transformed": [
+      {
+        "tag": "DIV",
+        "className": "framer-1izlzgy",
+        "framerName": "Circle-2",
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1yam4x0",
+        "framerName": "Circle-3",
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xau3aw",
+        "framerName": "Circle-4",
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1v75ibc",
+        "framerName": "Circle-5",
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-rzjm8v",
+        "framerName": "Number 2",
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-ti6oo5",
+        "framerName": null,
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, -3.49219, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 972.342041015625,
+          "width": 6.984375,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xqms2s",
+        "framerName": "Number 1",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-bqzhqc",
+        "framerName": null,
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, -2.57812, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 875.5361328125,
+          "width": 5.15625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-17vwbjz",
+        "framerName": "Number 3",
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 201,
+          "left": 471,
+          "width": 498,
+          "height": 498
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-qfa2gx",
+        "framerName": null,
+        "transform": "matrix(-1, 0, 0, -1, -3.4375, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 711,
+          "left": 716.5625,
+          "width": 6.875,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-johct3",
+        "framerName": "Number 4",
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-10sv13h",
+        "framerName": null,
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, -3.41406, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 460.7517395019531,
+          "width": 6.828125,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1f0h90n",
+        "framerName": "Number 5",
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1jcs6rq",
+        "framerName": "5",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, -3.50781, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 558.3779296875,
+          "width": 7.015625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1glrnb9-container",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, -80.5312, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 820,
+          "left": 639.46875,
+          "width": 161.0625,
+          "height": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-16r7nc9",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, 0, -8)",
+        "opacity": "1",
+        "rect": {
+          "top": 442,
+          "left": 40,
+          "width": 105.875,
+          "height": 16
+        }
+      }
+    ],
+    "texts": [
+      {
+        "text": "2",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 972.342041015625,
+          "y": 525.1256103515625,
+          "width": 6.984375,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 979.326416015625,
+          "bottom": 541.1256103515625,
+          "left": 972.342041015625
+        }
+      },
+      {
+        "text": "1",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 875.5361328125,
+          "y": 224.3744354248047,
+          "width": 5.15625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 880.6923828125,
+          "bottom": 240.37442016601562,
+          "left": 875.5361328125
+        }
+      },
+      {
+        "text": "3",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 716.5625,
+          "y": 711,
+          "width": 6.875,
+          "height": 16,
+          "top": 711,
+          "right": 723.4375,
+          "bottom": 727,
+          "left": 716.5625
+        }
+      },
+      {
+        "text": "4",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 460.7517395019531,
+          "y": 525.1256103515625,
+          "width": 6.828125,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 467.5798645019531,
+          "bottom": 541.1256103515625,
+          "left": 460.7517395019531
+        }
+      },
+      {
+        "text": "5",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 558.3779296875,
+          "y": 224.3744354248047,
+          "width": 7.015625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 565.3935546875,
+          "bottom": 240.37442016601562,
+          "left": 558.3779296875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": "On Dark (Small)",
+        "opacity": "1",
+        "color": "rgb(0, 0, 238)",
+        "rect": {
+          "x": 639.46875,
+          "y": 820,
+          "width": 161.0625,
+          "height": 40,
+          "top": 820,
+          "right": 800.53125,
+          "bottom": 860,
+          "left": 639.46875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 113.0625,
+          "height": 20,
+          "top": 830,
+          "right": 776.53125,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "V",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 9.171875,
+          "height": 20,
+          "top": 830,
+          "right": 672.640625,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "i",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 672.640625,
+          "y": 830,
+          "width": 3.234375,
+          "height": 20,
+          "top": 830,
+          "right": 675.875,
+          "bottom": 850,
+          "left": 672.640625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 675.875,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 683.75,
+          "bottom": 850,
+          "left": 675.875
+        }
+      },
+      {
+        "text": "w",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 683.75,
+          "y": 830,
+          "width": 10.640625,
+          "height": 20,
+          "top": 830,
+          "right": 694.390625,
+          "bottom": 850,
+          "left": 683.75
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 697.46875,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 705.046875,
+          "bottom": 850,
+          "left": 697.46875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 705.046875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 708.1875,
+          "bottom": 850,
+          "left": 705.046875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 708.1875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 711.328125,
+          "bottom": 850,
+          "left": 708.1875
+        }
+      },
+      {
+        "text": "t",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 714.40625,
+          "y": 830,
+          "width": 4.40625,
+          "height": 20,
+          "top": 830,
+          "right": 718.8125,
+          "bottom": 850,
+          "left": 714.40625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 718.8125,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 726.6875,
+          "bottom": 850,
+          "left": 718.8125
+        }
+      },
+      {
+        "text": "m",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 726.6875,
+          "y": 830,
+          "width": 11.65625,
+          "height": 20,
+          "top": 830,
+          "right": 738.34375,
+          "bottom": 850,
+          "left": 726.6875
+        }
+      },
+      {
+        "text": "p",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 738.34375,
+          "y": 830,
+          "width": 8.46875,
+          "height": 20,
+          "top": 830,
+          "right": 746.8125,
+          "bottom": 850,
+          "left": 738.34375
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 746.8125,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 749.953125,
+          "bottom": 850,
+          "left": 746.8125
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 749.953125,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 757.53125,
+          "bottom": 850,
+          "left": 749.953125
+        }
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -1575,
+          "width": 450,
+          "height": 450,
+          "top": -1575,
+          "right": 945,
+          "bottom": -1125,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/KcY1FYoVm3s5tUqhiaoSCFJZ9hE.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -1575,
+          "width": 450,
+          "height": 450,
+          "top": -1575,
+          "right": 945,
+          "bottom": -1125,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&he",
+        "rect": {
+          "x": 0,
+          "y": -2700,
+          "width": 1440,
+          "height": 900,
+          "top": -2700,
+          "right": 1440,
+          "bottom": -1800,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/lUGnpm8XXv9P9Fp6LUSkY0hrM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": -675,
+          "width": 450,
+          "height": 450,
+          "top": -675,
+          "right": 945,
+          "bottom": -225,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/IUwksVCrkbxWayX3Cth7OYvDYAk.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -1800,
+          "width": 1440,
+          "height": 900,
+          "top": -1800,
+          "right": 1440,
+          "bottom": -900,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/nvQOinkiaBAYZFldL8Y24pFQMo.png?width=900&he",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Onf67uBszn2DbJx0Agkfu4SEOiA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -900,
+          "width": 1440,
+          "height": 900,
+          "top": -900,
+          "right": 1440,
+          "bottom": 0,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/XZZVtSkMDDXeJSrL8rEJp411g.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0GvsMeyXgiFE9PLQeiuGB6NIZsA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/aajDLN9Dr5StMI9pvlIsP0khM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0dyhnsQN0YGvdi6LZDdDcaFCxWY.png?width=3840&",
+        "rect": {
+          "x": 0,
+          "y": 900,
+          "width": 1440,
+          "height": 900,
+          "top": 900,
+          "right": 1440,
+          "bottom": 1800,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "stepIndex": 4,
+    "scrollY": 11892,
+    "transformedCount": 16,
+    "transformed": [
+      {
+        "tag": "DIV",
+        "className": "framer-1izlzgy",
+        "framerName": "Circle-2",
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1yam4x0",
+        "framerName": "Circle-3",
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xau3aw",
+        "framerName": "Circle-4",
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1v75ibc",
+        "framerName": "Circle-5",
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-rzjm8v",
+        "framerName": "Number 2",
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-ti6oo5",
+        "framerName": null,
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, -3.49219, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 972.342041015625,
+          "width": 6.984375,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xqms2s",
+        "framerName": "Number 1",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-bqzhqc",
+        "framerName": null,
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, -2.57812, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 875.5361328125,
+          "width": 5.15625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-17vwbjz",
+        "framerName": "Number 3",
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 201,
+          "left": 471,
+          "width": 498,
+          "height": 498
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-qfa2gx",
+        "framerName": null,
+        "transform": "matrix(-1, 0, 0, -1, -3.4375, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 711,
+          "left": 716.5625,
+          "width": 6.875,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-johct3",
+        "framerName": "Number 4",
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": 136.24169921875,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-10sv13h",
+        "framerName": null,
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, -3.41406, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 525.1256103515625,
+          "left": 460.7517395019531,
+          "width": 6.828125,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1f0h90n",
+        "framerName": "Number 5",
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 102.19624328613281,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1jcs6rq",
+        "framerName": "5",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, -3.50781, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 224.3744354248047,
+          "left": 558.3779296875,
+          "width": 7.015625,
+          "height": 15.999984741210938
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1glrnb9-container",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, -80.5312, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 820,
+          "left": 639.46875,
+          "width": 161.0625,
+          "height": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-16r7nc9",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, 0, -8)",
+        "opacity": "1",
+        "rect": {
+          "top": 442,
+          "left": 40,
+          "width": 105.875,
+          "height": 16
+        }
+      }
+    ],
+    "texts": [
+      {
+        "text": "2",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 972.342041015625,
+          "y": 525.1256103515625,
+          "width": 6.984375,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 979.326416015625,
+          "bottom": 541.1256103515625,
+          "left": 972.342041015625
+        }
+      },
+      {
+        "text": "1",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 875.5361328125,
+          "y": 224.3744354248047,
+          "width": 5.15625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 880.6923828125,
+          "bottom": 240.37442016601562,
+          "left": 875.5361328125
+        }
+      },
+      {
+        "text": "3",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 716.5625,
+          "y": 711,
+          "width": 6.875,
+          "height": 16,
+          "top": 711,
+          "right": 723.4375,
+          "bottom": 727,
+          "left": 716.5625
+        }
+      },
+      {
+        "text": "4",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 460.7517395019531,
+          "y": 525.1256103515625,
+          "width": 6.828125,
+          "height": 16,
+          "top": 525.1256103515625,
+          "right": 467.5798645019531,
+          "bottom": 541.1256103515625,
+          "left": 460.7517395019531
+        }
+      },
+      {
+        "text": "5",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 558.3779296875,
+          "y": 224.3744354248047,
+          "width": 7.015625,
+          "height": 15.999984741210938,
+          "top": 224.3744354248047,
+          "right": 565.3935546875,
+          "bottom": 240.37442016601562,
+          "left": 558.3779296875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": "On Dark (Small)",
+        "opacity": "1",
+        "color": "rgb(0, 0, 238)",
+        "rect": {
+          "x": 639.46875,
+          "y": 820,
+          "width": 161.0625,
+          "height": 40,
+          "top": 820,
+          "right": 800.53125,
+          "bottom": 860,
+          "left": 639.46875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 113.0625,
+          "height": 20,
+          "top": 830,
+          "right": 776.53125,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "V",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 830,
+          "width": 9.171875,
+          "height": 20,
+          "top": 830,
+          "right": 672.640625,
+          "bottom": 850,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "i",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 672.640625,
+          "y": 830,
+          "width": 3.234375,
+          "height": 20,
+          "top": 830,
+          "right": 675.875,
+          "bottom": 850,
+          "left": 672.640625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 675.875,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 683.75,
+          "bottom": 850,
+          "left": 675.875
+        }
+      },
+      {
+        "text": "w",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 683.75,
+          "y": 830,
+          "width": 10.640625,
+          "height": 20,
+          "top": 830,
+          "right": 694.390625,
+          "bottom": 850,
+          "left": 683.75
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 697.46875,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 705.046875,
+          "bottom": 850,
+          "left": 697.46875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 705.046875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 708.1875,
+          "bottom": 850,
+          "left": 705.046875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 708.1875,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 711.328125,
+          "bottom": 850,
+          "left": 708.1875
+        }
+      },
+      {
+        "text": "t",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 714.40625,
+          "y": 830,
+          "width": 4.40625,
+          "height": 20,
+          "top": 830,
+          "right": 718.8125,
+          "bottom": 850,
+          "left": 714.40625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 718.8125,
+          "y": 830,
+          "width": 7.875,
+          "height": 20,
+          "top": 830,
+          "right": 726.6875,
+          "bottom": 850,
+          "left": 718.8125
+        }
+      },
+      {
+        "text": "m",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 726.6875,
+          "y": 830,
+          "width": 11.65625,
+          "height": 20,
+          "top": 830,
+          "right": 738.34375,
+          "bottom": 850,
+          "left": 726.6875
+        }
+      },
+      {
+        "text": "p",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 738.34375,
+          "y": 830,
+          "width": 8.46875,
+          "height": 20,
+          "top": 830,
+          "right": 746.8125,
+          "bottom": 850,
+          "left": 738.34375
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 746.8125,
+          "y": 830,
+          "width": 3.140625,
+          "height": 20,
+          "top": 830,
+          "right": 749.953125,
+          "bottom": 850,
+          "left": 746.8125
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 749.953125,
+          "y": 830,
+          "width": 7.578125,
+          "height": 20,
+          "top": 830,
+          "right": 757.53125,
+          "bottom": 850,
+          "left": 749.953125
+        }
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -2475,
+          "width": 450,
+          "height": 450,
+          "top": -2475,
+          "right": 945,
+          "bottom": -2025,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/KcY1FYoVm3s5tUqhiaoSCFJZ9hE.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -2475,
+          "width": 450,
+          "height": 450,
+          "top": -2475,
+          "right": 945,
+          "bottom": -2025,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&he",
+        "rect": {
+          "x": 0,
+          "y": -3600,
+          "width": 1440,
+          "height": 900,
+          "top": -3600,
+          "right": 1440,
+          "bottom": -2700,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/lUGnpm8XXv9P9Fp6LUSkY0hrM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": -1575,
+          "width": 450,
+          "height": 450,
+          "top": -1575,
+          "right": 945,
+          "bottom": -1125,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/IUwksVCrkbxWayX3Cth7OYvDYAk.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -2700,
+          "width": 1440,
+          "height": 900,
+          "top": -2700,
+          "right": 1440,
+          "bottom": -1800,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/nvQOinkiaBAYZFldL8Y24pFQMo.png?width=900&he",
+        "rect": {
+          "x": 495,
+          "y": -675,
+          "width": 450,
+          "height": 450,
+          "top": -675,
+          "right": 945,
+          "bottom": -225,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Onf67uBszn2DbJx0Agkfu4SEOiA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -1800,
+          "width": 1440,
+          "height": 900,
+          "top": -1800,
+          "right": 1440,
+          "bottom": -900,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/XZZVtSkMDDXeJSrL8rEJp411g.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0GvsMeyXgiFE9PLQeiuGB6NIZsA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -900,
+          "width": 1440,
+          "height": 900,
+          "top": -900,
+          "right": 1440,
+          "bottom": 0,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/aajDLN9Dr5StMI9pvlIsP0khM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": 225,
+          "width": 450,
+          "height": 450,
+          "top": 225,
+          "right": 945,
+          "bottom": 675,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0dyhnsQN0YGvdi6LZDdDcaFCxWY.png?width=3840&",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "stepIndex": 5,
+    "scrollY": 12567,
+    "transformedCount": 16,
+    "transformed": [
+      {
+        "tag": "DIV",
+        "className": "framer-1izlzgy",
+        "framerName": "Circle-2",
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": -538.75830078125,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1yam4x0",
+        "framerName": "Circle-3",
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": -572.8037719726562,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xau3aw",
+        "framerName": "Circle-4",
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": -572.8037719726562,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1v75ibc",
+        "framerName": "Circle-5",
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": -538.75830078125,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-rzjm8v",
+        "framerName": "Number 2",
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": -538.75830078125,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-ti6oo5",
+        "framerName": null,
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, -3.49219, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": -149.87442016601562,
+          "left": 972.342041015625,
+          "width": 6.984375,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-xqms2s",
+        "framerName": "Number 1",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": -572.8037719726562,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-bqzhqc",
+        "framerName": null,
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, -2.57812, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": -450.6255798339844,
+          "left": 875.5361328125,
+          "width": 5.15625,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-17vwbjz",
+        "framerName": "Number 3",
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": -474,
+          "left": 471,
+          "width": 498,
+          "height": 498
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-qfa2gx",
+        "framerName": null,
+        "transform": "matrix(-1, 0, 0, -1, -3.4375, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 36,
+          "left": 716.5625,
+          "width": 6.875,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-johct3",
+        "framerName": "Number 4",
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "rect": {
+          "top": -538.75830078125,
+          "left": 406.24169921875,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-10sv13h",
+        "framerName": null,
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, -3.41406, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": -149.87442016601562,
+          "left": 460.7517395019531,
+          "width": 6.828125,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1f0h90n",
+        "framerName": "Number 5",
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": -572.8037719726562,
+          "left": 372.19622802734375,
+          "width": 695.6074829101562,
+          "height": 695.6075439453125
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1jcs6rq",
+        "framerName": "5",
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, -3.50781, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": -450.6255798339844,
+          "left": 558.3779296875,
+          "width": 7.015625,
+          "height": 16
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-1glrnb9-container",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, -80.5312, 0)",
+        "opacity": "1",
+        "rect": {
+          "top": 145,
+          "left": 639.46875,
+          "width": 161.0625,
+          "height": 40
+        }
+      },
+      {
+        "tag": "DIV",
+        "className": "framer-16r7nc9",
+        "framerName": null,
+        "transform": "matrix(1, 0, 0, 1, 0, -8)",
+        "opacity": "1",
+        "rect": {
+          "top": -233,
+          "left": 40,
+          "width": 105.875,
+          "height": 16
+        }
+      }
+    ],
+    "texts": [
+      {
+        "text": "2",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 972.342041015625,
+          "y": -149.87442016601562,
+          "width": 6.984375,
+          "height": 16,
+          "top": -149.87442016601562,
+          "right": 979.326416015625,
+          "bottom": -133.87442016601562,
+          "left": 972.342041015625
+        }
+      },
+      {
+        "text": "1",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 875.5361328125,
+          "y": -450.6255798339844,
+          "width": 5.15625,
+          "height": 16,
+          "top": -450.6255798339844,
+          "right": 880.6923828125,
+          "bottom": -434.6255798339844,
+          "left": 875.5361328125
+        }
+      },
+      {
+        "text": "3",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 716.5625,
+          "y": 36,
+          "width": 6.875,
+          "height": 16,
+          "top": 36,
+          "right": 723.4375,
+          "bottom": 52,
+          "left": 716.5625
+        }
+      },
+      {
+        "text": "4",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 460.7517395019531,
+          "y": -149.87442016601562,
+          "width": 6.828125,
+          "height": 16,
+          "top": -149.87442016601562,
+          "right": 467.5798645019531,
+          "bottom": -133.87442016601562,
+          "left": 460.7517395019531
+        }
+      },
+      {
+        "text": "5",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 558.3779296875,
+          "y": -450.6255798339844,
+          "width": 7.015625,
+          "height": 16,
+          "top": -450.6255798339844,
+          "right": 565.3935546875,
+          "bottom": -434.6255798339844,
+          "left": 558.3779296875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": "On Dark (Small)",
+        "opacity": "1",
+        "color": "rgb(0, 0, 238)",
+        "rect": {
+          "x": 639.46875,
+          "y": 145,
+          "width": 161.0625,
+          "height": 40,
+          "top": 145,
+          "right": 800.53125,
+          "bottom": 185,
+          "left": 639.46875
+        }
+      },
+      {
+        "text": "View all templates",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 155,
+          "width": 113.0625,
+          "height": 20,
+          "top": 155,
+          "right": 776.53125,
+          "bottom": 175,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "V",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 663.46875,
+          "y": 155,
+          "width": 9.171875,
+          "height": 20,
+          "top": 155,
+          "right": 672.640625,
+          "bottom": 175,
+          "left": 663.46875
+        }
+      },
+      {
+        "text": "i",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 672.640625,
+          "y": 155,
+          "width": 3.234375,
+          "height": 20,
+          "top": 155,
+          "right": 675.875,
+          "bottom": 175,
+          "left": 672.640625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 675.875,
+          "y": 155,
+          "width": 7.875,
+          "height": 20,
+          "top": 155,
+          "right": 683.75,
+          "bottom": 175,
+          "left": 675.875
+        }
+      },
+      {
+        "text": "w",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 683.75,
+          "y": 155,
+          "width": 10.640625,
+          "height": 20,
+          "top": 155,
+          "right": 694.390625,
+          "bottom": 175,
+          "left": 683.75
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 697.46875,
+          "y": 155,
+          "width": 7.578125,
+          "height": 20,
+          "top": 155,
+          "right": 705.046875,
+          "bottom": 175,
+          "left": 697.46875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 705.046875,
+          "y": 155,
+          "width": 3.140625,
+          "height": 20,
+          "top": 155,
+          "right": 708.1875,
+          "bottom": 175,
+          "left": 705.046875
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 708.1875,
+          "y": 155,
+          "width": 3.140625,
+          "height": 20,
+          "top": 155,
+          "right": 711.328125,
+          "bottom": 175,
+          "left": 708.1875
+        }
+      },
+      {
+        "text": "t",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 714.40625,
+          "y": 155,
+          "width": 4.40625,
+          "height": 20,
+          "top": 155,
+          "right": 718.8125,
+          "bottom": 175,
+          "left": 714.40625
+        }
+      },
+      {
+        "text": "e",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 718.8125,
+          "y": 155,
+          "width": 7.875,
+          "height": 20,
+          "top": 155,
+          "right": 726.6875,
+          "bottom": 175,
+          "left": 718.8125
+        }
+      },
+      {
+        "text": "m",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 726.6875,
+          "y": 155,
+          "width": 11.65625,
+          "height": 20,
+          "top": 155,
+          "right": 738.34375,
+          "bottom": 175,
+          "left": 726.6875
+        }
+      },
+      {
+        "text": "p",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 738.34375,
+          "y": 155,
+          "width": 8.46875,
+          "height": 20,
+          "top": 155,
+          "right": 746.8125,
+          "bottom": 175,
+          "left": 738.34375
+        }
+      },
+      {
+        "text": "l",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 746.8125,
+          "y": 155,
+          "width": 3.140625,
+          "height": 20,
+          "top": 155,
+          "right": 749.953125,
+          "bottom": 175,
+          "left": 746.8125
+        }
+      },
+      {
+        "text": "a",
+        "framerName": null,
+        "opacity": "1",
+        "color": "rgb(255, 255, 255)",
+        "rect": {
+          "x": 749.953125,
+          "y": 155,
+          "width": 7.578125,
+          "height": 20,
+          "top": 155,
+          "right": 757.53125,
+          "bottom": 175,
+          "left": 749.953125
+        }
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -3150,
+          "width": 450,
+          "height": 450,
+          "top": -3150,
+          "right": 945,
+          "bottom": -2700,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/KcY1FYoVm3s5tUqhiaoSCFJZ9hE.png?width=3200&",
+        "rect": {
+          "x": 495,
+          "y": -3150,
+          "width": 450,
+          "height": 450,
+          "top": -3150,
+          "right": 945,
+          "bottom": -2700,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&he",
+        "rect": {
+          "x": 0,
+          "y": -4275,
+          "width": 1440,
+          "height": 900,
+          "top": -4275,
+          "right": 1440,
+          "bottom": -3375,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/lUGnpm8XXv9P9Fp6LUSkY0hrM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": -2250,
+          "width": 450,
+          "height": 450,
+          "top": -2250,
+          "right": 945,
+          "bottom": -1800,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/IUwksVCrkbxWayX3Cth7OYvDYAk.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -3375,
+          "width": 1440,
+          "height": 900,
+          "top": -3375,
+          "right": 1440,
+          "bottom": -2475,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/nvQOinkiaBAYZFldL8Y24pFQMo.png?width=900&he",
+        "rect": {
+          "x": 495,
+          "y": -1350,
+          "width": 450,
+          "height": 450,
+          "top": -1350,
+          "right": 945,
+          "bottom": -900,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Onf67uBszn2DbJx0Agkfu4SEOiA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -2475,
+          "width": 1440,
+          "height": 900,
+          "top": -2475,
+          "right": 1440,
+          "bottom": -1575,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/XZZVtSkMDDXeJSrL8rEJp411g.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": -450,
+          "width": 450,
+          "height": 450,
+          "top": -450,
+          "right": 945,
+          "bottom": 0,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0GvsMeyXgiFE9PLQeiuGB6NIZsA.png?width=2880&",
+        "rect": {
+          "x": 0,
+          "y": -1575,
+          "width": 1440,
+          "height": 900,
+          "top": -1575,
+          "right": 1440,
+          "bottom": -675,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/aajDLN9Dr5StMI9pvlIsP0khM.png?width=900&hei",
+        "rect": {
+          "x": 495,
+          "y": -450,
+          "width": 450,
+          "height": 450,
+          "top": -450,
+          "right": 945,
+          "bottom": 0,
+          "left": 495
+        },
+        "transform": "none",
+        "opacity": "1"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0dyhnsQN0YGvdi6LZDdDcaFCxWY.png?width=3840&",
+        "rect": {
+          "x": 0,
+          "y": -675,
+          "width": 1440,
+          "height": 900,
+          "top": -675,
+          "right": 1440,
+          "bottom": 225,
+          "left": 0
+        },
+        "transform": "none",
+        "opacity": "1"
+      }
+    ]
+  }
+]

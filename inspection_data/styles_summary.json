@@ -1,0 +1,38 @@
+[
+  {
+    "type": "style",
+    "text": "@font-face { font-family: \"TWK Lausanne 400\"; src: url(\"https://framerusercontent.com/assets/tMTRMPmybaHx0IPae0t8iCda4.woff2\"); font-display: swap; font-style: normal; font-weight: 400 }\n@font-face { font-family: \"TWK Lausanne 500\"; src: url(\"https://framerusercontent.com/assets/LWqutRi2ylYfA1k62YXyS5DPA.woff2\"); font-display: swap; font-style: normal; font-weight: 500 }\n@font-face { font-family: \"TWK Lausanne 300\"; src: url(\"https://framerusercontent.com/assets/b2K15NaOm6mFyCncGy3lk8jg.woff2\"); font-display: swap; font-style: normal; font-weight: 300 }\n@font-face { font-family: \"Inter\"; src: url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F }\n@font-face { font-family: \"Inter\"; src: url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\"); font-display: swap; font-style: normal; font-weight: 40"
+  },
+  {
+    "type": "style",
+    "text": "html,body,#main{box-sizing:border-box;margin:0;padding:0}:root{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*{box-sizing:border-box;-webkit-font-smoothing:inherit}h1,h2,h3,h4,h5,h6,p,figure{margin:0}body,input,textarea,select,button{font-family:sans-serif;font-size:12px}body{--token-141149f5-f5ff-460a-8da8-3e30ed915293:#fff;--token-dbd66129-a56b-4bf0-b240-42d73c043115:#ffffff26;--token-c7c4db5f-0023-4bde-bbca-943824b642e3:#fff9;--token-108c6f59-1499-42b0-b48f-163362335342:#000;--token-1e7e0639-1d40-4329-b18e-fa8b9d677820:#efefef;--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8:#000000f5;--token-f5037b93-bf66-4e04-8559-91d53fa95d7e:#0009;--token-29e99141-13dd-4e4e-83f6-8372fb1da9f5:#0000004d;--token-65da69fc-8113-45be-9ea7-34908763da03:#042db4f5;--token-dcfd2eca-2248-4fa5-8d67-6a7723900518:#00000014;--token-55f04c39-d149-4f97-9ad3-b7a48fe3c94e:#656565;--token-705865b8-5bd2-4bc9-a19d-ef169be76afb:#111827;--token-d567a352-4e02-4165-a6c6-d7949e50ca79:#042db433;--token-6"
+  },
+  {
+    "type": "style",
+    "text": "\n  img {\n    -webkit-user-drag: none;\n    user-drag: none;\n  }\n"
+  },
+  {
+    "type": "style",
+    "text": "\n.char-blur-span {\n    display: inline-block;\n    filter: blur(0px);\n    color: inherit;\n    -webkit-text-fill-color: inherit;\n}\n\n@keyframes charBlurPulse {\n    0% {\n        filter: blur(0px);\n        animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);\n    }\n    50% {\n        filter: blur(2px);\n        animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);\n    }\n    100% { filter: blur(0px); }\n}\n\n.is-char-hovering .char-blur-span {\n    animation: charBlurPulse 0.2s;\n    animation-delay: calc(var(--char-index) * 0.035s);\n}\n"
+  },
+  {
+    "type": "style",
+    "text": "\n#__framer-editorbar-container {\n    align-items: center;\n    display: flex;\n    gap: 8px;\n    position: fixed;\n    z-index: calc(2147483647);\n    width: max-content;\n    cursor: pointer;\n}\n\n#__framer-editorbar-label {\n    background-color: #111;\n    border-radius: 8px;\n    font-family: var(--framer-fresco-sansSerif-font-family, \"Inter Variable UI\", Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, emoji, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\");\n    font-size: var(--framer-fresco-base-font-size, 12px);\n    height: fit-content;\n    opacity: 0;\n    padding: 4px 8px;\n    transition: opacity 0.4s ease-out;\n    font-weight: var(--framer-fresco-base-font-weight, 450);\n    flex-shrink: 0;\n    position: fixed;\n    width: max-content;\n    pointer-events: none;\n    user-select: none;\n}\n\n#__framer-editorbar-button {\n    all: unset;\n    align-items: center;\n    border-ra"
+  },
+  {
+    "type": "style",
+    "text": "\n#__framer-editorbar {\n    /* https://sergeyski.com/css-color-scheme-and-iframes-lessons-learned-from-disqus-background-bug */\n    color-scheme: light dark;\n    overflow: hidden;\n    position: fixed;\n    border: none;\n    z-index: calc(2147483647);\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    touch-action: manipulation;\n}\n\n@supports (height: 100dvh) {\n    #__framer-editorbar {\n        height: 100dvh;\n    }\n}\n\n#__framer-editorbar.status_hidden {\n    display: none;\n}\n\n#__framer-editorbar.status_visually_hidden {\n    clip-path: circle(1px at calc(100% - 1px) calc(100% - 1px));\n    z-index: calc(2147483647 - 1);\n}\n\n#__framer-editorbar.status_measuring {\n    clip-path: unset;\n}\n"
+  },
+  {
+    "type": "style",
+    "text": "html body { background: var(--token-1e7e0639-1d40-4329-b18e-fa8b9d677820, rgb(239, 239, 239)); }"
+  },
+  {
+    "type": "style",
+    "text": "html.lenis,\nhtml.lenis body {\n  height: auto;\n}\n\n.lenis:not(.lenis-autoToggle).lenis-stopped {\n  overflow: clip;\n}\n\n.lenis [data-lenis-prevent],\n.lenis [data-lenis-prevent-wheel],\n.lenis [data-lenis-prevent-touch],\n.lenis [data-lenis-prevent-vertical],\n.lenis [data-lenis-prevent-horizontal] {\n  overscroll-behavior: contain;\n}\n\n.lenis.lenis-smooth iframe {\n  pointer-events: none;\n}\n\n.lenis.lenis-autoToggle {\n  transition-property: overflow;\n  transition-duration: 1ms;\n  transition-behavior: allow-discrete;\n}"
+  },
+  {
+    "type": "style",
+    "text": "\n        @keyframes shimmer-Rdpc6mlp {\n            0%, 0% {\n                background-position: 200%;\n            }\n            100% {\n                background-position: -100%;\n            }\n        }\n        .text-shimmer-Rdpc6mlp {\n            background: linear-gradient(\n                120deg,\n                transparent 0%,\n                transparent 30.5%,\n                var(--token-20608b9f-0145-4a1e-b971-ee948ebbb015, rgb(255, 255, 255)) 50%,\n                transparent 69.5%,\n                transparent 100%\n            );\n            -webkit-background-size: 200% 200%;\n            -moz-background-size: 200% 200%;\n            background-size: 200% 200%;\n            -webkit-background-clip: text;\n            -moz-background-clip: text;\n            background-clip: text;\n            background-repeat: no-repeat;\n            animation: shimmer-Rdpc6mlp 3s linear infinite;\n        }\n    "
+  }
+]

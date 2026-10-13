@@ -1,0 +1,19 @@
+{
+  "hasCanvas": 1,
+  "canvasDetails": [
+    {
+      "width": 80,
+      "height": 80,
+      "isWebGL": true,
+      "classes": "",
+      "parent": ""
+    }
+  ],
+  "isLenis": true,
+  "cursorCount": 0,
+  "scrollHeight": 15568,
+  "scripts": [
+    "https://events.framer.com/script?v=2",
+    "https://framerusercontent.com/sites/7vFNuBjjmgWQGw1uf5GxGn/script_main.D5QD7EHo.mjs"
+  ]
+}

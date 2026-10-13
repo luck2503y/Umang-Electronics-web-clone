@@ -1,0 +1,61 @@
+Module 1
+
+Getting started
+
+Welcome
+
+Remix the template
+
+Template Overview
+
+Module 2
+
+Working with the Agent
+
+Agent Basics
+
+Create a New Page
+
+Update Your Branding
+
+Rewrite Copy for Your Business
+
+Edit & Restyle Sections
+
+When the Agent Gets It Wrong
+
+Agent's Skills
+
+Skills Cheatsheet
+
+Module 3
+
+Basic Framer Edits
+
+Why I need this?
+
+Text & Images
+
+Colors & Fonts (Styles)
+
+Layout Basics
+
+Responsive (Breakpoints)
+
+Links & Navigation
+
+CMS
+
+Page Settings & SEO
+
+Module 4
+
+Publish & Connect Domain
+
+Publish Your Site
+
+Choose a Framer Plan
+
+Connect a Custom Domain
+
+Troubleshooting

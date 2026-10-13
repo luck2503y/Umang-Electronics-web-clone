@@ -1,0 +1,142 @@
+{
+  "title": "KOTA Studio | Framer Templates for Agencies & Portfolios",
+  "h1": "The Template Bundle",
+  "bodyBg": "rgb(0, 0, 0)",
+  "cards": [
+    {
+      "href": "./products/orionix",
+      "text": "Orionix\n\n/ Agency\n\n$99.00",
+      "img": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&height=2400",
+      "rect": {
+        "x": 40,
+        "y": 304,
+        "width": 440,
+        "height": 406,
+        "top": 304,
+        "right": 480,
+        "bottom": 710,
+        "left": 40
+      }
+    },
+    {
+      "href": "./products/fizens",
+      "text": "Fizens\n\n/ Finance\n\n$99.00",
+      "img": "https://framerusercontent.com/images/vjvHIlEuuu3n4kFu9RqbCzg.png?width=3200&height=2400",
+      "rect": {
+        "x": 500,
+        "y": 304,
+        "width": 440,
+        "height": 406,
+        "top": 304,
+        "right": 940,
+        "bottom": 710,
+        "left": 500
+      }
+    },
+    {
+      "href": "./products/intelly",
+      "text": "Intelly\n\n/ AI\n\n$99.00",
+      "img": "https://framerusercontent.com/images/cy3pbCFRKFfYZNq1QkqVhUzLflY.png?width=3200&height=2400",
+      "rect": {
+        "x": 960,
+        "y": 304,
+        "width": 440,
+        "height": 406,
+        "top": 304,
+        "right": 1400,
+        "bottom": 710,
+        "left": 960
+      }
+    },
+    {
+      "href": "./products/aurea",
+      "text": "AUREA\n\n/ Agency\n\n$99.00",
+      "img": "https://framerusercontent.com/images/cE3OuJ11XCtSs4F11uJl45qohag.png?width=3200&height=2400",
+      "rect": {
+        "x": 40,
+        "y": 778,
+        "width": 440,
+        "height": 406,
+        "top": 778,
+        "right": 480,
+        "bottom": 1184,
+        "left": 40
+      }
+    },
+    {
+      "href": "./products/james-nolan",
+      "text": "James Nolan\n\n/ Portfolio\n\n$99.00",
+      "img": "https://framerusercontent.com/images/NP7yaBOiWJm86QVH8Hkyf43OPOw.png?width=3200&height=2400",
+      "rect": {
+        "x": 500,
+        "y": 778,
+        "width": 440,
+        "height": 406,
+        "top": 778,
+        "right": 940,
+        "bottom": 1184,
+        "left": 500
+      }
+    },
+    {
+      "href": "./products/candreva",
+      "text": "Candreva\n\n/ Portfolio\n\nFree",
+      "img": "https://framerusercontent.com/images/m6EuyjMV8Z6SYVg8btc5y6mfv8.png?width=3200&height=2400",
+      "rect": {
+        "x": 960,
+        "y": 778,
+        "width": 440,
+        "height": 406,
+        "top": 778,
+        "right": 1400,
+        "bottom": 1184,
+        "left": 960
+      }
+    },
+    {
+      "href": "./products/brandon-paul",
+      "text": "Brandon Paul\n\n/ Photography\n\nFree",
+      "img": "https://framerusercontent.com/images/7qHftvfre4ToeJF4boyrYHHJi0.png?width=3200&height=2400",
+      "rect": {
+        "x": 40,
+        "y": 1252,
+        "width": 440,
+        "height": 406,
+        "top": 1252,
+        "right": 480,
+        "bottom": 1658,
+        "left": 40
+      }
+    },
+    {
+      "href": "./products/kokoro",
+      "text": "KOKORO\n\n/ Portfolio\n\nFree",
+      "img": "https://framerusercontent.com/images/fZOgxK95W7bTe2zpsPAIqQCasyE.png?width=3200&height=2400",
+      "rect": {
+        "x": 500,
+        "y": 1252,
+        "width": 440,
+        "height": 406,
+        "top": 1252,
+        "right": 940,
+        "bottom": 1658,
+        "left": 500
+      }
+    },
+    {
+      "href": "./products/griddie",
+      "text": "Griddie\n\n/ Portfolio\n\nFree",
+      "img": "https://framerusercontent.com/images/V2ah0pgUD7P7maMkAUZ82XjUA4.png?width=3200&height=2400",
+      "rect": {
+        "x": 960,
+        "y": 1252,
+        "width": 440,
+        "height": 406,
+        "top": 1252,
+        "right": 1400,
+        "bottom": 1658,
+        "left": 960
+      }
+    }
+  ]
+}

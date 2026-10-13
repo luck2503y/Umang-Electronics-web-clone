@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Section - Hero",
+    "id": "hero",
+    "height": "900px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "padding": "0px 40px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-ztisoh",
+    "outerHTMLSnippet": "<div class=\"framer-ztisoh\" data-framer-name=\"Section - Hero\" id=\"hero\"><div class=\"framer-302mu8\" data-framer-name=\"Container\"><div class=\"framer-m7x9f6\" data-framer-name=\"Header\"><div class=\"framer-2rwt3d\" data-framer-name=\"Title\"><div class=\"framer-ifk8m2\" data-border=\"true\" data-framer-name=\"Framer Expert\"><div data-framer-component-type=\"SVG\" data-framer-name=\"Frame\" parentsize=\"0\" _constraints=\"[object Object]\" rotation=\"0\" shadows=\"\" class=\"framer-1dpcfo5\" aria-hidden=\"true\" style=\"image-rendering:pixelated;flex-shrink:0;fill:rgba(0,0,0,1);color:rgba(0,0,0,1)\"><div class=\"svgContainer\" s"
+  },
+  {
+    "name": "Section - Playreel",
+    "id": "playreel",
+    "height": "900px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 40px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-145jkj8",
+    "outerHTMLSnippet": "<div class=\"framer-145jkj8\" data-framer-name=\"Section - Playreel\" id=\"playreel\"><div class=\"framer-1mogyb7 hidden-1wczy7o\" data-framer-name=\"Text Fade out trigger\" id=\"faded-text-trigger\"></div><div class=\"framer-9378gr\" data-framer-name=\"BG\" id=\"playreel-video\"><div class=\"framer-1k21h5h\" data-framer-name=\"Faded Overlay\" id=\"playreel-overlay\"></div></div><div class=\"framer-137oza6\" data-framer-name=\"Container\"><div class=\"framer-ix536n\"><div class=\"framer-z80rwh\"><div class=\"ssr-variant hidden-1wczy7o\"><div class=\"framer-1dpauut\" data-framer-component-type=\"RichTextContainer\" style=\"will-chan"
+  },
+  {
+    "name": "Section - Introduction",
+    "id": "introductions",
+    "height": "1092px",
+    "backgroundColor": "rgb(239, 239, 239)",
+    "padding": "0px 40px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-12vbu78",
+    "outerHTMLSnippet": "<div class=\"framer-12vbu78\" data-framer-name=\"Section - Introduction\" id=\"introductions\"><div class=\"framer-1m0zr6l\" data-framer-name=\"Container\"><div class=\"framer-d888hs\" data-framer-name=\"About\"><div class=\"framer-tp43o4\" data-framer-name=\"Video Wrap\"><div class=\"ssr-variant hidden-1wczy7o\"><div class=\"framer-jaapuv-container\"><div class=\"framer-CQHaB framer-l9mmk framer-v-l9mmk\" data-framer-name=\"Default\" style=\"max-width: 100%; width: 100%; opacity: 1;\"><div class=\"framer-1xuav79-container\" style=\"mask: linear-gradient(90deg, rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0) 101%); opacity: 1; will-cha"
+  },
+  {
+    "name": "Section - Services",
+    "id": "service",
+    "height": "2700px",
+    "backgroundColor": "rgb(239, 239, 239)",
+    "padding": "0px 40px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-k5cp51",
+    "outerHTMLSnippet": "<div class=\"framer-k5cp51\" data-framer-name=\"Section - Services\" id=\"service\"><div class=\"framer-fzyefs\" data-framer-name=\"Sticky\"><div class=\"framer-tsd5sd\" data-framer-name=\"Container\"><div class=\"ssr-variant hidden-14o4lo6 hidden-1wczy7o\"><div class=\"framer-t0wtkv-container\" id=\"t0wtkv\"><div class=\"framer-T3loF framer-YE4dE framer-XFNiT framer-4hZSQ framer-BgTXn framer-hxt2W framer-1i65o83 framer-v-siv5p8\" data-framer-name=\"Motion Design\" style=\"height: 100%; max-width: 100%; width: 100%; opacity: 1;\"><div class=\"framer-znar8d\" style=\"opacity: 1;\"><!--$--><!--/$--><div class=\"framer-3qk4bm\""
+  },
+  {
+    "name": "Section - Testimonial",
+    "id": "testimonial",
+    "height": "2700px",
+    "backgroundColor": "rgb(239, 239, 239)",
+    "padding": "0px 40px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-3tvr7y",
+    "outerHTMLSnippet": "<div class=\"framer-3tvr7y\" data-framer-name=\"Section - Testimonial\" id=\"testimonial\"><div class=\"framer-f8i55w\" data-framer-name=\"Container\"><div class=\"framer-1h90nlu\" data-framer-name=\"Grid\"><div class=\"framer-irhfv2\" data-framer-name=\"Sticky Column\"><div class=\"framer-3277vh\" data-framer-component-type=\"RichTextContainer\" style=\"transform:none\"><p class=\"framer-text framer-styles-preset-omyfwx\" data-styles-preset=\"yuo86K9Rr\" dir=\"auto\">Testimonial</p></div></div><div class=\"framer-17fxzbz\" data-framer-name=\"Review\"><div class=\"framer-1assh74\" data-framer-name=\"Testimonial\" id=\"review-1\"><di"
+  },
+  {
+    "name": "Section - Templates",
+    "id": "templates",
+    "height": "4500px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "padding": "0px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-1t16i3d",
+    "outerHTMLSnippet": "<div class=\"framer-1t16i3d\" data-framer-name=\"Section - Templates\" id=\"templates\"><div class=\"framer-1fj6pzi\" data-framer-name=\"Sticky\"><div class=\"framer-1cno30j\" data-framer-name=\"Container\"><div class=\"framer-1h58pzc\" data-framer-name=\"Center Pagination\"><div class=\"ssr-variant\"><div class=\"framer-uz008g-container\"><div class=\"framer-63WUg framer-YE4dE framer-6jbdkg framer-v-126deyl\" data-framer-name=\"4\" style=\"height: 100%; width: 100%; opacity: 1;\"><div class=\"framer-a9lpab\" data-border=\"true\" data-framer-name=\"Circle-1\" style=\"--border-bottom-width: 2px; --border-color: rgb(255, 255, 255"
+  },
+  {
+    "name": "Section - FAQ",
+    "id": "faq",
+    "height": "1135px",
+    "backgroundColor": "rgb(239, 239, 239)",
+    "padding": "0px 40px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-19da8pq",
+    "outerHTMLSnippet": "<div class=\"framer-19da8pq\" data-framer-name=\"Section - FAQ\" id=\"faq\"><div class=\"framer-2ko1yi\" data-framer-name=\"Container\"><div class=\"framer-mmnf34 hidden-1wczy7o\" data-framer-name=\"Filter\"></div><div class=\"framer-4lcngj\" data-framer-name=\"Content\"><div class=\"framer-1nnmc5b\" data-framer-name=\"Title Wrap\"><div class=\"ssr-variant hidden-1wczy7o\"><div class=\"framer-3yxlzm\" data-framer-component-type=\"RichTextContainer\" style=\"transform:none\"><h2 class=\"framer-text framer-styles-preset-181bxy\" data-styles-preset=\"RMULLW6Ef\" dir=\"auto\" style=\"--framer-text-alignment:start;--framer-text-color:"
+  },
+  {
+    "name": "Section - CTA",
+    "id": "",
+    "height": "990px",
+    "backgroundColor": "rgb(239, 239, 239)",
+    "padding": "0px 40px",
+    "display": "flex",
+    "position": "relative",
+    "classes": "framer-ytzr5h",
+    "outerHTMLSnippet": "<div class=\"framer-ytzr5h\" data-framer-name=\"Section - CTA\"><div class=\"framer-5leq0d-container\"><!--$--><div class=\"ssr-variant hidden-14o4lo6 hidden-1wczy7o\"><video src=\"https://stream.mux.com/kvyETSxTWR4yWLgS7zJjL7W1my00PprfrISoZPY1rurM/1080p.mp4\" loop=\"\" preload=\"none\" muted=\"\" playsinline=\"\" style=\"cursor:auto;width:100%;height:100%;border-radius:0px;display:block;object-fit:cover;background-color:rgba(0, 0, 0, 0);object-position:50% 50%\"></video></div><!--/$--></div><div class=\"framer-ibl9uv\" data-framer-name=\"Container\"><div class=\"framer-fc0f9q\"><div class=\"ssr-variant hidden-1wczy7o\">"
+  }
+]

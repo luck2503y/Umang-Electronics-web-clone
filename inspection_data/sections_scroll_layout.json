@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Section - Hero",
+    "id": "hero",
+    "offsetTop": 0,
+    "offsetHeight": 900,
+    "heightStyle": "900px",
+    "hasSticky": false,
+    "stickyHeight": null,
+    "stickyPosition": null,
+    "stickyTop": null
+  },
+  {
+    "name": "Section - Playreel",
+    "id": "playreel",
+    "offsetTop": 900,
+    "offsetHeight": 900,
+    "heightStyle": "900px",
+    "hasSticky": false,
+    "stickyHeight": null,
+    "stickyPosition": null,
+    "stickyTop": null
+  },
+  {
+    "name": "Section - Introduction",
+    "id": "introductions",
+    "offsetTop": 1800,
+    "offsetHeight": 1092,
+    "heightStyle": "1092px",
+    "hasSticky": false,
+    "stickyHeight": null,
+    "stickyPosition": null,
+    "stickyTop": null
+  },
+  {
+    "name": "Section - Services",
+    "id": "service",
+    "offsetTop": 2892,
+    "offsetHeight": 2700,
+    "heightStyle": "2700px",
+    "hasSticky": true,
+    "stickyHeight": "900px",
+    "stickyPosition": "sticky",
+    "stickyTop": "0px"
+  },
+  {
+    "name": "Section - Testimonial",
+    "id": "testimonial",
+    "offsetTop": 5592,
+    "offsetHeight": 2700,
+    "heightStyle": "2700px",
+    "hasSticky": true,
+    "stickyHeight": "440px",
+    "stickyPosition": "sticky",
+    "stickyTop": "0px"
+  },
+  {
+    "name": "Section - Templates",
+    "id": "templates",
+    "offsetTop": 8292,
+    "offsetHeight": 4500,
+    "heightStyle": "4500px",
+    "hasSticky": true,
+    "stickyHeight": "900px",
+    "stickyPosition": "sticky",
+    "stickyTop": "0px"
+  },
+  {
+    "name": "Section - FAQ",
+    "id": "faq",
+    "offsetTop": 12792,
+    "offsetHeight": 1135,
+    "heightStyle": "1135px",
+    "hasSticky": false,
+    "stickyHeight": null,
+    "stickyPosition": null,
+    "stickyTop": null
+  },
+  {
+    "name": "Section - CTA",
+    "id": "",
+    "offsetTop": 13927,
+    "offsetHeight": 990,
+    "heightStyle": "990px",
+    "hasSticky": false,
+    "stickyHeight": null,
+    "stickyPosition": null,
+    "stickyTop": null
+  }
+]

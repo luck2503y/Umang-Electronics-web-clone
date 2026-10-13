@@ -1,0 +1,434 @@
+{
+  "heroData": [
+    {
+      "y": 0,
+      "titleTransform": "none",
+      "titleOpacity": "1",
+      "videoTransform": "none",
+      "sphereTransform": "none"
+    },
+    {
+      "y": 200,
+      "titleTransform": "none",
+      "titleOpacity": "1",
+      "videoTransform": "none",
+      "sphereTransform": "none"
+    },
+    {
+      "y": 400,
+      "titleTransform": "none",
+      "titleOpacity": "1",
+      "videoTransform": "none",
+      "sphereTransform": "none"
+    },
+    {
+      "y": 600,
+      "titleTransform": "none",
+      "titleOpacity": "1",
+      "videoTransform": "none",
+      "sphereTransform": null
+    }
+  ],
+  "introGradient": [
+    {
+      "y": 1400,
+      "firstWord": {
+        "text": "We've",
+        "opacity": "1"
+      },
+      "midWord": {
+        "text": "SaaS",
+        "opacity": "1"
+      },
+      "lastWord": {
+        "text": "world.",
+        "opacity": "1"
+      }
+    },
+    {
+      "y": 1700,
+      "firstWord": {
+        "text": "We've",
+        "opacity": "1"
+      },
+      "midWord": {
+        "text": "SaaS",
+        "opacity": "1"
+      },
+      "lastWord": {
+        "text": "world.",
+        "opacity": "1"
+      }
+    },
+    {
+      "y": 2000,
+      "firstWord": {
+        "text": "We've",
+        "opacity": "1"
+      },
+      "midWord": {
+        "text": "SaaS",
+        "opacity": "1"
+      },
+      "lastWord": {
+        "text": "world.",
+        "opacity": "1"
+      }
+    },
+    {
+      "y": 2300,
+      "firstWord": {
+        "text": "We've",
+        "opacity": "1"
+      },
+      "midWord": {
+        "text": "SaaS",
+        "opacity": "1"
+      },
+      "lastWord": {
+        "text": "world.",
+        "opacity": "1"
+      }
+    }
+  ],
+  "templatesData": [
+    {
+      "y": 8500,
+      "title": "Orionix\n\nAgency\n\n/\n\n$99",
+      "animatedEls": [
+        {
+          "tag": "DIV",
+          "className": "framer-1izlzgy",
+          "framerName": "Circle-2",
+          "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1yam4x0",
+          "framerName": "Circle-3",
+          "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-xau3aw",
+          "framerName": "Circle-4",
+          "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1v75ibc",
+          "framerName": "Circle-5",
+          "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-rzjm8v",
+          "framerName": "Number 2",
+          "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)"
+        }
+      ]
+    },
+    {
+      "y": 9300,
+      "title": "Orionix\n\nAgency\n\n/\n\n$99",
+      "animatedEls": [
+        {
+          "tag": "DIV",
+          "className": "framer-1izlzgy",
+          "framerName": "Circle-2",
+          "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1yam4x0",
+          "framerName": "Circle-3",
+          "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-xau3aw",
+          "framerName": "Circle-4",
+          "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1v75ibc",
+          "framerName": "Circle-5",
+          "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-rzjm8v",
+          "framerName": "Number 2",
+          "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)"
+        }
+      ]
+    },
+    {
+      "y": 10100,
+      "title": "Orionix\n\nAgency\n\n/\n\n$99",
+      "animatedEls": [
+        {
+          "tag": "DIV",
+          "className": "framer-1izlzgy",
+          "framerName": "Circle-2",
+          "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1yam4x0",
+          "framerName": "Circle-3",
+          "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-xau3aw",
+          "framerName": "Circle-4",
+          "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1v75ibc",
+          "framerName": "Circle-5",
+          "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-rzjm8v",
+          "framerName": "Number 2",
+          "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)"
+        }
+      ]
+    },
+    {
+      "y": 10900,
+      "title": "Orionix\n\nAgency\n\n/\n\n$99",
+      "animatedEls": [
+        {
+          "tag": "DIV",
+          "className": "framer-1izlzgy",
+          "framerName": "Circle-2",
+          "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1yam4x0",
+          "framerName": "Circle-3",
+          "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-xau3aw",
+          "framerName": "Circle-4",
+          "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1v75ibc",
+          "framerName": "Circle-5",
+          "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-rzjm8v",
+          "framerName": "Number 2",
+          "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)"
+        }
+      ]
+    },
+    {
+      "y": 11700,
+      "title": "Orionix\n\nAgency\n\n/\n\n$99",
+      "animatedEls": [
+        {
+          "tag": "DIV",
+          "className": "framer-1izlzgy",
+          "framerName": "Circle-2",
+          "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1yam4x0",
+          "framerName": "Circle-3",
+          "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-xau3aw",
+          "framerName": "Circle-4",
+          "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1v75ibc",
+          "framerName": "Circle-5",
+          "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-rzjm8v",
+          "framerName": "Number 2",
+          "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)"
+        }
+      ]
+    },
+    {
+      "y": 12500,
+      "title": "Orionix\n\nAgency\n\n/\n\n$99",
+      "animatedEls": [
+        {
+          "tag": "DIV",
+          "className": "framer-1izlzgy",
+          "framerName": "Circle-2",
+          "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1yam4x0",
+          "framerName": "Circle-3",
+          "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-xau3aw",
+          "framerName": "Circle-4",
+          "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-1v75ibc",
+          "framerName": "Circle-5",
+          "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "className": "framer-rzjm8v",
+          "framerName": "Number 2",
+          "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)"
+        }
+      ]
+    }
+  ],
+  "testimonialData": [
+    {
+      "y": 5800,
+      "totalSpans": 180,
+      "samples": [
+        {
+          "idx": 0,
+          "word": "\"I'm",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 54,
+          "word": "couldn’t",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 108,
+          "word": "the",
+          "opacity": "0.2",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 179,
+          "word": "projects.\"",
+          "opacity": "0.2",
+          "filter": "blur(0px)"
+        }
+      ]
+    },
+    {
+      "y": 6400,
+      "totalSpans": 180,
+      "samples": [
+        {
+          "idx": 0,
+          "word": "\"I'm",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 54,
+          "word": "couldn’t",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 108,
+          "word": "the",
+          "opacity": "0.2",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 179,
+          "word": "projects.\"",
+          "opacity": "0.2",
+          "filter": "blur(0px)"
+        }
+      ]
+    },
+    {
+      "y": 7000,
+      "totalSpans": 180,
+      "samples": [
+        {
+          "idx": 0,
+          "word": "\"I'm",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 54,
+          "word": "couldn’t",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 108,
+          "word": "the",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 179,
+          "word": "projects.\"",
+          "opacity": "0.2",
+          "filter": "blur(0px)"
+        }
+      ]
+    },
+    {
+      "y": 7600,
+      "totalSpans": 180,
+      "samples": [
+        {
+          "idx": 0,
+          "word": "\"I'm",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 54,
+          "word": "couldn’t",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 108,
+          "word": "the",
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "idx": 179,
+          "word": "projects.\"",
+          "opacity": "0.2",
+          "filter": "blur(0px)"
+        }
+      ]
+    }
+  ]
+}

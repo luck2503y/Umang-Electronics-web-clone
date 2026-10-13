@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Section - FAQ",
+    "text": "Question before you decide.\n\nAsk a question\n\nWho is this for?\n\nFounders, SaaS teams, and agency owners who need a site that looks like a $10k build without the $10k timeline. If you need something live in weeks, not months, you're in the right place.\n\nWhat do you actually help with?\n\nFour things: Landing Pages that convert, full Marketing Sites, Motion Design that makes a site feel alive instead of static, and Framer Implementation if you already have a design and just need it built right. Pick one, or all four.\n\nAre you a designer, or do you also build the site?\n\nBoth. I design and build in Framer myself — no handoff, no waiting on a separate developer to \"translate\" the Figma file. What you approve is what ships.\n\nCan you build my site from scratch?\n\nYes. Bring an idea, a rough deck, or nothing but a product — I'll shape it into a site that's ready to launch, not just \"pretty.\"\n\nHow much does it cost?\n\nLanding pages start at $4k, full marketing sites at $6k. Motion design and Framer implementation are quoted based on scope. No hourly billing surprises — you get a fixed price before we start.\n\nHow fast can you start?\n\nUsually right away. I keep my schedule open for quick turnarounds — if you need something live this month, tell me and I'll confirm what's realistic.\n\nHow do we work together day to day?\n\nSimple: a kickoff call to lock scope, async updates as I build (no need for daily calls), and a review round before launch. You always know what's done and what's next — no chasing.\n\nWhat happens after the site launches?\n\nNo. Every project includes 2 weeks of support after launch for any fixes. Need anything beyond that? We'll just scope and price it separately."
+  },
+  {
+    "name": "Accordion Column",
+    "text": "Who is this for?\n\nFounders, SaaS teams, and agency owners who need a site that looks like a $10k build without the $10k timeline. If you need something live in weeks, not months, you're in the right place.\n\nWhat do you actually help with?\n\nFour things: Landing Pages that convert, full Marketing Sites, Motion Design that makes a site feel alive instead of static, and Framer Implementation if you already have a design and just need it built right. Pick one, or all four.\n\nAre you a designer, or do you also build the site?\n\nBoth. I design and build in Framer myself — no handoff, no waiting on a separate developer to \"translate\" the Figma file. What you approve is what ships.\n\nCan you build my site from scratch?\n\nYes. Bring an idea, a rough deck, or nothing but a product — I'll shape it into a site that's ready to launch, not just \"pretty.\""
+  },
+  {
+    "name": "Question",
+    "text": "Who is this for?"
+  },
+  {
+    "name": "Question",
+    "text": "What do you actually help with?"
+  },
+  {
+    "name": "Question",
+    "text": "Are you a designer, or do you also build the site?"
+  },
+  {
+    "name": "Question",
+    "text": "Can you build my site from scratch?"
+  },
+  {
+    "name": "Accordion Column",
+    "text": "How much does it cost?\n\nLanding pages start at $4k, full marketing sites at $6k. Motion design and Framer implementation are quoted based on scope. No hourly billing surprises — you get a fixed price before we start.\n\nHow fast can you start?\n\nUsually right away. I keep my schedule open for quick turnarounds — if you need something live this month, tell me and I'll confirm what's realistic.\n\nHow do we work together day to day?\n\nSimple: a kickoff call to lock scope, async updates as I build (no need for daily calls), and a review round before launch. You always know what's done and what's next — no chasing.\n\nWhat happens after the site launches?\n\nNo. Every project includes 2 weeks of support after launch for any fixes. Need anything beyond that? We'll just scope and price it separately."
+  },
+  {
+    "name": "Question",
+    "text": "How much does it cost?"
+  },
+  {
+    "name": "Question",
+    "text": "How fast can you start?"
+  },
+  {
+    "name": "Question",
+    "text": "How do we work together day to day?"
+  },
+  {
+    "name": "Question",
+    "text": "What happens after the site launches?"
+  }
+]

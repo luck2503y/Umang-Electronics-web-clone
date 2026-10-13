@@ -1,0 +1,308 @@
+{
+  "bgs": [
+    {
+      "className": "framer-1acojty",
+      "position": "absolute",
+      "inset": "0px 0px 0px 0px",
+      "width": "1440px",
+      "height": "900px",
+      "opacity": "0.3",
+      "zIndex": "0",
+      "filter": "none",
+      "imgSrc": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&height=2160",
+      "imgStyle": {
+        "objectFit": "cover",
+        "width": "1440px",
+        "height": "900px",
+        "opacity": "1",
+        "filter": "none"
+      }
+    },
+    {
+      "className": "framer-1oi03j8",
+      "position": "absolute",
+      "inset": "0px 0px 0px 0px",
+      "width": "1440px",
+      "height": "900px",
+      "opacity": "0.3",
+      "zIndex": "0",
+      "filter": "none",
+      "imgSrc": "https://framerusercontent.com/images/IUwksVCrkbxWayX3Cth7OYvDYAk.png?width=2880&height=1800",
+      "imgStyle": {
+        "objectFit": "cover",
+        "width": "1440px",
+        "height": "900px",
+        "opacity": "1",
+        "filter": "none"
+      }
+    },
+    {
+      "className": "framer-1vi4h0a",
+      "position": "absolute",
+      "inset": "0px 0px 0px 0px",
+      "width": "1440px",
+      "height": "900px",
+      "opacity": "0.3",
+      "zIndex": "0",
+      "filter": "none",
+      "imgSrc": "https://framerusercontent.com/images/Onf67uBszn2DbJx0Agkfu4SEOiA.png?width=2880&height=1800",
+      "imgStyle": {
+        "objectFit": "cover",
+        "width": "1440px",
+        "height": "900px",
+        "opacity": "1",
+        "filter": "none"
+      }
+    },
+    {
+      "className": "framer-1b9gkhe",
+      "position": "absolute",
+      "inset": "0px 0px 0px 0px",
+      "width": "1440px",
+      "height": "900px",
+      "opacity": "0.3",
+      "zIndex": "0",
+      "filter": "none",
+      "imgSrc": "https://framerusercontent.com/images/0GvsMeyXgiFE9PLQeiuGB6NIZsA.png?width=2880&height=1800",
+      "imgStyle": {
+        "objectFit": "cover",
+        "width": "1440px",
+        "height": "900px",
+        "opacity": "1",
+        "filter": "none"
+      }
+    },
+    {
+      "className": "framer-1dzhige",
+      "position": "absolute",
+      "inset": "0px 0px 0px 0px",
+      "width": "1440px",
+      "height": "900px",
+      "opacity": "0.3",
+      "zIndex": "0",
+      "filter": "none",
+      "imgSrc": "https://framerusercontent.com/images/0dyhnsQN0YGvdi6LZDdDcaFCxWY.png?width=3840&height=2160",
+      "imgStyle": {
+        "objectFit": "cover",
+        "width": "1440px",
+        "height": "900px",
+        "opacity": "1",
+        "filter": "none"
+      }
+    }
+  ],
+  "pagination": {
+    "position": "relative",
+    "width": "498px",
+    "height": "498px",
+    "left": "0px",
+    "top": "0px"
+  },
+  "circles": [
+    {
+      "name": "Circle-1",
+      "width": "498px",
+      "height": "498px",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "1000px",
+      "transform": "none",
+      "opacity": "1",
+      "mask": "conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg)"
+    },
+    {
+      "name": "Circle-2",
+      "width": "498px",
+      "height": "498px",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "1000px",
+      "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+      "opacity": "0.2",
+      "mask": "conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg)"
+    },
+    {
+      "name": "Circle-3",
+      "width": "498px",
+      "height": "498px",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "1000px",
+      "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+      "opacity": "0.2",
+      "mask": "conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg)"
+    },
+    {
+      "name": "Circle-4",
+      "width": "498px",
+      "height": "498px",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "1000px",
+      "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+      "opacity": "0.2",
+      "mask": "conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg)"
+    },
+    {
+      "name": "Circle-5",
+      "width": "498px",
+      "height": "498px",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "1000px",
+      "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+      "opacity": "0.2",
+      "mask": "conic-gradient(rgba(0, 0, 0, 0) 7.2deg, rgb(0, 0, 0) 7.2deg, rgb(0, 0, 0) 64.8deg, rgba(0, 0, 0, 0) 64.8deg)"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "Number 1",
+      "width": "498px",
+      "height": "498px",
+      "borderRadius": "1000px",
+      "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+      "opacity": "1",
+      "childTransform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, -2.57812, 0)",
+      "childOpacity": "1",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "name": "Number 2",
+      "width": "498px",
+      "height": "498px",
+      "borderRadius": "1000px",
+      "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+      "opacity": "0.2",
+      "childTransform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, -3.49219, 0)",
+      "childOpacity": "1",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "name": "Number 3",
+      "width": "498px",
+      "height": "498px",
+      "borderRadius": "1000px",
+      "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+      "opacity": "0.2",
+      "childTransform": "matrix(-1, 0, 0, -1, -3.4375, 0)",
+      "childOpacity": "1",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "name": "Number 4",
+      "width": "498px",
+      "height": "498px",
+      "borderRadius": "1000px",
+      "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+      "opacity": "0.2",
+      "childTransform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, -3.41406, 0)",
+      "childOpacity": "1",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "name": "Number 5",
+      "width": "498px",
+      "height": "498px",
+      "borderRadius": "1000px",
+      "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+      "opacity": "0.2",
+      "childTransform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, -3.50781, 0)",
+      "childOpacity": "1",
+      "fontFamily": "sans-serif",
+      "fontSize": "12px",
+      "color": "rgb(0, 0, 0)"
+    }
+  ],
+  "t1Images": [
+    {
+      "src": "https://framerusercontent.com/images/jGBMQNF4ayI1SoIBB5Ut7qeqikU.png?width=3200&height=2400",
+      "width": "450px",
+      "height": "450px",
+      "objectFit": "cover",
+      "parentBorderRadius": "0px",
+      "parentWidth": "450px",
+      "parentHeight": "450px",
+      "grandParentBorderRadius": "0px",
+      "grandParentWidth": "450px",
+      "grandParentHeight": "450px",
+      "grandParentOverflow": "clip"
+    },
+    {
+      "src": "https://framerusercontent.com/images/KcY1FYoVm3s5tUqhiaoSCFJZ9hE.png?width=3200&height=2400",
+      "width": "450px",
+      "height": "450px",
+      "objectFit": "cover",
+      "parentBorderRadius": "0px",
+      "parentWidth": "450px",
+      "parentHeight": "450px",
+      "grandParentBorderRadius": "0px",
+      "grandParentWidth": "450px",
+      "grandParentHeight": "450px",
+      "grandParentOverflow": "clip"
+    },
+    {
+      "src": "https://framerusercontent.com/images/yptcMojYHSTi76yPZOtFxSJd8.png?width=3840&height=2160",
+      "width": "1440px",
+      "height": "900px",
+      "objectFit": "cover",
+      "parentBorderRadius": "0px",
+      "parentWidth": "1440px",
+      "parentHeight": "900px",
+      "grandParentBorderRadius": "0px",
+      "grandParentWidth": "1440px",
+      "grandParentHeight": "900px",
+      "grandParentOverflow": "clip"
+    }
+  ],
+  "templateNames": [
+    {
+      "name": 1,
+      "text": "Orionix",
+      "fontSize": "72px",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "letterSpacing": "-2.16px",
+      "lineHeight": "80px"
+    },
+    {
+      "name": 2,
+      "text": "Fizens",
+      "fontSize": "72px",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "letterSpacing": "-2.16px",
+      "lineHeight": "80px"
+    },
+    {
+      "name": 3,
+      "text": "Intelly",
+      "fontSize": "72px",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "letterSpacing": "-2.16px",
+      "lineHeight": "80px"
+    },
+    {
+      "name": 4,
+      "text": "AUREA",
+      "fontSize": "72px",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "letterSpacing": "-2.16px",
+      "lineHeight": "80px"
+    },
+    {
+      "name": 5,
+      "text": "James Nolan",
+      "fontSize": "72px",
+      "fontFamily": "\"TWK Lausanne 400\", \"TWK Lausanne 400 Placeholder\", sans-serif",
+      "color": "rgba(255, 255, 255, 0.96)",
+      "letterSpacing": "-2.16px",
+      "lineHeight": "80px"
+    }
+  ]
+}
