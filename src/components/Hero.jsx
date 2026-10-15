@@ -3,28 +3,42 @@ import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion'
 import ShaderSphere from './ShaderSphere';
 
 const pillProducts = [
-  { title: 'Smart TV', image: '/assets/products/smart-tv.jpg', tag: 'Smart 4K' },
-  { title: 'Refrigerator', image: '/assets/products/refrigerator.jpg', tag: 'Inverter' },
-  { title: 'Air Conditioner', image: '/assets/products/air-conditioner.jpg', tag: '5-Star AC' },
-  { title: 'Air Fryer', image: '/assets/products/air-fryer.jpg', tag: 'Digital 360°' },
-  { title: 'Washing Machine', image: '/assets/products/washing-machine.jpg', tag: 'Direct Drive' }
+  { title: 'Smart 4K TV', image: '/assets/hero_pill/smart-tv.webp', tag: 'Smart 4K' },
+  { title: 'Hi-Fi Soundbar', image: '/assets/hero_pill/soundbar.webp', tag: 'Dolby Audio' },
+  { title: 'Digital Air Fryer', image: '/assets/hero_pill/air-fryer.webp', tag: 'Rapid 360°' },
+  { title: 'Microwave Oven', image: '/assets/hero_pill/microwave.webp', tag: 'Smart Sensor' },
+  { title: 'Air Purifier', image: '/assets/hero_pill/air-purifier.webp', tag: 'True HEPA' },
+  { title: 'Inverter AC', image: '/assets/hero_pill/air-conditioner.webp', tag: '5-Star Inverter' },
+  { title: 'Smart Refrigerator', image: '/assets/hero_pill/refrigerator.webp', tag: 'Twin Cooling' }
 ];
 
-export default function Hero({ onOpenContact }) {
+export default function Hero({ onOpenContact, isPreloaderActive = false }) {
   const [currentTime, setCurrentTime] = useState('');
   const [activePillIdx, setActivePillIdx] = useState(0);
   const { scrollY } = useScroll();
 
-  const heroOpacity = useTransform(scrollY, [0, 500], [1, 0]);
-  const heroY = useTransform(scrollY, [0, 500], [0, -80]);
-  const heroScale = useTransform(scrollY, [0, 500], [1, 0.96]);
+  const heroOpacity = useTransform(scrollY, [0, 450], [1, 0]);
+  const heroY = useTransform(scrollY, [0, 450], [0, -60]);
+  const heroScale = useTransform(scrollY, [0, 450], [1, 0.96]);
+  const bgY = useTransform(scrollY, [0, 600], [0, 90]);
 
+  // Preload all pill images to guarantee instantaneous rendering
   useEffect(() => {
+    pillProducts.forEach((p) => {
+      const img = new Image();
+      img.src = p.image;
+    });
+  }, []);
+
+  // Cycle preview pill products only after preloader finishes
+  useEffect(() => {
+    if (isPreloaderActive) return;
+
     const pillTimer = setInterval(() => {
       setActivePillIdx(prev => (prev + 1) % pillProducts.length);
-    }, 2800);
+    }, 3200);
     return () => clearInterval(pillTimer);
-  }, []);
+  }, [isPreloaderActive]);
 
   useEffect(() => {
     const updateTime = () => {
@@ -60,12 +74,13 @@ export default function Hero({ onOpenContact }) {
       }}
     >
       {/* Background Graphic & Gradient Overlay */}
-      <div
+      <motion.div
         style={{
           position: 'absolute',
           inset: 0,
           zIndex: 0,
-          pointerEvents: 'none'
+          pointerEvents: 'none',
+          y: bgY
         }}
       >
         <img
@@ -85,14 +100,14 @@ export default function Hero({ onOpenContact }) {
             background: 'linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.03) 13.3%, rgba(0, 0, 0, 0.09) 24.7%, rgba(0, 0, 0, 0.19) 38.1%, rgba(0, 0, 0, 0.31) 50.4%, rgba(0, 0, 0, 0.46) 63%, rgba(0, 0, 0, 0.62) 76%, rgba(0, 0, 0, 0.8) 87.7%, rgb(0, 0, 0) 100%)'
           }}
         />
-      </div>
+      </motion.div>
 
       {/* Main Center Content Container with Parallax Scroll Transition */}
       <motion.div
         style={{
           position: 'relative',
           zIndex: 4,
-          maxWidth: '1200px',
+          maxWidth: '1240px',
           width: '100%',
           display: 'flex',
           flexDirection: 'column',
@@ -109,11 +124,15 @@ export default function Hero({ onOpenContact }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '16px'
+            gap: '16px',
+            width: '100%'
           }}
         >
           {/* Authorized Electronics Destination Badge */}
-          <div
+          <motion.div
+            initial={{ opacity: 0, y: -16, filter: 'blur(6px)' }}
+            animate={isPreloaderActive ? { opacity: 0, y: -16, filter: 'blur(6px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
+            transition={{ duration: 0.8, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
             style={{
               alignSelf: 'stretch',
               display: 'flex',
@@ -122,6 +141,7 @@ export default function Hero({ onOpenContact }) {
               width: '100%',
               marginBottom: '8px'
             }}
+            className="hero-badge-container"
           >
             <div
               style={{
@@ -131,10 +151,11 @@ export default function Hero({ onOpenContact }) {
                 padding: '7px 14px',
                 borderRadius: '12px',
                 border: '1px solid rgba(255, 255, 255, 0.2)',
-                backgroundColor: 'rgba(255, 255, 255, 0.04)',
-                backdropFilter: 'blur(4px)',
-                WebkitBackdropFilter: 'blur(4px)'
+                backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                backdropFilter: 'blur(8px)',
+                WebkitBackdropFilter: 'blur(8px)'
               }}
+              className="hero-badge-pill"
             >
               {/* Electronics Zap / Spark Icon SVG */}
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -149,11 +170,12 @@ export default function Hero({ onOpenContact }) {
                   letterSpacing: '-0.06px',
                   color: 'rgb(255, 255, 255)'
                 }}
+                className="hero-badge-text"
               >
                 Authorized Consumer Electronics & Home Appliances
               </span>
             </div>
-          </div>
+          </motion.div>
 
           {/* Main 3-Row Headline Stack */}
           <div
@@ -162,11 +184,16 @@ export default function Hero({ onOpenContact }) {
               flexDirection: 'column',
               alignItems: 'center',
               gap: '0px',
-              userSelect: 'none'
+              userSelect: 'none',
+              width: '100%'
             }}
+            className="hero-headline-stack"
           >
             {/* ROW 1: Powering homes [gap 56px] with */}
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: 35, filter: 'blur(8px)' }}
+              animate={isPreloaderActive ? { opacity: 0, y: 35, filter: 'blur(8px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.85, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -202,10 +229,13 @@ export default function Hero({ onOpenContact }) {
               >
                 with
               </span>
-            </div>
+            </motion.div>
 
             {/* ROW 2: [Embedded Video width 142px] [gap 16px] cutting — edge */}
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: 35, filter: 'blur(8px)' }}
+              animate={isPreloaderActive ? { opacity: 0, y: 35, filter: 'blur(8px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.85, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -224,18 +254,22 @@ export default function Hero({ onOpenContact }) {
                   overflow: 'hidden',
                   position: 'relative',
                   backgroundColor: '#0a0a0d',
-                  border: '1px solid rgba(255, 255, 255, 0.18)',
-                  boxShadow: '0 8px 24px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.2)',
+                  backgroundImage: `url(${pillProducts[0].image})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  border: '1.5px solid rgba(255, 255, 255, 0.28)',
+                  boxShadow: '0 8px 30px rgba(0, 0, 0, 0.7), inset 0 1px 2px rgba(255, 255, 255, 0.3)',
                   flexShrink: 0
                 }}
+                className="hero-preview-pill"
               >
-                <AnimatePresence mode="wait">
+                <AnimatePresence initial={false}>
                   <motion.div
                     key={activePillIdx}
-                    initial={{ opacity: 0, scale: 1.06 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.95 }}
-                    transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                     style={{
                       position: 'absolute',
                       inset: 0,
@@ -250,6 +284,7 @@ export default function Hero({ onOpenContact }) {
                         width: '100%',
                         height: '100%',
                         objectFit: 'cover',
+                        objectPosition: 'center center',
                         display: 'block'
                       }}
                     />
@@ -257,7 +292,7 @@ export default function Hero({ onOpenContact }) {
                       style={{
                         position: 'absolute',
                         inset: 0,
-                        background: 'linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0.06) 100%)',
+                        background: 'linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 45%, rgba(255,255,255,0.06) 100%)',
                         pointerEvents: 'none'
                       }}
                     />
@@ -271,13 +306,15 @@ export default function Hero({ onOpenContact }) {
                         letterSpacing: '0.04em',
                         textTransform: 'uppercase',
                         color: 'rgba(255, 255, 255, 0.95)',
-                        backgroundColor: 'rgba(0, 0, 0, 0.65)',
-                        backdropFilter: 'blur(4px)',
-                        padding: '1px 5px',
+                        backgroundColor: 'rgba(0, 0, 0, 0.72)',
+                        backdropFilter: 'blur(6px)',
+                        padding: '2px 6px',
                         borderRadius: '4px',
+                        border: '1px solid rgba(255, 255, 255, 0.2)',
                         pointerEvents: 'none',
-                        lineHeight: '1.3'
+                        lineHeight: '1.2'
                       }}
+                      className="hero-pill-tag"
                     >
                       {pillProducts[activePillIdx].tag}
                     </span>
@@ -298,15 +335,18 @@ export default function Hero({ onOpenContact }) {
               >
                 cutting — edge
               </span>
-            </div>
+            </motion.div>
 
             {/* ROW 3: smart [Rotating Sphere 80px] appliances */}
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: 35, filter: 'blur(8px)' }}
+              animate={isPreloaderActive ? { opacity: 0, y: 35, filter: 'blur(8px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.85, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
               style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: '12px',
+                gap: '14px',
                 height: '96px'
               }}
               className="hero-row-3"
@@ -334,11 +374,12 @@ export default function Hero({ onOpenContact }) {
                   overflow: 'hidden',
                   position: 'relative',
                   flexShrink: 0,
-                  boxShadow: '0 4px 16px rgba(0, 0, 0, 0.4)',
+                  boxShadow: '0 8px 24px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(255, 255, 255, 0.3)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center'
                 }}
+                className="hero-sphere-badge"
               >
                 <ShaderSphere />
               </div>
@@ -356,11 +397,14 @@ export default function Hero({ onOpenContact }) {
               >
                 appliances
               </span>
-            </div>
+            </motion.div>
           </div>
 
           {/* Right Bottom Shimmer Availability Text */}
-          <div
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={isPreloaderActive ? { opacity: 0, x: 20 } : { opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
             style={{
               alignSelf: 'stretch',
               display: 'flex',
@@ -369,6 +413,7 @@ export default function Hero({ onOpenContact }) {
               width: '100%',
               marginTop: '4px'
             }}
+            className="hero-shimmer-container"
           >
             <div style={{ position: 'relative', userSelect: 'none' }}>
               <p
@@ -407,13 +452,16 @@ export default function Hero({ onOpenContact }) {
                 Genuine Warranties & Expert Doorstep Setup
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </motion.div>
 
       {/* Bottom Row Fixed Elements */}
       {/* 1. Bottom Left: Timezone */}
-      <div
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        animate={isPreloaderActive ? { opacity: 0, y: 15 } : { opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'absolute',
           bottom: '40px',
@@ -450,10 +498,13 @@ export default function Hero({ onOpenContact }) {
         >
           (Live Store Desk)
         </span>
-      </div>
+      </motion.div>
 
       {/* 2. Bottom Center: Subtitle Paragraph */}
-      <div
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        animate={isPreloaderActive ? { opacity: 0, y: 15 } : { opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'absolute',
           bottom: '40px',
@@ -479,10 +530,13 @@ export default function Hero({ onOpenContact }) {
         >
           Umang Electronics delivers premium home appliances, 4K entertainment systems, and precision kitchen equipment with certified manufacturer support.
         </p>
-      </div>
+      </motion.div>
 
       {/* 3. Bottom Right: Scroll Indicator */}
-      <div
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        animate={isPreloaderActive ? { opacity: 0, y: 15 } : { opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'absolute',
           bottom: '40px',
@@ -494,7 +548,7 @@ export default function Hero({ onOpenContact }) {
         }}
         className="hero-bottom-right"
       >
-        <div style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }}>
+        <div style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }} className="hero-scroll-text">
           <span
             style={{
               fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
@@ -519,6 +573,7 @@ export default function Hero({ onOpenContact }) {
             position: 'relative',
             overflow: 'hidden'
           }}
+          className="hero-scroll-line"
         >
           <motion.div
             animate={{ y: ['-100%', '100%'] }}
@@ -530,7 +585,7 @@ export default function Hero({ onOpenContact }) {
             }}
           />
         </div>
-      </div>
+      </motion.div>
 
       <style>{`
         @keyframes shimmer-Rdpc6mlp {
@@ -553,17 +608,79 @@ export default function Hero({ onOpenContact }) {
           animation: shimmer-Rdpc6mlp 3s linear infinite;
         }
 
-        @media (max-width: 810px) {
-          .hero-row-1, .hero-row-2, .hero-row-3 {
-            flex-wrap: wrap !important;
-            height: auto !important;
-            gap: 12px !important;
+        @media (max-width: 809.98px) {
+          #hero {
+            padding: 0 20px !important;
+            height: 100vh !important;
+            min-height: 640px !important;
           }
-          .hero-bottom-left, .hero-bottom-right {
+          .hero-badge-container {
+            justify-content: flex-start !important;
+            width: 100% !important;
+            margin-bottom: 4px !important;
+          }
+          .hero-badge-pill {
+            padding: 6px 12px !important;
+          }
+          .hero-badge-text {
+            font-size: 11px !important;
+          }
+          .hero-headline-stack {
+            width: 100% !important;
+          }
+          .hero-row-1, .hero-row-2, .hero-row-3 {
+            width: 100% !important;
+            justify-content: space-between !important;
+            gap: unset !important;
+            height: 58px !important;
+          }
+          .hero-row-1 span, .hero-row-2 span, .hero-row-3 span {
+            font-size: clamp(34px, 10vw, 44px) !important;
+            line-height: 58px !important;
+            letter-spacing: -1.3px !important;
+          }
+          .hero-preview-pill {
+            width: 64px !important;
+            height: 40px !important;
+            border-radius: 10px !important;
+          }
+          .hero-pill-tag {
             display: none !important;
           }
+          .hero-sphere-badge {
+            width: 40px !important;
+            height: 40px !important;
+          }
+          .hero-shimmer-container {
+            justify-content: flex-end !important;
+            width: 100% !important;
+            margin-top: 4px !important;
+          }
+          .hero-bottom-left {
+            display: none !important;
+          }
+          .hero-bottom-right {
+            bottom: 100px !important;
+            left: 50% !important;
+            right: unset !important;
+            transform: translateX(-50%) !important;
+          }
+          .hero-scroll-text {
+            display: none !important;
+          }
+          .hero-scroll-line {
+            height: 60px !important;
+          }
           .hero-bottom-center {
+            bottom: 24px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
             width: calc(100% - 40px) !important;
+            max-width: 350px !important;
+          }
+          .hero-bottom-center p {
+            font-size: 13px !important;
+            line-height: 18px !important;
           }
         }
       `}</style>

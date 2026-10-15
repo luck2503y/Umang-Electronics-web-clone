@@ -9,7 +9,7 @@ import FeaturedTemplates from '../components/FeaturedTemplates';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
 
-export default function Home({ onOpenContact }) {
+export default function Home({ onOpenContact, isPreloaderActive }) {
   useEffect(() => {
     document.title = "Umang Electronics — Premium Home Appliances & Entertainment";
     window.scrollTo(0, 0);
@@ -17,7 +17,7 @@ export default function Home({ onOpenContact }) {
 
   return (
     <main style={{ width: '100%' }}>
-      <Hero onOpenContact={onOpenContact} />
+      <Hero onOpenContact={onOpenContact} isPreloaderActive={isPreloaderActive} />
       <Playreel />
       <CategoriesOverview />
       <AboutSection />

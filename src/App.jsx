@@ -9,6 +9,8 @@ import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
 import Docs from './pages/Docs';
 
+import Preloader from './components/Preloader';
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -21,6 +23,7 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  const [showPreloader, setShowPreloader] = useState(true);
   const [contactModalOpen, setContactModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -57,17 +60,18 @@ export default function App() {
 
   return (
     <BrowserRouter>
+      {showPreloader && <Preloader onComplete={() => setShowPreloader(false)} />}
       <ScrollToTop />
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <Navbar onOpenContact={() => handleOpenContact()} />
 
         <div style={{ flex: 1 }}>
           <Routes>
-            <Route path="/" element={<Home onOpenContact={handleOpenContact} />} />
+            <Route path="/" element={<Home onOpenContact={handleOpenContact} isPreloaderActive={showPreloader} />} />
             <Route path="/products" element={<Products onOpenContact={handleOpenContact} />} />
             <Route path="/products/:id" element={<ProductDetail onOpenContact={handleOpenContact} />} />
             <Route path="/docs" element={<Docs onOpenContact={handleOpenContact} />} />
-            <Route path="*" element={<Home onOpenContact={handleOpenContact} />} />
+            <Route path="*" element={<Home onOpenContact={handleOpenContact} isPreloaderActive={showPreloader} />} />
           </Routes>
         </div>
 

@@ -8,28 +8,62 @@ export default function ShaderSphere() {
     const container = containerRef.current;
     if (!container) return;
 
-    // Scene, Camera, Renderer
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
-    camera.position.z = 2.4;
+    const width = container.clientWidth || 80;
+    const height = container.clientHeight || 80;
 
-    const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
-    renderer.setSize(80, 80);
+    // Scene & Camera
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100);
+    camera.position.z = 2.45;
+
+    const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true, powerPreference: 'high-performance' });
+    renderer.setSize(width, height);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.6;
     container.innerHTML = '';
     container.appendChild(renderer.domElement);
 
-    // Texture loader
-    const textureLoader = new THREE.TextureLoader();
-    const matcap = textureLoader.load('/assets/sfiqWotimlEFSa1M0NMY00Rlt7I.png');
+    // Dynamic Radiant Chrome Lighting
+    const ambientLight = new THREE.AmbientLight(0xffffff, 1.2);
+    scene.add(ambientLight);
 
-    // Create 3D Sphere
+    const keyLight = new THREE.DirectionalLight(0xffffff, 4.5);
+    keyLight.position.set(3, 4, 4);
+    scene.add(keyLight);
+
+    const rimLightBlue = new THREE.DirectionalLight(0x70a5ff, 3.5);
+    rimLightBlue.position.set(-4, -2, -2);
+    scene.add(rimLightBlue);
+
+    const topFill = new THREE.DirectionalLight(0xfff0dd, 2.5);
+    topFill.position.set(0, 5, 2);
+    scene.add(topFill);
+
+    const frontPoint = new THREE.PointLight(0xffffff, 2.8, 12);
+    frontPoint.position.set(0, 0, 3);
+    scene.add(frontPoint);
+
+    // Create 3D Faceted Tech Crystal / Sphere
     const geometry = new THREE.SphereGeometry(0.88, 64, 64);
-    const material = new THREE.MeshMatcapMaterial({
-      matcap: matcap,
+
+    // Procedural Polished Liquid Chrome Material
+    const material = new THREE.MeshPhysicalMaterial({
+      color: new THREE.Color(0xf0f4ff),
+      metalness: 0.96,
+      roughness: 0.08,
+      clearcoat: 1.0,
+      clearcoatRoughness: 0.06,
+      reflectivity: 1.0,
+      iridescence: 0.95,
+      iridescenceIOR: 1.65,
+      iridescenceThicknessRange: [150, 450],
+      sheen: 0.5,
+      sheenColor: new THREE.Color(0xaaccff)
     });
-    const sphere = new THREE.Mesh(geometry, material);
-    scene.add(sphere);
+
+    const mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
 
     let mouseX = 0;
     let mouseY = 0;
@@ -46,19 +80,34 @@ export default function ShaderSphere() {
 
     window.addEventListener('mousemove', handleMouseMove);
 
+    // Resize observer
+    const resizeObserver = new ResizeObserver(() => {
+      if (!container) return;
+      const w = container.clientWidth || 80;
+      const h = container.clientHeight || 80;
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+      renderer.setSize(w, h);
+    });
+    resizeObserver.observe(container);
+
     let animationFrameId;
+    let clock = new THREE.Clock();
+
     const animate = () => {
       animationFrameId = requestAnimationFrame(animate);
+      const elapsed = clock.getElapsedTime();
 
-      // Smooth rotation & mouse follow
-      sphere.rotation.y += 0.015;
-      sphere.rotation.x += 0.008;
+      // Smooth auto rotation
+      mesh.rotation.y = elapsed * 0.7;
+      mesh.rotation.x = Math.sin(elapsed * 0.45) * 0.28;
 
-      mouseX += (targetX - mouseX) * 0.05;
-      mouseY += (targetY - mouseY) * 0.05;
+      // Mouse inertia follow
+      mouseX += (targetX - mouseX) * 0.08;
+      mouseY += (targetY - mouseY) * 0.08;
 
-      sphere.position.x = mouseX * 0.15;
-      sphere.position.y = mouseY * 0.15;
+      mesh.position.x = mouseX * 0.12;
+      mesh.position.y = mouseY * 0.12;
 
       renderer.render(scene, camera);
     };
@@ -67,6 +116,7 @@ export default function ShaderSphere() {
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
+      resizeObserver.disconnect();
       cancelAnimationFrame(animationFrameId);
       geometry.dispose();
       material.dispose();
@@ -81,13 +131,13 @@ export default function ShaderSphere() {
     <div
       ref={containerRef}
       style={{
-        width: '80px',
-        height: '80px',
-        display: 'inline-flex',
+        width: '100%',
+        height: '100%',
+        display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        verticalAlign: 'middle',
-        cursor: 'grab'
+        cursor: 'grab',
+        filter: 'drop-shadow(0 4px 16px rgba(100, 160, 255, 0.4))'
       }}
     />
   );
