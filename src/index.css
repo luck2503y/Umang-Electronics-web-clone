@@ -92,8 +92,8 @@
 }
 
 html, body {
-  background-color: var(--token-bg-light);
-  color: var(--token-text-dark);
+  background-color: #000000;
+  color: #ffffff;
   font-family: "TWK Lausanne 400", "TWK Lausanne", -apple-system, BlinkMacSystemFont, sans-serif;
   overflow-x: clip;
   width: 100%;

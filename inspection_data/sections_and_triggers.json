@@ -1,0 +1,836 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Section - Hero",
+      "top": 0,
+      "height": 900
+    },
+    {
+      "id": "playreel",
+      "name": "Section - Playreel",
+      "top": 900,
+      "height": 900
+    },
+    {
+      "id": "introductions",
+      "name": "Section - Introduction",
+      "top": 1800,
+      "height": 1092
+    },
+    {
+      "id": "service",
+      "name": "Section - Services",
+      "top": 2892,
+      "height": 2700
+    },
+    {
+      "id": "testimonial",
+      "name": "Section - Testimonial",
+      "top": 5592,
+      "height": 2700
+    },
+    {
+      "id": "templates",
+      "name": "Section - Templates",
+      "top": 8292,
+      "height": 4500
+    },
+    {
+      "id": "faq",
+      "name": "Section - FAQ",
+      "top": 12792,
+      "height": 1135
+    },
+    {
+      "id": "",
+      "name": "Section - CTA",
+      "top": 13927,
+      "height": 990
+    }
+  ],
+  "scrollTriggers": [
+    {
+      "y": 0,
+      "count": 212,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 300,
+      "count": 213,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 600,
+      "count": 213,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 900,
+      "count": 208,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 1200,
+      "count": 208,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 1500,
+      "count": 208,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 1800,
+      "count": 216,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 2100,
+      "count": 208,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 2400,
+      "count": 208,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 2700,
+      "count": 208,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 3000,
+      "count": 206,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 3300,
+      "count": 208,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 3600,
+      "count": 311,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 3900,
+      "count": 277,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 4200,
+      "count": 239,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 4500,
+      "count": 254,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    },
+    {
+      "y": 4800,
+      "count": 249,
+      "samples": [
+        {
+          "name": "Desktop-2",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "mask: none; height: 100%; width: 100%; opacity: 1;"
+        },
+        {
+          "name": "Mask",
+          "text": "100%\n\n100%\n\nKOTA Studio",
+          "style": "background-color: var(--token-108c6f59-1499-42b0-b48f-163362335342, rgb(0, 0, 0)); mask: linear-grad"
+        },
+        {
+          "name": "Intro-1",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-2",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-3",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-4",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-5",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        },
+        {
+          "name": "Intro-6",
+          "text": "",
+          "style": "will-change: transform; height: auto; aspect-ratio: 1.6 / 1; opacity: 1; transform: translate(-50%, "
+        }
+      ]
+    }
+  ]
+}

@@ -1,44 +1,137 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import ShaderSphere from './ShaderSphere';
-
-const pillProducts = [
-  { title: 'Smart 4K TV', image: '/assets/hero_pill/smart-tv.webp', tag: 'Smart 4K' },
-  { title: 'Hi-Fi Soundbar', image: '/assets/hero_pill/soundbar.webp', tag: 'Dolby Audio' },
-  { title: 'Digital Air Fryer', image: '/assets/hero_pill/air-fryer.webp', tag: 'Rapid 360°' },
-  { title: 'Microwave Oven', image: '/assets/hero_pill/microwave.webp', tag: 'Smart Sensor' },
-  { title: 'Air Purifier', image: '/assets/hero_pill/air-purifier.webp', tag: 'True HEPA' },
-  { title: 'Inverter AC', image: '/assets/hero_pill/air-conditioner.webp', tag: '5-Star Inverter' },
-  { title: 'Smart Refrigerator', image: '/assets/hero_pill/refrigerator.webp', tag: 'Twin Cooling' }
-];
 
 export default function Hero({ onOpenContact, isPreloaderActive = false }) {
   const [currentTime, setCurrentTime] = useState('');
-  const [activePillIdx, setActivePillIdx] = useState(0);
   const { scrollY } = useScroll();
 
-  const heroOpacity = useTransform(scrollY, [0, 450], [1, 0]);
-  const heroY = useTransform(scrollY, [0, 450], [0, -60]);
-  const heroScale = useTransform(scrollY, [0, 450], [1, 0.96]);
   const bgY = useTransform(scrollY, [0, 600], [0, 90]);
+  const bottomOpacity = useTransform(scrollY, [0, 250], [1, 0]);
 
-  // Preload all pill images to guarantee instantaneous rendering
+  const pillAnchorRef = useRef(null);
+  const videoContainerRef = useRef(null);
+  const overlayRef = useRef(null);
+  const videoRef = useRef(null);
+
+  // High-performance 60fps RAF scroll expansion matching Framer's exact math
   useEffect(() => {
-    pillProducts.forEach((p) => {
-      const img = new Image();
-      img.src = p.image;
-    });
+    let animFrameId = null;
+    let cachedAnchor = null;
+
+    const measureAnchor = () => {
+      const anchor = pillAnchorRef.current;
+      if (!anchor) return;
+      const rect = anchor.getBoundingClientRect();
+      const currentScroll = window.scrollY || window.pageYOffset;
+      cachedAnchor = {
+        left: rect.left,
+        top: rect.top + currentScroll,
+        width: rect.width,
+        height: rect.height
+      };
+    };
+
+    measureAnchor();
+    window.addEventListener('resize', measureAnchor);
+
+    const update = () => {
+      animFrameId = null;
+      const heroVid = videoContainerRef.current;
+      const overlay = overlayRef.current;
+      const playreel = document.getElementById('playreel');
+      if (!heroVid || !playreel) return;
+
+      if (!cachedAnchor) measureAnchor();
+      if (!cachedAnchor) return;
+
+      const playreelRect = playreel.getBoundingClientRect();
+      const vh = window.innerHeight;
+      const vw = window.innerWidth;
+
+      // Exact Framer motion scroll formula:
+      // Ic(playreelRect, vh) => (vh - playreelRect.top) / vh, clamped [0, 1]
+      const progress = vh <= 0 ? 0 : Math.min(1, Math.max(0, (vh - playreelRect.top) / vh));
+
+      if (progress <= 0) {
+        // Natural relative placement inside Hero Row 2
+        heroVid.style.position = 'relative';
+        heroVid.style.left = '0px';
+        heroVid.style.top = '0px';
+        heroVid.style.width = '100%';
+        heroVid.style.height = '100%';
+        heroVid.style.borderRadius = '16px';
+        heroVid.style.zIndex = '5';
+        heroVid.style.pointerEvents = 'auto';
+        heroVid.style.transform = 'none';
+        if (overlay) overlay.style.opacity = '0';
+      } else {
+        const isMobile = vw < 810;
+        const initialRadius = isMobile ? 10 : 16;
+
+        // Exact Framer linear coordinate interpolation:
+        // left: a.left + (r.left - a.left) * progress, where r.left = 0
+        const curLeft = cachedAnchor.left * (1 - progress);
+
+        // top: lerps from a.top to playreelRect.top until progress=1;
+        // when progress >= 1, locks directly to playreelRect.top so it scrolls up naturally
+        const curTop = progress >= 1
+          ? playreelRect.top
+          : cachedAnchor.top + (playreelRect.top - cachedAnchor.top) * progress;
+
+        const curWidth = cachedAnchor.width + (vw - cachedAnchor.width) * progress;
+        const curHeight = cachedAnchor.height + (vh - cachedAnchor.height) * progress;
+        const curRadius = (1 - progress) * initialRadius;
+
+        heroVid.style.position = 'fixed';
+        heroVid.style.left = `${curLeft}px`;
+        heroVid.style.top = `${curTop}px`;
+        heroVid.style.width = `${curWidth}px`;
+        heroVid.style.height = `${curHeight}px`;
+        heroVid.style.borderRadius = `${curRadius}px`;
+        heroVid.style.zIndex = '7';
+        heroVid.style.pointerEvents = 'none';
+        heroVid.style.overflow = 'hidden';
+        heroVid.style.willChange = 'left, top, width, height, border-radius';
+
+        if (overlay) {
+          overlay.style.opacity = `${progress}`;
+        }
+      }
+
+      // Simultaneously update Playreel typography & play button scale
+      const playX = -300 * (1 - progress);
+      const reelX = 300 * (1 - progress);
+      const btnScale = 0.5 + 0.5 * progress;
+
+      const playEl = document.getElementById('playreel-text-play');
+      const reelEl = document.getElementById('playreel-text-reel');
+      const timeEl = document.getElementById('playreel-text-time');
+      const copyEl = document.getElementById('playreel-text-copy');
+      const btnEl = document.getElementById('5czkxl');
+
+      if (playEl) playEl.style.transform = `translateX(${playX}px)`;
+      if (timeEl) timeEl.style.transform = `translateX(${playX}px)`;
+      if (reelEl) reelEl.style.transform = `translateX(${reelX}px)`;
+      if (copyEl) copyEl.style.transform = `translateX(${reelX}px)`;
+      if (btnEl) btnEl.style.transform = `scale(${btnScale})`;
+    };
+
+    const onScroll = () => {
+      if (animFrameId === null) {
+        animFrameId = requestAnimationFrame(update);
+      }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    update();
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', measureAnchor);
+      if (animFrameId !== null) cancelAnimationFrame(animFrameId);
+    };
   }, []);
-
-  // Cycle preview pill products only after preloader finishes
-  useEffect(() => {
-    if (isPreloaderActive) return;
-
-    const pillTimer = setInterval(() => {
-      setActivePillIdx(prev => (prev + 1) % pillProducts.length);
-    }, 3200);
-    return () => clearInterval(pillTimer);
-  }, [isPreloaderActive]);
 
   useEffect(() => {
     const updateTime = () => {
@@ -102,8 +195,8 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
         />
       </motion.div>
 
-      {/* Main Center Content Container with Parallax Scroll Transition */}
-      <motion.div
+      {/* Main Center Content Container */}
+      <div
         style={{
           position: 'relative',
           zIndex: 4,
@@ -112,10 +205,7 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          justifyContent: 'center',
-          opacity: heroOpacity,
-          y: heroY,
-          scale: heroScale
+          justifyContent: 'center'
         }}
       >
         {/* Header Block matching original dimensions */}
@@ -129,10 +219,7 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
           }}
         >
           {/* Authorized Electronics Destination Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: -16, filter: 'blur(6px)' }}
-            animate={isPreloaderActive ? { opacity: 0, y: -16, filter: 'blur(6px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
-            transition={{ duration: 0.8, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
+          <div
             style={{
               alignSelf: 'stretch',
               display: 'flex',
@@ -175,7 +262,7 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
                 Authorized Consumer Electronics & Home Appliances
               </span>
             </div>
-          </motion.div>
+          </div>
 
           {/* Main 3-Row Headline Stack */}
           <div
@@ -190,10 +277,7 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             className="hero-headline-stack"
           >
             {/* ROW 1: Powering homes [gap 56px] with */}
-            <motion.div
-              initial={{ opacity: 0, y: 35, filter: 'blur(8px)' }}
-              animate={isPreloaderActive ? { opacity: 0, y: 35, filter: 'blur(8px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
-              transition={{ duration: 0.85, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+            <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -229,13 +313,10 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
               >
                 with
               </span>
-            </motion.div>
+            </div>
 
             {/* ROW 2: [Embedded Video width 142px] [gap 16px] cutting — edge */}
-            <motion.div
-              initial={{ opacity: 0, y: 35, filter: 'blur(8px)' }}
-              animate={isPreloaderActive ? { opacity: 0, y: 35, filter: 'blur(8px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
-              transition={{ duration: 0.85, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
+            <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -245,81 +326,64 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
               }}
               className="hero-row-2"
             >
-              {/* Embedded Hero Electronics Showcase Pill */}
+              {/* Embedded Hero Video Pill Anchor */}
               <div
+                ref={pillAnchorRef}
+                id="hero-video-anchor"
                 style={{
                   width: '142px',
                   height: '80px',
                   borderRadius: '16px',
-                  overflow: 'hidden',
                   position: 'relative',
-                  backgroundColor: '#0a0a0d',
-                  backgroundImage: `url(${pillProducts[0].image})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  border: '1.5px solid rgba(255, 255, 255, 0.28)',
-                  boxShadow: '0 8px 30px rgba(0, 0, 0, 0.7), inset 0 1px 2px rgba(255, 255, 255, 0.3)',
                   flexShrink: 0
                 }}
                 className="hero-preview-pill"
               >
-                <AnimatePresence initial={false}>
-                  <motion.div
-                    key={activePillIdx}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                <div
+                  ref={videoContainerRef}
+                  id="hero-video"
+                  data-framer-name="onDesktop"
+                  style={{
+                    position: 'relative',
+                    width: '100%',
+                    height: '100%',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    backgroundColor: '#0a0a0d',
+                    border: '1.5px solid rgba(255, 255, 255, 0.28)',
+                    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.7), inset 0 1px 2px rgba(255, 255, 255, 0.3)',
+                    transform: 'none'
+                  }}
+                >
+                  <video
+                    ref={videoRef}
+                    src="https://stream.mux.com/921N3eqnEGvaG6c735ET923SDF5OMbSeYls00HTIQ2Cg/1080p.mp4"
+                    poster="https://image.mux.com/921N3eqnEGvaG6c735ET923SDF5OMbSeYls00HTIQ2Cg/thumbnail.webp"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    preload="auto"
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                      display: 'block'
+                    }}
+                  />
+                  <div
+                    ref={overlayRef}
+                    id="hero-video-overlay"
+                    data-framer-name="Video Scale Overlay"
                     style={{
                       position: 'absolute',
                       inset: 0,
-                      width: '100%',
-                      height: '100%'
+                      background: 'linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.6) 100%)',
+                      opacity: 0,
+                      pointerEvents: 'none'
                     }}
-                  >
-                    <img
-                      src={pillProducts[activePillIdx].image}
-                      alt={pillProducts[activePillIdx].title}
-                      style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                        objectPosition: 'center center',
-                        display: 'block'
-                      }}
-                    />
-                    <div
-                      style={{
-                        position: 'absolute',
-                        inset: 0,
-                        background: 'linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 45%, rgba(255,255,255,0.06) 100%)',
-                        pointerEvents: 'none'
-                      }}
-                    />
-                    <span
-                      style={{
-                        position: 'absolute',
-                        bottom: '5px',
-                        left: '6px',
-                        fontSize: '9px',
-                        fontWeight: '600',
-                        letterSpacing: '0.04em',
-                        textTransform: 'uppercase',
-                        color: 'rgba(255, 255, 255, 0.95)',
-                        backgroundColor: 'rgba(0, 0, 0, 0.72)',
-                        backdropFilter: 'blur(6px)',
-                        padding: '2px 6px',
-                        borderRadius: '4px',
-                        border: '1px solid rgba(255, 255, 255, 0.2)',
-                        pointerEvents: 'none',
-                        lineHeight: '1.2'
-                      }}
-                      className="hero-pill-tag"
-                    >
-                      {pillProducts[activePillIdx].tag}
-                    </span>
-                  </motion.div>
-                </AnimatePresence>
+                  />
+                </div>
               </div>
 
               <span
@@ -335,13 +399,10 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
               >
                 cutting — edge
               </span>
-            </motion.div>
+            </div>
 
             {/* ROW 3: smart [Rotating Sphere 80px] appliances */}
-            <motion.div
-              initial={{ opacity: 0, y: 35, filter: 'blur(8px)' }}
-              animate={isPreloaderActive ? { opacity: 0, y: 35, filter: 'blur(8px)' } : { opacity: 1, y: 0, filter: 'blur(0px)' }}
-              transition={{ duration: 0.85, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
+            <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -397,13 +458,13 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
               >
                 appliances
               </span>
-            </motion.div>
+            </div>
           </div>
 
           {/* Right Bottom Shimmer Availability Text */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
-            animate={isPreloaderActive ? { opacity: 0, x: 20 } : { opacity: 1, x: 0 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
             style={{
               alignSelf: 'stretch',
@@ -454,13 +515,13 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             </div>
           </motion.div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Bottom Row Fixed Elements */}
       {/* 1. Bottom Left: Timezone */}
       <motion.div
         initial={{ opacity: 0, y: 15 }}
-        animate={isPreloaderActive ? { opacity: 0, y: 15 } : { opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'absolute',
@@ -469,7 +530,8 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
           zIndex: 9,
           display: 'flex',
           alignItems: 'center',
-          gap: '6px'
+          gap: '6px',
+          opacity: bottomOpacity
         }}
         className="hero-bottom-left"
       >
@@ -503,7 +565,7 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
       {/* 2. Bottom Center: Subtitle Paragraph */}
       <motion.div
         initial={{ opacity: 0, y: 15 }}
-        animate={isPreloaderActive ? { opacity: 0, y: 15 } : { opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'absolute',
@@ -513,7 +575,8 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
           zIndex: 9,
           textAlign: 'center',
           maxWidth: '520px',
-          width: 'calc(100% - 320px)'
+          width: 'calc(100% - 320px)',
+          opacity: bottomOpacity
         }}
         className="hero-bottom-center"
       >
@@ -535,7 +598,7 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
       {/* 3. Bottom Right: Scroll Indicator */}
       <motion.div
         initial={{ opacity: 0, y: 15 }}
-        animate={isPreloaderActive ? { opacity: 0, y: 15 } : { opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'absolute',
@@ -544,7 +607,8 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
           zIndex: 9,
           display: 'flex',
           alignItems: 'center',
-          gap: '12px'
+          gap: '12px',
+          opacity: bottomOpacity
         }}
         className="hero-bottom-right"
       >
@@ -639,13 +703,10 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             line-height: 58px !important;
             letter-spacing: -1.3px !important;
           }
-          .hero-preview-pill {
+          #hero-video-anchor, .hero-preview-pill {
             width: 64px !important;
             height: 40px !important;
             border-radius: 10px !important;
-          }
-          .hero-pill-tag {
-            display: none !important;
           }
           .hero-sphere-badge {
             width: 40px !important;

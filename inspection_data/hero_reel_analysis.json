@@ -1,0 +1,662 @@
+{
+  "names": [
+    {
+      "name": "Desktop-2",
+      "tag": "DIV",
+      "className": "framer-ciqOo framer-BgTXn framer-crake3 framer-v-1ud6t3t",
+      "id": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "name": "Mask",
+      "tag": "DIV",
+      "className": "framer-183zful",
+      "id": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "top": 0,
+        "right": 1440,
+        "bottom": 900,
+        "left": 0
+      }
+    },
+    {
+      "name": "Intro-1",
+      "tag": "DIV",
+      "className": "framer-i8icsu",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Intro-2",
+      "tag": "DIV",
+      "className": "framer-1li48ov",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Intro-3",
+      "tag": "DIV",
+      "className": "framer-17j0eho",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Intro-4",
+      "tag": "DIV",
+      "className": "framer-bkuy7q",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Intro-5",
+      "tag": "DIV",
+      "className": "framer-1eucjwu",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Intro-6",
+      "tag": "DIV",
+      "className": "framer-1ne3oib",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Intro-7",
+      "tag": "DIV",
+      "className": "framer-7lv5r1",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Intro-8",
+      "tag": "DIV",
+      "className": "framer-1itl6wv",
+      "id": "",
+      "rect": {
+        "x": 420,
+        "y": 262.5,
+        "width": 600,
+        "height": 375,
+        "top": 262.5,
+        "right": 1020,
+        "bottom": 637.5,
+        "left": 420
+      }
+    },
+    {
+      "name": "Desktop - On Dark",
+      "tag": "NAV",
+      "className": "framer-1FL2X framer-1vcwn4w framer-v-1vcwn4w",
+      "id": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 84,
+        "top": 0,
+        "right": 1440,
+        "bottom": 84,
+        "left": 0
+      }
+    },
+    {
+      "name": "Container",
+      "tag": "DIV",
+      "className": "framer-19s28ld",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 0,
+        "width": 1360,
+        "height": 84,
+        "top": 0,
+        "right": 1400,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "Dark - Large",
+      "tag": "A",
+      "className": "framer-w6ANJ framer-te6vR framer-1mnucix framer-v-1mnucix framer-7m6jog",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 32,
+        "width": 123.984375,
+        "height": 52,
+        "top": 32,
+        "right": 163.984375,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "Button",
+      "tag": "DIV",
+      "className": "framer-up0jk5",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 32,
+        "width": 123.984375,
+        "height": 52,
+        "top": 32,
+        "right": 163.984375,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "On Dark",
+      "tag": "DIV",
+      "className": "framer-GBP2G framer-3cyfrz framer-v-3cyfrz",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 32,
+        "width": 123.984375,
+        "height": 52,
+        "top": 32,
+        "right": 163.984375,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "fill + shadow",
+      "tag": "DIV",
+      "className": "framer-1ahjgix",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 32,
+        "width": 123.984375,
+        "height": 52,
+        "top": 32,
+        "right": 163.984375,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "fog",
+      "tag": "DIV",
+      "className": "framer-d9lhr",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 32,
+        "width": 123.984375,
+        "height": 52,
+        "top": 32,
+        "right": 163.984375,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "inner shadow",
+      "tag": "DIV",
+      "className": "framer-fhx09m",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 32,
+        "width": 123.984375,
+        "height": 52,
+        "top": 32,
+        "right": 163.984375,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "highlights",
+      "tag": "DIV",
+      "className": "framer-1k2vii9",
+      "id": "",
+      "rect": {
+        "x": 40,
+        "y": 32,
+        "width": 123.984375,
+        "height": 52,
+        "top": 32,
+        "right": 163.984375,
+        "bottom": 84,
+        "left": 40
+      }
+    },
+    {
+      "name": "Actions",
+      "tag": "DIV",
+      "className": "framer-1mckyw6",
+      "id": "",
+      "rect": {
+        "x": 719.5,
+        "y": 31.953125,
+        "width": 1,
+        "height": 52,
+        "top": 31.953125,
+        "right": 720.5,
+        "bottom": 83.953125,
+        "left": 719.5
+      }
+    },
+    {
+      "name": "On Dark - Close",
+      "tag": "DIV",
+      "className": "framer-s2SLl framer-15bjvvb framer-v-hcchl3",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "Dark - Default",
+      "tag": "DIV",
+      "className": "framer-04SIw framer-ctqart framer-v-ctqart",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "Menu",
+      "tag": "DIV",
+      "className": "framer-u0jsdb",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "On Dark",
+      "tag": "DIV",
+      "className": "framer-GBP2G framer-3cyfrz framer-v-3cyfrz",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "fill + shadow",
+      "tag": "DIV",
+      "className": "framer-1ahjgix",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "fog",
+      "tag": "DIV",
+      "className": "framer-d9lhr",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "inner shadow",
+      "tag": "DIV",
+      "className": "framer-fhx09m",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "highlights",
+      "tag": "DIV",
+      "className": "framer-1k2vii9",
+      "id": "",
+      "rect": {
+        "x": 694,
+        "y": 31.953125,
+        "width": 52,
+        "height": 52,
+        "top": 31.953125,
+        "right": 746,
+        "bottom": 83.953125,
+        "left": 694
+      }
+    },
+    {
+      "name": "Default",
+      "tag": "DIV",
+      "className": "framer-5XE3Z framer-1dj1joc framer-v-1dj1joc",
+      "id": "",
+      "rect": {
+        "x": 710,
+        "y": 47.953125,
+        "width": 20,
+        "height": 20,
+        "top": 47.953125,
+        "right": 730,
+        "bottom": 67.953125,
+        "left": 710
+      }
+    },
+    {
+      "name": "Bottom",
+      "tag": "DIV",
+      "className": "framer-1lwg51d",
+      "id": "",
+      "rect": {
+        "x": 712.5,
+        "y": 60.953125,
+        "width": 15,
+        "height": 1,
+        "top": 60.953125,
+        "right": 727.5,
+        "bottom": 61.953125,
+        "left": 712.5
+      }
+    },
+    {
+      "name": "Top",
+      "tag": "DIV",
+      "className": "framer-h8lx5v",
+      "id": "",
+      "rect": {
+        "x": 712.5,
+        "y": 53.953125,
+        "width": 15,
+        "height": 2,
+        "top": 53.953125,
+        "right": 727.5,
+        "bottom": 55.953125,
+        "left": 712.5
+      }
+    },
+    {
+      "name": "On Dark - OUT",
+      "tag": "DIV",
+      "className": "framer-K2mu7 framer-1ihpro4 framer-v-19w1ce",
+      "id": "",
+      "rect": {
+        "x": 532.7999877929688,
+        "y": 110.953125,
+        "width": 374.4000244140625,
+        "height": 270,
+        "top": 110.953125,
+        "right": 907.2000122070312,
+        "bottom": 380.953125,
+        "left": 532.7999877929688
+      }
+    },
+    {
+      "name": "fill + shadow",
+      "tag": "DIV",
+      "className": "framer-4g01dg",
+      "id": "",
+      "rect": {
+        "x": 532.7999877929688,
+        "y": 110.953125,
+        "width": 374.4000244140625,
+        "height": 270,
+        "top": 110.953125,
+        "right": 907.2000122070312,
+        "bottom": 380.953125,
+        "left": 532.7999877929688
+      }
+    },
+    {
+      "name": "the fog",
+      "tag": "DIV",
+      "className": "framer-11g1p9",
+      "id": "",
+      "rect": {
+        "x": 532.7999877929688,
+        "y": 110.953125,
+        "width": 374.4000244140625,
+        "height": 270,
+        "top": 110.953125,
+        "right": 907.2000122070312,
+        "bottom": 380.953125,
+        "left": 532.7999877929688
+      }
+    },
+    {
+      "name": "inner shadows",
+      "tag": "DIV",
+      "className": "framer-2qm28g",
+      "id": "",
+      "rect": {
+        "x": 532.7999877929688,
+        "y": 110.953125,
+        "width": 374.4000244140625,
+        "height": 270,
+        "top": 110.953125,
+        "right": 907.2000122070312,
+        "bottom": 380.953125,
+        "left": 532.7999877929688
+      }
+    },
+    {
+      "name": "highlights",
+      "tag": "DIV",
+      "className": "framer-15n13nh",
+      "id": "",
+      "rect": {
+        "x": 532.7999877929688,
+        "y": 110.953125,
+        "width": 374.4000244140625,
+        "height": 270,
+        "top": 110.953125,
+        "right": 907.2000122070312,
+        "bottom": 380.953125,
+        "left": 532.7999877929688
+      }
+    },
+    {
+      "name": "On Dark",
+      "tag": "A",
+      "className": "framer-D3m9b framer-omQih framer-1n13i4p framer-v-1n13i4p framer-ksxelh",
+      "id": "",
+      "rect": {
+        "x": 1251.578125,
+        "y": 32,
+        "width": 148.421875,
+        "height": 52,
+        "top": 32,
+        "right": 1400,
+        "bottom": 84,
+        "left": 1251.578125
+      }
+    },
+    {
+      "name": "Button",
+      "tag": "DIV",
+      "className": "framer-1stjw0m",
+      "id": "",
+      "rect": {
+        "x": 1251.578125,
+        "y": 32,
+        "width": 148.421875,
+        "height": 52,
+        "top": 32,
+        "right": 1400,
+        "bottom": 84,
+        "left": 1251.578125
+      }
+    },
+    {
+      "name": "On Dark",
+      "tag": "DIV",
+      "className": "framer-GBP2G framer-3cyfrz framer-v-3cyfrz",
+      "id": "",
+      "rect": {
+        "x": 1251.578125,
+        "y": 32,
+        "width": 148.421875,
+        "height": 52,
+        "top": 32,
+        "right": 1400,
+        "bottom": 84,
+        "left": 1251.578125
+      }
+    },
+    {
+      "name": "fill + shadow",
+      "tag": "DIV",
+      "className": "framer-1ahjgix",
+      "id": "",
+      "rect": {
+        "x": 1251.578125,
+        "y": 32,
+        "width": 148.421875,
+        "height": 52,
+        "top": 32,
+        "right": 1400,
+        "bottom": 84,
+        "left": 1251.578125
+      }
+    }
+  ],
+  "playReelContainerInfo": [
+    {
+      "name": null,
+      "tag": "HTML",
+      "className": "lenis lenis-autoToggle",
+      "style": null,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 15568,
+        "top": 0,
+        "right": 1440,
+        "bottom": 15568,
+        "left": 0
+      }
+    }
+  ]
+}

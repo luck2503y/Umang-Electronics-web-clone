@@ -1,0 +1,5474 @@
+[
+  {
+    "scrollY": 0,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": 0,
+          "bottom": 900,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": 820,
+          "bottom": 860,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": 770.3046875,
+          "bottom": 859.6953125,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": 0,
+          "bottom": 900,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": 900,
+          "bottom": 1800,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "framer-yhnnzu",
+        "tag": "DIV",
+        "rect": {
+          "top": 1302,
+          "bottom": 1398,
+          "width": 200,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-yhnnzu"
+      },
+      {
+        "name": "framer-5czkxl-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 1330,
+          "bottom": 1370,
+          "width": 90,
+          "height": 40
+        },
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-5czkxl-container"
+      },
+      {
+        "name": "framer-of2eat",
+        "tag": "DIV",
+        "rect": {
+          "top": 1302,
+          "bottom": 1398,
+          "width": 198.140625,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-of2eat"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 2056,
+          "bottom": 2108,
+          "width": 25.546875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 200,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -200,
+          "bottom": 700,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": 620,
+          "bottom": 660,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0.554566",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": 570.3046875,
+          "bottom": 659.6953125,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -200,
+          "bottom": 700,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -220,
+          "bottom": 680,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -20)",
+        "opacity": "0.554566",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": 700,
+          "bottom": 1600,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "framer-yhnnzu",
+        "tag": "DIV",
+        "rect": {
+          "top": 1102,
+          "bottom": 1198,
+          "width": 200.00001525878906,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, -233.259, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-yhnnzu"
+      },
+      {
+        "name": "framer-5czkxl-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 1125.5506591796875,
+          "bottom": 1174.4493408203125,
+          "width": 110.022216796875,
+          "height": 48.898681640625
+        },
+        "transform": "matrix(0.611235, 0, 0, 0.611235, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-5czkxl-container"
+      },
+      {
+        "name": "framer-of2eat",
+        "tag": "DIV",
+        "rect": {
+          "top": 1102,
+          "bottom": 1198,
+          "width": 198.140625,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, 233.259, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-of2eat"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1856,
+          "bottom": 1908,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 400,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -400,
+          "bottom": 500,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": 420,
+          "bottom": 460,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0.109131",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": 370.3046875,
+          "bottom": 459.6953125,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -400,
+          "bottom": 500,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -440,
+          "bottom": 460,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -40)",
+        "opacity": "0.109131",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": 500,
+          "bottom": 1400,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "framer-yhnnzu",
+        "tag": "DIV",
+        "rect": {
+          "top": 902,
+          "bottom": 998,
+          "width": 199.99998474121094,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, -166.518, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-yhnnzu"
+      },
+      {
+        "name": "framer-5czkxl-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 921.1011962890625,
+          "bottom": 978.8988037109375,
+          "width": 130.04443359375,
+          "height": 57.797607421875
+        },
+        "transform": "matrix(0.722469, 0, 0, 0.722469, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-5czkxl-container"
+      },
+      {
+        "name": "framer-of2eat",
+        "tag": "DIV",
+        "rect": {
+          "top": 902,
+          "bottom": 998,
+          "width": 198.14056396484375,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, 166.518, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-of2eat"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1656,
+          "bottom": 1708,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 600,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -600,
+          "bottom": 300,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": 220,
+          "bottom": 260,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": 170.3046875,
+          "bottom": 259.6953125,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -600,
+          "bottom": 300,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -660,
+          "bottom": 240,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -60)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": 300,
+          "bottom": 1200,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "framer-yhnnzu",
+        "tag": "DIV",
+        "rect": {
+          "top": 702,
+          "bottom": 798,
+          "width": 200,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, -99.7775, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-yhnnzu"
+      },
+      {
+        "name": "framer-5czkxl-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 716.65185546875,
+          "bottom": 783.34814453125,
+          "width": 150.0667724609375,
+          "height": 66.6962890625
+        },
+        "transform": "matrix(0.833704, 0, 0, 0.833704, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-5czkxl-container"
+      },
+      {
+        "name": "framer-of2eat",
+        "tag": "DIV",
+        "rect": {
+          "top": 702,
+          "bottom": 798,
+          "width": 198.14068603515625,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, 99.7775, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-of2eat"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1456,
+          "bottom": 1508,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 800,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -800,
+          "bottom": 100,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": 20,
+          "bottom": 60,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -29.6953125,
+          "bottom": 59.6953125,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -800,
+          "bottom": 100,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -880,
+          "bottom": 20,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -80)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": 100,
+          "bottom": 1000,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "framer-yhnnzu",
+        "tag": "DIV",
+        "rect": {
+          "top": 502,
+          "bottom": 598,
+          "width": 199.99996948242188,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, -33.0367, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-yhnnzu"
+      },
+      {
+        "name": "framer-5czkxl-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 512.2024536132812,
+          "bottom": 587.7975463867188,
+          "width": 170.0889892578125,
+          "height": 75.5950927734375
+        },
+        "transform": "matrix(0.944939, 0, 0, 0.944939, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-5czkxl-container"
+      },
+      {
+        "name": "framer-of2eat",
+        "tag": "DIV",
+        "rect": {
+          "top": 502,
+          "bottom": 598,
+          "width": 198.140625,
+          "height": 96
+        },
+        "transform": "matrix(1, 0, 0, 1, 33.0367, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-of2eat"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1256,
+          "bottom": 1308,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 1000,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1000,
+          "bottom": -100,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": -180,
+          "bottom": -140,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -229.6953125,
+          "bottom": -140.3046875,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1000,
+          "bottom": -100,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -1100,
+          "bottom": -200,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -100)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": -100,
+          "bottom": 800,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 25.546875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 21.984375,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 1056,
+          "bottom": 1108,
+          "width": 25.546875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 1200,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1200,
+          "bottom": -300,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": -380,
+          "bottom": -340,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -429.6953125,
+          "bottom": -340.3046875,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1200,
+          "bottom": -300,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -1320,
+          "bottom": -420,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -120)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": -300,
+          "bottom": 600,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 25.546875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 21.984375,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 856,
+          "bottom": 908,
+          "width": 25.546875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 1500,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 110.953125,
+          "bottom": 380.953125,
+          "width": 374.4000244140625,
+          "height": 270
+        },
+        "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1500,
+          "bottom": -600,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": -680,
+          "bottom": -640,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -729.6953125,
+          "bottom": -640.3046875,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1500,
+          "bottom": -600,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -1650,
+          "bottom": -750,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -150)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": -600,
+          "bottom": 300,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 26.5625,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 24.71875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 23.578125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 8.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 21.25,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 8.703125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 13.828125,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 23.796875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 22.96875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 25.546875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 21.984375,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 542.8677368164062,
+          "bottom": 594.8677368164062,
+          "width": 25.546875,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 10.8677)",
+        "opacity": "0.544037",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 1800,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 203.703125,
+          "bottom": 355.203125,
+          "width": 208,
+          "height": 151.5
+        },
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1800,
+          "bottom": -900,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": -980,
+          "bottom": -940,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -1029.6953125,
+          "bottom": -940.3046875,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "Animated Line 2",
+        "tag": "DIV",
+        "rect": {
+          "top": -1123.913818359375,
+          "bottom": -1033.913818359375,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -93.9138)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1c5nxa0"
+      },
+      {
+        "name": "Animated Line 1",
+        "tag": "DIV",
+        "rect": {
+          "top": -1023.913818359375,
+          "bottom": -933.913818359375,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -93.9138)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1hor3c"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -1800,
+          "bottom": -900,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -1980,
+          "bottom": -1080,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -180)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": -900,
+          "bottom": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 26.5625,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 24.71875,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 23.578125,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 8.796875,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 21.25,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 23.796875,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 22.96875,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 8.703125,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 13.828125,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 23.796875,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 22.96875,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 232.1030731201172,
+          "bottom": 284.10308837890625,
+          "width": 25.546875,
+          "height": 52.00001525878906
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.103079)",
+        "opacity": "0.99553",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 2200,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 203.703125,
+          "bottom": 355.203125,
+          "width": 208,
+          "height": 151.5
+        },
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -2200,
+          "bottom": -1300,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": -1380,
+          "bottom": -1340,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -1429.6953125,
+          "bottom": -1340.3046875,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "Animated Line 2",
+        "tag": "DIV",
+        "rect": {
+          "top": -1463.472412109375,
+          "bottom": -1373.472412109375,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -33.4724)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1c5nxa0"
+      },
+      {
+        "name": "Animated Line 1",
+        "tag": "DIV",
+        "rect": {
+          "top": -1363.472412109375,
+          "bottom": -1273.472412109375,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -33.4724)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1hor3c"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -2200,
+          "bottom": -1300,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -2420,
+          "bottom": -1520,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -220)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": -1300,
+          "bottom": -400,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 23.578125,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 23.796875,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 23.796875,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 25.546875,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 12.53125,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 24.71875,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 35.375,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 22.96875,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 21.46875,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 23.796875,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 12.53125,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 40.05763244628906,
+          "bottom": 92.0576171875,
+          "width": 23.578125,
+          "height": 51.99998474121094
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0576281)",
+        "opacity": "0.99749",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 2600,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 203.703125,
+          "bottom": 355.203125,
+          "width": 208,
+          "height": 151.5
+        },
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -2600,
+          "bottom": -1700,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": -1780,
+          "bottom": -1740,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -1829.6953125,
+          "bottom": -1740.3046875,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "Animated Line 2",
+        "tag": "DIV",
+        "rect": {
+          "top": -1837.091552734375,
+          "bottom": -1747.091552734375,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -7.09161)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1c5nxa0"
+      },
+      {
+        "name": "Animated Line 1",
+        "tag": "DIV",
+        "rect": {
+          "top": -1737.091552734375,
+          "bottom": -1647.091552734375,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -7.09161)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1hor3c"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -2600,
+          "bottom": -1700,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -2860,
+          "bottom": -1960,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -260)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": -1700,
+          "bottom": -800,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "Circle-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 5828.24169921875,
+          "bottom": 6455.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1izlzgy"
+      },
+      {
+        "name": "Circle-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 5794.1962890625,
+          "bottom": 6489.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1yam4x0"
+      },
+      {
+        "name": "Circle-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 5794.1962890625,
+          "bottom": 6489.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-xau3aw"
+      },
+      {
+        "name": "Circle-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 5828.24169921875,
+          "bottom": 6455.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1v75ibc"
+      },
+      {
+        "name": "Number 2",
+        "tag": "DIV",
+        "rect": {
+          "top": 5828.24169921875,
+          "bottom": 6455.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-rzjm8v"
+      },
+      {
+        "name": "Number 1",
+        "tag": "DIV",
+        "rect": {
+          "top": 5794.1962890625,
+          "bottom": 6489.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-xqms2s"
+      },
+      {
+        "name": "Number 3",
+        "tag": "DIV",
+        "rect": {
+          "top": 5893,
+          "bottom": 6391,
+          "width": 498,
+          "height": 498
+        },
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17vwbjz"
+      },
+      {
+        "name": "Number 4",
+        "tag": "DIV",
+        "rect": {
+          "top": 5828.24169921875,
+          "bottom": 6455.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-johct3"
+      },
+      {
+        "name": "Number 5",
+        "tag": "DIV",
+        "rect": {
+          "top": 5794.1962890625,
+          "bottom": 6489.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1f0h90n"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 10416,
+          "bottom": 10488,
+          "width": 249.609375,
+          "height": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 10416,
+          "bottom": 10488,
+          "width": 177.703125,
+          "height": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 10488,
+          "bottom": 10560,
+          "width": 100.78125,
+          "height": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  },
+  {
+    "scrollY": 3000,
+    "innerHeight": 900,
+    "activeElements": [
+      {
+        "name": "Intro-1",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-i8icsu"
+      },
+      {
+        "name": "Intro-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1li48ov"
+      },
+      {
+        "name": "Intro-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17j0eho"
+      },
+      {
+        "name": "Intro-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-bkuy7q"
+      },
+      {
+        "name": "Intro-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1eucjwu"
+      },
+      {
+        "name": "Intro-6",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1ne3oib"
+      },
+      {
+        "name": "Intro-7",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-7lv5r1"
+      },
+      {
+        "name": "Intro-8",
+        "tag": "DIV",
+        "rect": {
+          "top": 262.5,
+          "bottom": 637.5,
+          "width": 600,
+          "height": 375
+        },
+        "transform": "matrix(1, 0, 0, 1, -300, -187.5)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1itl6wv"
+      },
+      {
+        "name": "Actions",
+        "tag": "DIV",
+        "rect": {
+          "top": 31.953125,
+          "bottom": 83.953125,
+          "width": 1,
+          "height": 52
+        },
+        "transform": "matrix(1, 0, 0, 1, -0.5, -26)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1mckyw6"
+      },
+      {
+        "name": "framer-16170ve-container",
+        "tag": "DIV",
+        "rect": {
+          "top": 203.703125,
+          "bottom": 355.203125,
+          "width": 208,
+          "height": 151.5
+        },
+        "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-16170ve-container"
+      },
+      {
+        "name": "Section - Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -3000,
+          "bottom": -2100,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-ztisoh"
+      },
+      {
+        "name": "framer-1pq06lh",
+        "tag": "DIV",
+        "rect": {
+          "top": -2180,
+          "bottom": -2140,
+          "width": 325.6875,
+          "height": 40
+        },
+        "transform": "matrix(1, 0, 0, 1, -162.844, 0)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pq06lh"
+      },
+      {
+        "name": "Scroll for more",
+        "tag": "DIV",
+        "rect": {
+          "top": -2229.6953125,
+          "bottom": -2140.3046875,
+          "width": 20,
+          "height": 89.390625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-1pzb374"
+      },
+      {
+        "name": "Animated Line 2",
+        "tag": "DIV",
+        "rect": {
+          "top": -2230.035888671875,
+          "bottom": -2140.035888671875,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0359446)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1c5nxa0"
+      },
+      {
+        "name": "Animated Line 1",
+        "tag": "DIV",
+        "rect": {
+          "top": -2130.035888671875,
+          "bottom": -2040.035888671875,
+          "width": 2,
+          "height": 90
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0359446)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1hor3c"
+      },
+      {
+        "name": "For Home Hero",
+        "tag": "DIV",
+        "rect": {
+          "top": -3000,
+          "bottom": -2100,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-LJyLQ framer-sz2vq3 framer-v-sz2vq3"
+      },
+      {
+        "name": "1920x1080 BG",
+        "tag": "DIV",
+        "rect": {
+          "top": -3300,
+          "bottom": -2400,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -300)",
+        "opacity": "0",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1fbrb5i"
+      },
+      {
+        "name": "Section - Playreel",
+        "tag": "DIV",
+        "rect": {
+          "top": -2100,
+          "bottom": -1200,
+          "width": 1440,
+          "height": 900
+        },
+        "transform": "none",
+        "opacity": "1",
+        "filter": "none",
+        "display": "flex",
+        "classes": "framer-145jkj8"
+      },
+      {
+        "name": "Circle-2",
+        "tag": "DIV",
+        "rect": {
+          "top": 5428.24169921875,
+          "bottom": 6055.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1izlzgy"
+      },
+      {
+        "name": "Circle-3",
+        "tag": "DIV",
+        "rect": {
+          "top": 5394.1962890625,
+          "bottom": 6089.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(-0.809017, 0.587785, -0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1yam4x0"
+      },
+      {
+        "name": "Circle-4",
+        "tag": "DIV",
+        "rect": {
+          "top": 5394.1962890625,
+          "bottom": 6089.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(-0.809017, -0.587785, 0.587785, -0.809017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-xau3aw"
+      },
+      {
+        "name": "Circle-5",
+        "tag": "DIV",
+        "rect": {
+          "top": 5428.24169921875,
+          "bottom": 6055.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(0.309017, -0.951057, 0.951057, 0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1v75ibc"
+      },
+      {
+        "name": "Number 2",
+        "tag": "DIV",
+        "rect": {
+          "top": 5428.24169921875,
+          "bottom": 6055.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(-0.309017, 0.951057, -0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-rzjm8v"
+      },
+      {
+        "name": "Number 1",
+        "tag": "DIV",
+        "rect": {
+          "top": 5394.1962890625,
+          "bottom": 6089.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0)",
+        "opacity": "1",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-xqms2s"
+      },
+      {
+        "name": "Number 3",
+        "tag": "DIV",
+        "rect": {
+          "top": 5493,
+          "bottom": 5991,
+          "width": 498,
+          "height": 498
+        },
+        "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-17vwbjz"
+      },
+      {
+        "name": "Number 4",
+        "tag": "DIV",
+        "rect": {
+          "top": 5428.24169921875,
+          "bottom": 6055.75830078125,
+          "width": 627.5166015625,
+          "height": 627.5166015625
+        },
+        "transform": "matrix(-0.309017, -0.951057, 0.951057, -0.309017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-johct3"
+      },
+      {
+        "name": "Number 5",
+        "tag": "DIV",
+        "rect": {
+          "top": 5394.1962890625,
+          "bottom": 6089.8037109375,
+          "width": 695.6074829101562,
+          "height": 695.607421875
+        },
+        "transform": "matrix(0.809017, -0.587785, 0.587785, 0.809017, 0, 0)",
+        "opacity": "0.2",
+        "filter": "none",
+        "display": "block",
+        "classes": "framer-1f0h90n"
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 10016,
+          "bottom": 10088,
+          "width": 249.609375,
+          "height": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 10016,
+          "bottom": 10088,
+          "width": 177.703125,
+          "height": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      },
+      {
+        "name": "SPAN",
+        "tag": "SPAN",
+        "rect": {
+          "top": 10088,
+          "bottom": 10160,
+          "width": 100.78125,
+          "height": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 24)",
+        "opacity": "0.001",
+        "filter": "none",
+        "display": "inline-block",
+        "classes": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,2417 @@
+[
+  {
+    "scrollY": 0,
+    "visibleSections": [
+      {
+        "id": "hero",
+        "name": "Section - Hero",
+        "rect": {
+          "top": 0,
+          "height": 900
+        },
+        "animatedChildrenCount": 105,
+        "animChildren": [
+          {
+            "name": "Official Framer Expert",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "display:block;flex:0 0 auto;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;overflow-x:hidden;overflow-y:hidden;transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "position: absolute; inset: 0px; width: 100%; height: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "0",
+            "style": "position: absolute; inset: 0px; width: 100%; height: 100%; opacity: 0; transition: opacity 200ms ease-in-out; pointer-events: none;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          }
+        ]
+      },
+      {
+        "id": "hero-video",
+        "name": "onDesktop",
+        "rect": {
+          "top": 412,
+          "height": 80
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "hero-video-overlay",
+        "name": "Video Scale Overlay",
+        "rect": {
+          "top": 0,
+          "height": 80
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 400,
+    "visibleSections": [
+      {
+        "id": "hero",
+        "name": "Section - Hero",
+        "rect": {
+          "top": -400,
+          "height": 900
+        },
+        "animatedChildrenCount": 107,
+        "animChildren": [
+          {
+            "name": "Official Framer Expert",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "onDesktop",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "position: fixed; left: 208.003px; top: 451.337px; width: 718.889px; height: 444.549px; max-width: none; max-height: none; margin: 0px; transform: none; object-fit: cover; overflow: hidden; pointer-events: none; z-index: 7; will-change: left, top, width, height;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "display:block;flex:0 0 auto;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;overflow-x:hidden;overflow-y:hidden;transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "position: absolute; inset: 0px; width: 100%; height: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "0",
+            "style": "position: absolute; inset: 0px; width: 100%; height: 100%; opacity: 0; transition: opacity 200ms ease-in-out; pointer-events: none;"
+          }
+        ]
+      },
+      {
+        "id": "hero-video",
+        "name": "onDesktop",
+        "rect": {
+          "top": 451,
+          "height": 445
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "hero-video-overlay",
+        "name": "Video Scale Overlay",
+        "rect": {
+          "top": 451,
+          "height": 445
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel",
+        "name": "Section - Playreel",
+        "rect": {
+          "top": 500,
+          "height": 900
+        },
+        "animatedChildrenCount": 14,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "translateX(-166.518px)",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: translateX(-166.518px);"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "translateX(-166.518px)",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: translateX(-166.518px);"
+          },
+          {
+            "name": "5czkxl",
+            "tag": "DIV",
+            "transform": "scale(0.722469)",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: scale(0.722469);"
+          },
+          {
+            "name": "Large",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; border-radius: 1000px; opacity: 1;"
+          },
+          {
+            "name": "Button",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "transform: none; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "On Dark",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "fill + shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "backdrop-filter: blur(4px); background-color: rgba(153, 153, 153, 0.16); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.25) 1px 0px 0px 0px, rgba(0, 0, 0, 0.25) -1px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 8px 16px 0px; opacity: 1;"
+          },
+          {
+            "name": "fog",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "0.64",
+            "style": "backdrop-filter:blur(10px);background-color:rgba(0, 0, 0, 0.01);-webkit-backdrop-filter:blur(10px);border-bottom-left-radius:100px;border-bottom-right-radius:100px;border-top-left-radius:100px;border-top-right-radius:100px;opacity:0.64"
+          },
+          {
+            "name": "inner shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "background-color: rgba(0, 0, 0, 0.01); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.3) -20px 0px 20px -30px inset, rgba(0, 0, 0, 0.3) 20px 0px 20px -30px inset; opacity: 1;"
+          }
+        ]
+      },
+      {
+        "id": "playreel-video",
+        "name": "BG",
+        "rect": {
+          "top": 500,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel-overlay",
+        "name": "Faded Overlay",
+        "rect": {
+          "top": 500,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 800,
+    "visibleSections": [
+      {
+        "id": "hero",
+        "name": "Section - Hero",
+        "rect": {
+          "top": -800,
+          "height": 900
+        },
+        "animatedChildrenCount": 105,
+        "animChildren": [
+          {
+            "name": "Official Framer Expert",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "onDesktop",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "position: fixed; left: 41.6007px; top: 134.712px; width: 1295.78px; height: 808.91px; max-width: none; max-height: none; margin: 0px; transform: none; object-fit: cover; overflow: hidden; pointer-events: none; z-index: 7; will-change: left, top, width, height;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "display:block;flex:0 0 auto;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;overflow-x:hidden;overflow-y:hidden;transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "translateX(-50%)",
+            "opacity": "0",
+            "style": "will-change: transform; opacity: 0; transform: translateX(-50%);"
+          }
+        ]
+      },
+      {
+        "id": "hero-video",
+        "name": "onDesktop",
+        "rect": {
+          "top": 135,
+          "height": 809
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "hero-video-overlay",
+        "name": "Video Scale Overlay",
+        "rect": {
+          "top": 135,
+          "height": 809
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel",
+        "name": "Section - Playreel",
+        "rect": {
+          "top": 100,
+          "height": 900
+        },
+        "animatedChildrenCount": 14,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "translateX(-33.0367px)",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: translateX(-33.0367px);"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "translateX(-33.0367px)",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: translateX(-33.0367px);"
+          },
+          {
+            "name": "5czkxl",
+            "tag": "DIV",
+            "transform": "scale(0.944939)",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: scale(0.944939);"
+          },
+          {
+            "name": "Large",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; border-radius: 1000px; opacity: 1;"
+          },
+          {
+            "name": "Button",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "transform: none; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "On Dark",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "fill + shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "backdrop-filter: blur(4px); background-color: rgba(153, 153, 153, 0.16); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.25) 1px 0px 0px 0px, rgba(0, 0, 0, 0.25) -1px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 8px 16px 0px; opacity: 1;"
+          },
+          {
+            "name": "fog",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "0.64",
+            "style": "backdrop-filter:blur(10px);background-color:rgba(0, 0, 0, 0.01);-webkit-backdrop-filter:blur(10px);border-bottom-left-radius:100px;border-bottom-right-radius:100px;border-top-left-radius:100px;border-top-right-radius:100px;opacity:0.64"
+          },
+          {
+            "name": "inner shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "background-color: rgba(0, 0, 0, 0.01); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.3) -20px 0px 20px -30px inset, rgba(0, 0, 0, 0.3) 20px 0px 20px -30px inset; opacity: 1;"
+          }
+        ]
+      },
+      {
+        "id": "playreel-video",
+        "name": "BG",
+        "rect": {
+          "top": 100,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel-overlay",
+        "name": "Faded Overlay",
+        "rect": {
+          "top": 100,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 1200,
+    "visibleSections": [
+      {
+        "id": "hero-video",
+        "name": "onDesktop",
+        "rect": {
+          "top": -300,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "hero-video-overlay",
+        "name": "Video Scale Overlay",
+        "rect": {
+          "top": -300,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel",
+        "name": "Section - Playreel",
+        "rect": {
+          "top": -300,
+          "height": 900
+        },
+        "animatedChildrenCount": 14,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: none;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: none;"
+          },
+          {
+            "name": "5czkxl",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: none;"
+          },
+          {
+            "name": "Large",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; border-radius: 1000px; opacity: 1;"
+          },
+          {
+            "name": "Button",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "transform: none; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "On Dark",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "fill + shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "backdrop-filter: blur(4px); background-color: rgba(153, 153, 153, 0.16); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.25) 1px 0px 0px 0px, rgba(0, 0, 0, 0.25) -1px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 8px 16px 0px; opacity: 1;"
+          },
+          {
+            "name": "fog",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "0.64",
+            "style": "backdrop-filter:blur(10px);background-color:rgba(0, 0, 0, 0.01);-webkit-backdrop-filter:blur(10px);border-bottom-left-radius:100px;border-bottom-right-radius:100px;border-top-left-radius:100px;border-top-right-radius:100px;opacity:0.64"
+          },
+          {
+            "name": "inner shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "background-color: rgba(0, 0, 0, 0.01); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.3) -20px 0px 20px -30px inset, rgba(0, 0, 0, 0.3) 20px 0px 20px -30px inset; opacity: 1;"
+          }
+        ]
+      },
+      {
+        "id": "playreel-video",
+        "name": "BG",
+        "rect": {
+          "top": -300,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel-overlay",
+        "name": "Faded Overlay",
+        "rect": {
+          "top": -300,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "introductions",
+        "name": "Section - Introduction",
+        "rect": {
+          "top": 600,
+          "height": 1092
+        },
+        "animatedChildrenCount": 288,
+        "animChildren": [
+          {
+            "name": "Default",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "mask: linear-gradient(90deg, rgb(0, 0, 0) 47.2188%, rgba(0, 0, 0, 0) 48.2188%); opacity: 1; will-change: auto;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)",
+            "opacity": "0.001",
+            "style": "display:inline-block;opacity:0.001;transform:translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)",
+            "opacity": "0.001",
+            "style": "display:inline-block;opacity:0.001;transform:translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)",
+            "opacity": "0.001",
+            "style": "display:inline-block;opacity:0.001;transform:translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)",
+            "opacity": "0.001",
+            "style": "display:inline-block;opacity:0.001;transform:translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)",
+            "opacity": "0.001",
+            "style": "display:inline-block;opacity:0.001;transform:translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)",
+            "opacity": "0.001",
+            "style": "display:inline-block;opacity:0.001;transform:translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scrollY": 1600,
+    "visibleSections": [
+      {
+        "id": "hero-video",
+        "name": "onDesktop",
+        "rect": {
+          "top": -700,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "hero-video-overlay",
+        "name": "Video Scale Overlay",
+        "rect": {
+          "top": -700,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel",
+        "name": "Section - Playreel",
+        "rect": {
+          "top": -700,
+          "height": 900
+        },
+        "animatedChildrenCount": 14,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: none;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: none;"
+          },
+          {
+            "name": "5czkxl",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "will-change: transform; opacity: 1; transform: none;"
+          },
+          {
+            "name": "Large",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; border-radius: 1000px; opacity: 1;"
+          },
+          {
+            "name": "Button",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "transform: none; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "On Dark",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "fill + shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "backdrop-filter: blur(4px); background-color: rgba(153, 153, 153, 0.16); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.25) 1px 0px 0px 0px, rgba(0, 0, 0, 0.25) -1px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 8px 16px 0px; opacity: 1;"
+          },
+          {
+            "name": "fog",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "0.64",
+            "style": "backdrop-filter:blur(10px);background-color:rgba(0, 0, 0, 0.01);-webkit-backdrop-filter:blur(10px);border-bottom-left-radius:100px;border-bottom-right-radius:100px;border-top-left-radius:100px;border-top-right-radius:100px;opacity:0.64"
+          },
+          {
+            "name": "inner shadow",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "background-color: rgba(0, 0, 0, 0.01); border-radius: 100px; box-shadow: rgba(0, 0, 0, 0.3) -20px 0px 20px -30px inset, rgba(0, 0, 0, 0.3) 20px 0px 20px -30px inset; opacity: 1;"
+          }
+        ]
+      },
+      {
+        "id": "playreel-video",
+        "name": "BG",
+        "rect": {
+          "top": -700,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "playreel-overlay",
+        "name": "Faded Overlay",
+        "rect": {
+          "top": -700,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "introductions",
+        "name": "Section - Introduction",
+        "rect": {
+          "top": 200,
+          "height": 1092
+        },
+        "animatedChildrenCount": 288,
+        "animChildren": [
+          {
+            "name": "Default",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "mask: linear-gradient(90deg, rgb(0, 0, 0) 78.5473%, rgba(0, 0, 0, 0) 79.5473%); opacity: 1; will-change: auto;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(20.8686px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(20.8686px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(20.8686px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(20.8686px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(20.8686px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(20.8686px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(20.8686px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(20.8686px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(20.8686px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(20.8686px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(20.8686px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(20.8686px); will-change: transform;"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scrollY": 2000,
+    "visibleSections": [
+      {
+        "id": "introductions",
+        "name": "Section - Introduction",
+        "rect": {
+          "top": -200,
+          "height": 1092
+        },
+        "animatedChildrenCount": 288,
+        "animChildren": [
+          {
+            "name": "Default",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "mask: linear-gradient(90deg, rgb(0, 0, 0) 91.1867%, rgba(0, 0, 0, 0) 92.1867%); opacity: 1; will-change: auto;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(8.86001px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(8.86001px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(8.86001px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(8.86001px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(8.86001px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(8.86001px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(8.86001px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(8.86001px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(8.86001px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(8.86001px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(8.86001px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(8.86001px); will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": 892,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "none",
+            "opacity": "1",
+            "style": "display: inline-block; opacity: 1; transform: none; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-landing-page",
+        "name": "Landing Page Trigger",
+        "rect": {
+          "top": 892,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 2400,
+    "visibleSections": [
+      {
+        "id": "introductions",
+        "name": "Section - Introduction",
+        "rect": {
+          "top": -600,
+          "height": 1092
+        },
+        "animatedChildrenCount": 288,
+        "animChildren": [
+          {
+            "name": "Default",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "mask: linear-gradient(90deg, rgb(0, 0, 0) 96.6946%, rgba(0, 0, 0, 0) 97.6946%); opacity: 1; will-change: auto;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(2.41665px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(2.41665px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(2.41665px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(2.41665px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(2.41665px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(2.41665px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(2.41665px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(2.41665px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(2.41665px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(2.41665px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(2.41665px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(2.41665px); will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": 492,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "none",
+            "opacity": "1",
+            "style": "display: inline-block; opacity: 1; transform: none; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-landing-page",
+        "name": "Landing Page Trigger",
+        "rect": {
+          "top": 492,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 2800,
+    "visibleSections": [
+      {
+        "id": "introductions",
+        "name": "Section - Introduction",
+        "rect": {
+          "top": -1000,
+          "height": 1092
+        },
+        "animatedChildrenCount": 288,
+        "animChildren": [
+          {
+            "name": "Default",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "mask: linear-gradient(90deg, rgb(0, 0, 0) 98.7669%, rgba(0, 0, 0, 0) 99.7669%); opacity: 1; will-change: auto;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(0.239479px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(0.239479px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(0.239479px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(0.239479px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(0.239479px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(0.239479px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(0.239479px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(0.239479px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(0.239479px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(0.239479px); will-change: transform;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(0.239479px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(0.239479px); will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": 92,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "",
+            "style": "display: inline-block; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-landing-page",
+        "name": "Landing Page Trigger",
+        "rect": {
+          "top": 92,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 3200,
+    "visibleSections": [
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": -308,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "",
+            "style": "display: inline-block; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-landing-page",
+        "name": "Landing Page Trigger",
+        "rect": {
+          "top": -308,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "service-marketing-site",
+        "name": "MKT Site Trigger",
+        "rect": {
+          "top": 592,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 3600,
+    "visibleSections": [
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": -708,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "",
+            "style": "display: inline-block; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-landing-page",
+        "name": "Landing Page Trigger",
+        "rect": {
+          "top": -708,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "service-marketing-site",
+        "name": "MKT Site Trigger",
+        "rect": {
+          "top": 192,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 4000,
+    "visibleSections": [
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": -1108,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "",
+            "style": "display: inline-block; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-marketing-site",
+        "name": "MKT Site Trigger",
+        "rect": {
+          "top": -208,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "service-motion-design",
+        "name": "Motion Design Trigger",
+        "rect": {
+          "top": 692,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 4400,
+    "visibleSections": [
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": -1508,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "",
+            "style": "display: inline-block; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-marketing-site",
+        "name": "MKT Site Trigger",
+        "rect": {
+          "top": -608,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "service-motion-design",
+        "name": "Motion Design Trigger",
+        "rect": {
+          "top": 292,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      }
+    ]
+  },
+  {
+    "scrollY": 4800,
+    "visibleSections": [
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": -1908,
+          "height": 2700
+        },
+        "animatedChildrenCount": 241,
+        "animChildren": [
+          {
+            "name": "Landing page",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "",
+            "style": "display: inline-block; will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-motion-design",
+        "name": "Motion Design Trigger",
+        "rect": {
+          "top": -108,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "testimonial",
+        "name": "Section - Testimonial",
+        "rect": {
+          "top": 792,
+          "height": 2700
+        },
+        "animatedChildrenCount": 195,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "0",
+            "style": "position:sticky;top:0;color:var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96));font-family:\"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif;font-weight:300;font-size:36px;line-height:44px;letter-spacing:-0.72px;opacity:0"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scrollY": 5200,
+    "visibleSections": [
+      {
+        "id": "service",
+        "name": "Section - Services",
+        "rect": {
+          "top": -2308,
+          "height": 2700
+        },
+        "animatedChildrenCount": 262,
+        "animChildren": [
+          {
+            "name": "Motion Design",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "height: 100%; max-width: 100%; width: 100%; opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Spacer",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Service",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Title",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Our Services",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "Name",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "opacity: 1;"
+          },
+          {
+            "name": "Motion Video",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "1",
+            "style": "--extracted-r6o4lv: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "translateY(20.9262px)",
+            "opacity": "0.001",
+            "style": "display: inline-block; opacity: 0.001; transform: translateY(20.9262px); will-change: transform;"
+          }
+        ]
+      },
+      {
+        "id": "service-motion-design",
+        "name": "Motion Design Trigger",
+        "rect": {
+          "top": -508,
+          "height": 900
+        },
+        "animatedChildrenCount": 0,
+        "animChildren": []
+      },
+      {
+        "id": "testimonial",
+        "name": "Section - Testimonial",
+        "rect": {
+          "top": 392,
+          "height": 2700
+        },
+        "animatedChildrenCount": 195,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "position: sticky; top: 0px; color: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); font-family: \"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif; font-weight: 300; font-size: 36px; line-height: 44px; letter-spacing: -0.72px; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "0.2",
+            "style": "display:inline-block;margin-right:0.25em;filter:blur(0px);opacity:0.2;transition:filter 0.2s ease-out, opacity 0.2s ease-out"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scrollY": 5600,
+    "visibleSections": [
+      {
+        "id": "testimonial",
+        "name": "Section - Testimonial",
+        "rect": {
+          "top": -8,
+          "height": 2700
+        },
+        "animatedChildrenCount": 195,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "position: sticky; top: 0px; color: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); font-family: \"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif; font-weight: 300; font-size: 36px; line-height: 44px; letter-spacing: -0.72px; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scrollY": 6000,
+    "visibleSections": [
+      {
+        "id": "testimonial",
+        "name": "Section - Testimonial",
+        "rect": {
+          "top": -408,
+          "height": 2700
+        },
+        "animatedChildrenCount": 195,
+        "animChildren": [
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "none",
+            "opacity": "",
+            "style": "transform:none"
+          },
+          {
+            "name": "DIV",
+            "tag": "DIV",
+            "transform": "",
+            "opacity": "1",
+            "style": "position: sticky; top: 0px; color: var(--token-5df8515b-f963-4deb-ac63-6a9cb5b248e8, rgba(0, 0, 0, 0.96)); font-family: \"TWK Lausanne 300\", \"TWK Lausanne 300 Placeholder\", sans-serif; font-weight: 300; font-size: 36px; line-height: 44px; letter-spacing: -0.72px; opacity: 1;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          },
+          {
+            "name": "SPAN",
+            "tag": "SPAN",
+            "transform": "",
+            "opacity": "1",
+            "style": "display: inline-block; margin-right: 0.25em; filter: blur(0px); opacity: 1; transition: filter 0.2s ease-out, opacity 0.2s ease-out;"
+          }
+        ]
+      }
+    ]
+  }
+]

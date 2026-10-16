@@ -1,176 +1,166 @@
-import React, { useRef, useState } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import React, { useState } from 'react';
 
 export default function Playreel() {
-  const containerRef = useRef(null);
-  const videoRef = useRef(null);
   const [modalOpen, setModalOpen] = useState(false);
-
-  // Scroll animations linked to entering and centering the section
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ['start end', 'center center']
-  });
-
-  const cardScale = useTransform(scrollYProgress, [0, 1], [0.72, 1]);
-  const playX = useTransform(scrollYProgress, [0, 1], [-260, 0]);
-  const reelX = useTransform(scrollYProgress, [0, 1], [260, 0]);
-  const textOpacity = useTransform(scrollYProgress, [0, 1], [0.85, 1]);
 
   return (
     <section
-      ref={containerRef}
       data-framer-name="Section - Playreel"
       id="playreel"
       style={{
         position: 'relative',
         width: '100%',
-        minHeight: '100vh',
+        height: '100vh',
+        minHeight: '800px',
         backgroundColor: '#000000',
         color: '#ffffff',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '80px 40px',
         overflow: 'hidden'
       }}
     >
-      {/* Centered Rounded Video Card Frame matching original */}
-      <motion.div
+      {/* Background container that aligns with expanding video */}
+      <div
+        data-framer-name="BG"
+        id="playreel-video"
         style={{
-          position: 'relative',
+          position: 'absolute',
+          inset: 0,
           width: '100%',
-          maxWidth: '1080px',
-          aspectRatio: '16 / 10',
-          borderRadius: '24px',
-          overflow: 'hidden',
-          backgroundColor: '#0a0a0a',
-          boxShadow: '0 30px 80px rgba(0, 0, 0, 0.9)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          scale: cardScale,
-          transformOrigin: 'center center',
-          willChange: 'transform'
+          height: '100%',
+          pointerEvents: 'none'
         }}
       >
-        {/* Background Video */}
-        <video
-          ref={videoRef}
-          src="https://stream.mux.com/kvyETSxTWR4yWLgS7zJjL7W1my00PprfrISoZPY1rurM/1080p.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            display: 'block'
-          }}
-        />
-
-        {/* Dark Vignette Overlay */}
         <div
+          data-framer-name="Faded Overlay"
+          id="playreel-overlay"
           style={{
             position: 'absolute',
             inset: 0,
-            background: 'linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.5) 100%)',
+            background: 'linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.6) 100%)',
             pointerEvents: 'none'
           }}
         />
+      </div>
 
-        {/* Centered Typography: PLAY [BUTTON] REEL */}
+      {/* Centered Typography: [ 00:44 ] PLAY [BUTTON] REEL ©2026 */}
+      <div
+        data-framer-name="Container"
+        style={{
+          position: 'relative',
+          zIndex: 10,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '4px',
+          userSelect: 'none',
+          padding: '0 20px'
+        }}
+      >
+        {/* Top: [ 00:44 ] aligned to start of PLAY */}
         <div
           style={{
-            position: 'relative',
-            zIndex: 10,
+            width: '100%',
             display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: '4px',
-            userSelect: 'none'
+            justifyContent: 'flex-start',
+            paddingLeft: '12px',
+            marginBottom: '-8px'
           }}
         >
-          {/* Top: [ 00:44 ] aligned to start of PLAY */}
           <div
+            id="playreel-text-time"
             style={{
-              width: '100%',
-              display: 'flex',
-              justifyContent: 'flex-start',
-              paddingLeft: '12px',
-              marginBottom: '-8px'
+              willChange: 'transform',
+              opacity: 1,
+              transform: 'translateX(-300px)'
             }}
           >
-            <motion.span
+            <span
               style={{
                 fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
                 fontSize: '13px',
                 fontWeight: '400',
                 letterSpacing: '-0.07px',
-                color: 'rgba(255, 255, 255, 0.9)',
-                x: playX,
-                opacity: textOpacity,
-                willChange: 'transform, opacity'
+                color: 'rgba(255, 255, 255, 0.96)'
               }}
             >
               [ 00:44 ]
-            </motion.span>
+            </span>
           </div>
+        </div>
 
-          {/* Middle: PLAY [Glass Play Button] REEL */}
+        {/* Middle: PLAY [Glass Play Button] REEL */}
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '16px'
+          }}
+        >
           <div
+            id="playreel-text-play"
             style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '16px'
+              willChange: 'transform',
+              opacity: 1,
+              transform: 'translateX(-300px)'
             }}
           >
-            <motion.span
+            <span
               style={{
                 fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                fontSize: 'clamp(56px, 7vw, 92px)',
+                fontSize: 'clamp(56px, 8.5vw, 120px)',
                 lineHeight: '1',
-                letterSpacing: '-2.8px',
+                letterSpacing: '-3.6px',
                 fontWeight: '400',
                 color: '#ffffff',
                 textTransform: 'uppercase',
-                x: playX,
-                opacity: textOpacity,
-                willChange: 'transform, opacity'
+                display: 'block'
               }}
             >
               PLAY
-            </motion.span>
+            </span>
+          </div>
 
-            {/* Glass Play Button 160x76 Oval */}
+          {/* Glass Play Button (scales from 0.5 to 1.0) */}
+          <div
+            id="5czkxl"
+            style={{
+              willChange: 'transform',
+              opacity: 1,
+              transform: 'scale(0.5)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
             <button
               onClick={() => setModalOpen(true)}
+              aria-label="Play Reel"
               style={{
-                width: '160px',
-                height: '76px',
+                width: '180px',
+                height: '80px',
                 borderRadius: '1000px',
                 backdropFilter: 'blur(16px)',
                 WebkitBackdropFilter: 'blur(16px)',
-                backgroundColor: 'rgba(255, 255, 255, 0.16)',
+                backgroundColor: 'rgba(153, 153, 153, 0.16)',
                 border: '1px solid rgba(255, 255, 255, 0.3)',
                 boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.5)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 cursor: 'pointer',
-                transition: 'all 0.25s cubic-bezier(0.16, 1, 0.3, 1)',
-                zIndex: 12
+                transition: 'background-color 0.25s, transform 0.25s',
+                outline: 'none',
+                position: 'relative'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.28)';
                 e.currentTarget.style.transform = 'scale(1.05)';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.16)';
+                e.currentTarget.style.backgroundColor = 'rgba(153, 153, 153, 0.16)';
                 e.currentTarget.style.transform = 'scale(1)';
               }}
             >
@@ -178,59 +168,72 @@ export default function Playreel() {
                 style={{
                   width: '0',
                   height: '0',
-                  borderTop: '9px solid transparent',
-                  borderBottom: '9px solid transparent',
-                  borderLeft: '16px solid #ffffff',
+                  borderTop: '10px solid transparent',
+                  borderBottom: '10px solid transparent',
+                  borderLeft: '18px solid #ffffff',
                   marginLeft: '4px'
                 }}
               />
             </button>
+          </div>
 
-            <motion.span
+          <div
+            id="playreel-text-reel"
+            style={{
+              willChange: 'transform',
+              opacity: 1,
+              transform: 'translateX(300px)'
+            }}
+          >
+            <span
               style={{
                 fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                fontSize: 'clamp(56px, 7vw, 92px)',
+                fontSize: 'clamp(56px, 8.5vw, 120px)',
                 lineHeight: '1',
-                letterSpacing: '-2.8px',
+                letterSpacing: '-3.6px',
                 fontWeight: '400',
                 color: '#ffffff',
                 textTransform: 'uppercase',
-                x: reelX,
-                opacity: textOpacity,
-                willChange: 'transform, opacity'
+                display: 'block'
               }}
             >
               REEL
-            </motion.span>
+            </span>
           </div>
+        </div>
 
-          {/* Bottom: ©2026 aligned to end of REEL */}
+        {/* Bottom: ©2026 aligned to end of REEL */}
+        <div
+          style={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'flex-end',
+            paddingRight: '12px',
+            marginTop: '-4px'
+          }}
+        >
           <div
+            id="playreel-text-copy"
             style={{
-              width: '100%',
-              display: 'flex',
-              justifyContent: 'flex-end',
-              paddingRight: '12px',
-              marginTop: '-4px'
+              willChange: 'transform',
+              opacity: 1,
+              transform: 'translateX(300px)'
             }}
           >
-            <motion.span
+            <span
               style={{
                 fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
                 fontSize: '13px',
                 fontWeight: '400',
                 letterSpacing: '-0.07px',
-                color: 'rgba(255, 255, 255, 0.85)',
-                x: reelX,
-                opacity: textOpacity,
-                willChange: 'transform, opacity'
+                color: 'rgba(255, 255, 255, 0.85)'
               }}
             >
               ©2026
-            </motion.span>
+            </span>
           </div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Lightbox Video Modal */}
       {modalOpen && (
@@ -293,6 +296,22 @@ export default function Playreel() {
           </div>
         </div>
       )}
+
+      <style>{`
+        @media (max-width: 809.98px) {
+          #playreel {
+            height: 100vh !important;
+            min-height: 600px !important;
+          }
+          #5czkxl button {
+            width: 110px !important;
+            height: 52px !important;
+          }
+          #playreel span[style*="clamp"] {
+            letter-spacing: -1.8px !important;
+          }
+        }
+      `}</style>
     </section>
   );
 }

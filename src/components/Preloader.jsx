@@ -1,251 +1,387 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState, useEffect, useRef } from 'react';
+import { motion } from 'framer-motion';
 
+// The 8 authentic electronic product showcase cards matching the Umang Electronics catalogue
 const introCards = [
-  { id: 1, name: 'smart-tv', title: '4K OLED Ultra Cinema', image: '/assets/hero_cards/smart-tv.webp', x: 260, y: 160, rotate: 6 },
-  { id: 2, name: 'refrigerator', title: 'Twin Cooling Refrigerator', image: '/assets/hero_cards/refrigerator.webp', x: -240, y: 130, rotate: -7 },
-  { id: 3, name: 'air-conditioner', title: 'Inverter Climate Control', image: '/assets/hero_cards/air-conditioner.webp', x: 200, y: 80, rotate: 4 },
-  { id: 4, name: 'soundbar', title: 'Dolby Atmos Soundbar', image: '/assets/hero_cards/soundbar.webp', x: -180, y: 50, rotate: -5 },
-  { id: 5, name: 'air-purifier', title: 'True HEPA Air Purifier', image: '/assets/hero_cards/air-purifier.webp', x: 140, y: 20, rotate: 3 },
-  { id: 6, name: 'microwave', title: 'Smart Sensor Microwave', image: '/assets/hero_cards/microwave.webp', x: -100, y: -10, rotate: -3 },
-  { id: 7, name: 'air-fryer', title: 'Digital Rapid Air Fryer', image: '/assets/hero_cards/air-fryer.webp', x: 0, y: 0, rotate: 0 }
+  {
+    id: 1,
+    name: 'Rapid Air Fryer',
+    image: '/assets/products/air-fryer.jpg',
+    initialX: 600,
+    delay: 0.55,
+    zIndex: 11,
+    stackY: -7
+  },
+  {
+    id: 2,
+    name: 'Convection Microwave Oven',
+    image: '/assets/products/microwave-oven.jpg',
+    initialX: -550,
+    delay: 0.75,
+    zIndex: 12,
+    stackY: -6
+  },
+  {
+    id: 3,
+    name: 'Inverter Split Air Conditioner',
+    image: '/assets/products/air-conditioner.jpg',
+    initialX: 500,
+    delay: 0.95,
+    zIndex: 13,
+    stackY: -5
+  },
+  {
+    id: 4,
+    name: 'Front-Load Washing Machine',
+    image: '/assets/products/washing-machine-premium.jpg',
+    initialX: -450,
+    delay: 1.15,
+    zIndex: 14,
+    stackY: -4
+  },
+  {
+    id: 5,
+    name: 'French Door Refrigerator',
+    image: '/assets/products/refrigerator.jpg',
+    initialX: 400,
+    delay: 1.35,
+    zIndex: 15,
+    stackY: -3
+  },
+  {
+    id: 6,
+    name: 'Surround Soundbar & Subwoofer',
+    image: '/assets/products/soundbar.jpg',
+    initialX: -350,
+    delay: 1.55,
+    zIndex: 16,
+    stackY: -2
+  },
+  {
+    id: 7,
+    name: 'Audiophile Multimedia Speakers',
+    image: '/assets/products/multimedia-speakers-premium.jpg',
+    initialX: 300,
+    delay: 1.75,
+    zIndex: 17,
+    stackY: -1
+  },
+  {
+    id: 8,
+    name: '4K Ultra HD OLED Smart TV',
+    image: '/assets/products/oled-tv.jpg',
+    initialX: -250,
+    delay: 1.95,
+    zIndex: 18,
+    stackY: 0
+  }
 ];
 
-export default function Preloader({ onComplete }) {
+// True CSS cubic-bezier Newton-Raphson solver matching Framer [.3, 0, .2, 1.01]
+function createCubicBezier(x1, y1, x2, y2) {
+  const cx = 3 * x1;
+  const bx = 3 * (x2 - x1) - cx;
+  const ax = 1 - cx - bx;
+
+  const cy = 3 * y1;
+  const by = 3 * (y2 - y1) - cy;
+  const ay = 1 - cy - by;
+
+  function sampleX(t) { return ((ax * t + bx) * t + cx) * t; }
+  function sampleY(t) { return ((ay * t + by) * t + cy) * t; }
+  function sampleDerivX(t) { return (3 * ax * t + 2 * bx) * t + cx; }
+
+  return function solve(x) {
+    if (x <= 0) return 0;
+    if (x >= 1) return 1;
+    let t = x;
+    for (let i = 0; i < 8; i++) {
+      const xEst = sampleX(t) - x;
+      if (Math.abs(xEst) < 1e-5) return sampleY(t);
+      const d = sampleDerivX(t);
+      if (Math.abs(d) < 1e-6) break;
+      t -= xEst / d;
+    }
+    return sampleY(t);
+  };
+}
+const curtainEase = createCubicBezier(0.3, 0, 0.2, 1.01);
+
+export default function Preloader({ onComplete, brandName = 'Umang Electronics' }) {
   const [progress, setProgress] = useState(0);
-  const [isDone, setIsDone] = useState(false);
+  const [isCompleted, setIsCompleted] = useState(false);
+  const maskRef = useRef(null);
+
+  // Preload all 8 cards immediately to eliminate any asset latency
+  useEffect(() => {
+    introCards.forEach(card => {
+      const img = new Image();
+      img.src = card.image;
+    });
+  }, []);
 
   useEffect(() => {
-    // Disable body scroll during preloader
+    // Lock scroll during preloader
     document.body.style.overflow = 'hidden';
 
+    let animFrameId;
     const startTime = performance.now();
-    const duration = 1800; // 1.8 seconds total
 
-    const updateCounter = (now) => {
+    // Exact calibrated timeline strictly matching madebykota.com
+    const counterStart = 1000;     // counter sits at 0% for ~1.0s while brand unblurs & cards fly in
+    const counterDuration = 1600;  // smoothly counts up to 100% at ~2600ms
+    const curtainStart = 3700;     // holds complete 8-card stack + 100% counter for ~1.1s, wipes at 3700ms
+    const curtainDuration = 900;   // curtain lift completes at 4600ms
+
+    const tick = (now) => {
       const elapsed = now - startTime;
-      const rawProgress = Math.min(1, elapsed / duration);
-      // Smooth non-linear curve
-      const easeVal = Math.floor(rawProgress * 100);
-      setProgress(easeVal);
 
-      if (rawProgress < 1) {
-        requestAnimationFrame(updateCounter);
+      // 1. Counter update with calibrated easing
+      if (elapsed < counterStart) {
+        setProgress(0);
+      } else if (elapsed < counterStart + counterDuration) {
+        const t = (elapsed - counterStart) / counterDuration;
+        // Non-linear ease-out matching recorded values: rapid jump to ~60%, then smooth approach to 100%
+        const ease = 1 - Math.pow(1 - t, 4);
+        setProgress(Math.min(99, Math.floor(ease * 100)));
       } else {
-        setTimeout(() => {
-          setIsDone(true);
-          setTimeout(() => {
-            document.body.style.overflow = '';
-            if (onComplete) onComplete();
-          }, 650);
-        }, 150);
+        setProgress(100);
       }
+
+      // 2. Curtain Lift Mask update (lifting from bottom of screen to top)
+      if (maskRef.current) {
+        if (elapsed < curtainStart) {
+          const val = 'linear-gradient(0deg, rgba(0,0,0,0) -1%, rgba(0,0,0,1) 0%)';
+          maskRef.current.style.webkitMaskImage = val;
+          maskRef.current.style.maskImage = val;
+        } else if (elapsed < curtainStart + curtainDuration) {
+          const t = (elapsed - curtainStart) / curtainDuration;
+          const easedT = Math.min(1, Math.max(0, curtainEase(t)));
+          const p = easedT * 101;
+          const val = `linear-gradient(0deg, rgba(0,0,0,0) ${p - 0.5}%, rgba(0,0,0,1) ${p}%)`;
+          maskRef.current.style.webkitMaskImage = val;
+          maskRef.current.style.maskImage = val;
+        } else {
+          const val = 'linear-gradient(0deg, rgba(0,0,0,0) 100%, rgba(0,0,0,1) 101%)';
+          maskRef.current.style.webkitMaskImage = val;
+          maskRef.current.style.maskImage = val;
+          setIsCompleted(true);
+          document.body.style.overflow = '';
+          if (onComplete) onComplete();
+          return;
+        }
+      }
+
+      animFrameId = requestAnimationFrame(tick);
     };
 
-    const animId = requestAnimationFrame(updateCounter);
+    animFrameId = requestAnimationFrame(tick);
 
     return () => {
-      cancelAnimationFrame(animId);
+      cancelAnimationFrame(animFrameId);
       document.body.style.overflow = '';
     };
   }, [onComplete]);
 
+  if (isCompleted) return null;
+
+  // Split brand name into words and characters for staggered unblurring
+  const words = brandName.split(' ');
+  let charCounter = 0;
+
   return (
-    <AnimatePresence>
-      {!isDone && (
-        <motion.div
-          key="preloader"
-          initial={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+    <div
+      ref={maskRef}
+      data-framer-name="Mask"
+      style={{
+        position: 'fixed',
+        inset: 0,
+        zIndex: 999999,
+        backgroundColor: '#000000',
+        overflow: 'hidden',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        userSelect: 'none',
+        pointerEvents: 'none',
+        WebkitMaskImage: 'linear-gradient(0deg, rgba(0,0,0,0) -1%, rgba(0,0,0,1) 0%)',
+        maskImage: 'linear-gradient(0deg, rgba(0,0,0,0) -1%, rgba(0,0,0,1) 0%)'
+      }}
+    >
+      {/* 1. Left Brand Name: Character-by-character unblur appear */}
+      <div
+        className="preloader-brand"
+        style={{
+          position: 'absolute',
+          top: '50%',
+          left: '40px',
+          transform: 'translateY(-50%)',
+          zIndex: 30,
+          whiteSpace: 'nowrap'
+        }}
+      >
+        <p
           style={{
-            position: 'fixed',
-            inset: 0,
-            zIndex: 999999,
-            backgroundColor: '#000000',
-            overflow: 'hidden',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            userSelect: 'none'
+            fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
+            fontSize: '14px',
+            fontWeight: '400',
+            letterSpacing: '-0.07px',
+            lineHeight: '20px',
+            color: '#ffffff',
+            margin: 0,
+            display: 'inline-flex',
+            gap: '6px'
           }}
         >
-          {/* Top/Center Brand Name (Left aligned on desktop) */}
-          <motion.div
-            initial={{ opacity: 0, filter: 'blur(8px)', x: -20 }}
-            animate={{ opacity: 1, filter: 'blur(0px)', x: 0 }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            style={{
-              position: 'absolute',
-              top: '50%',
-              left: '40px',
-              transform: 'translateY(-50%)',
-              zIndex: 20
-            }}
-            className="preloader-brand"
-          >
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                fontSize: '14px',
-                fontWeight: '400',
-                letterSpacing: '-0.07px',
-                lineHeight: '20px',
-                color: '#ffffff',
-                textTransform: 'uppercase',
-                whiteSpace: 'nowrap'
-              }}
-            >
-              Umang Electronics
-            </span>
-          </motion.div>
-
-          {/* Progress Percentage Counter (Right aligned on desktop) */}
-          <div
-            style={{
-              position: 'absolute',
-              top: '50%',
-              right: '48px',
-              transform: 'translateY(-50%)',
-              zIndex: 20
-            }}
-            className="preloader-counter"
-          >
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
-                fontSize: '14px',
-                fontWeight: '300',
-                letterSpacing: '-0.07px',
-                lineHeight: '20px',
-                color: '#ffffff',
-                fontVariantNumeric: 'tabular-nums',
-                whiteSpace: 'nowrap'
-              }}
-            >
-              {progress}%
-            </span>
-          </div>
-
-          {/* Center Card Stack */}
-          <div
-            style={{
-              position: 'relative',
-              width: '100%',
-              height: '100%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
-            {introCards.map((card, index) => {
-              // Stagger appearance based on progress
-              const threshold = (index / introCards.length) * 70;
-              const isVisible = progress >= threshold;
-
-              return (
-                <motion.div
-                  key={card.id}
-                  initial={{
-                    opacity: 0,
-                    scale: 0.8,
-                    y: 200,
-                    x: 0,
-                    rotate: 0
-                  }}
-                  animate={
-                    isVisible
-                      ? {
-                          opacity: 1,
-                          scale: 1,
-                          y: isDone ? card.y * 3 : card.y * 0.4,
-                          x: isDone ? card.x * 2.8 : card.x * 0.45,
-                          rotate: card.rotate
-                        }
-                      : {
-                          opacity: 0,
-                          scale: 0.8,
-                          y: 200,
-                          x: 0,
-                          rotate: 0
-                        }
-                  }
-                  transition={{
-                    duration: 0.75,
-                    ease: [0.16, 1, 0.3, 1]
-                  }}
-                  style={{
-                    position: 'absolute',
-                    width: 'min(580px, 78vw)',
-                    aspectRatio: '16/10',
-                    borderRadius: '24px',
-                    overflow: 'hidden',
-                    backgroundColor: '#0d0e12',
-                    border: '1.5px solid rgba(255, 255, 255, 0.16)',
-                    boxShadow: '0 24px 70px rgba(0, 0, 0, 0.88), 0 4px 12px rgba(255, 255, 255, 0.05)',
-                    transformOrigin: 'center center',
-                    zIndex: 10 + index
-                  }}
-                >
-                  <img
-                    src={card.image}
-                    alt={card.title}
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                      display: 'block'
+          {words.map((word, wIdx) => (
+            <span key={wIdx} style={{ display: 'inline-flex', whiteSpace: 'nowrap' }}>
+              {word.split('').map((char, cIdx) => {
+                const currentIdx = charCounter++;
+                return (
+                  <motion.span
+                    key={cIdx}
+                    initial={{ opacity: 0.001, filter: 'blur(8px)' }}
+                    animate={{ opacity: 1, filter: 'blur(0px)' }}
+                    transition={{
+                      delay: 0.15 + currentIdx * 0.035,
+                      duration: 0.85,
+                      ease: [0.3, 0, 0.2, 1]
                     }}
-                  />
-                  <div
                     style={{
-                      position: 'absolute',
-                      inset: 0,
-                      background: 'linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 40%, rgba(255,255,255,0.06) 100%)',
-                      pointerEvents: 'none'
-                    }}
-                  />
-                  <div
-                    style={{
-                      position: 'absolute',
-                      bottom: '16px',
-                      left: '18px',
-                      padding: '5px 12px',
-                      borderRadius: '8px',
-                      backgroundColor: 'rgba(0, 0, 0, 0.65)',
-                      backdropFilter: 'blur(8px)',
-                      border: '1px solid rgba(255, 255, 255, 0.18)',
-                      color: 'rgba(255, 255, 255, 0.95)',
-                      fontSize: '11px',
-                      fontWeight: '500',
-                      letterSpacing: '-0.02em',
-                      fontFamily: '"TWK Lausanne 400", sans-serif'
+                      display: 'inline-block',
+                      willChange: 'transform, filter, opacity'
                     }}
                   >
-                    {card.title}
-                  </div>
-                </motion.div>
-              );
-            })}
-          </div>
+                    {char}
+                  </motion.span>
+                );
+              })}
+            </span>
+          ))}
+        </p>
+      </div>
 
-          <style>{`
-            @media (max-width: 810px) {
-              .preloader-brand {
-                top: 40px !important;
-                left: 50% !important;
-                transform: translateX(-50%) !important;
-              }
-              .preloader-counter {
-                top: 68px !important;
-                right: unset !important;
-                left: 50% !important;
-                transform: translateX(-50%) !important;
-              }
-            }
-          `}</style>
-        </motion.div>
-      )}
-    </AnimatePresence>
+      {/* 2. Right Percentage Counter: Tabular Lausanne 300 */}
+      <div
+        className="preloader-counter"
+        style={{
+          position: 'absolute',
+          top: '50%',
+          right: '49px',
+          transform: 'translateY(-50%)',
+          zIndex: 30
+        }}
+      >
+        <span
+          style={{
+            fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
+            fontSize: '14px',
+            fontWeight: '300',
+            letterSpacing: '-0.07px',
+            lineHeight: '20px',
+            color: '#ffffff',
+            fontVariantNumeric: 'tabular-nums',
+            whiteSpace: 'nowrap',
+            display: 'block'
+          }}
+        >
+          {progress}%
+        </span>
+      </div>
+
+      {/* 3. Center 8 Cards Stack with Exact Spring Physics & Layered Hierarchy */}
+      <div
+        style={{
+          position: 'relative',
+          width: '100%',
+          height: '100%',
+          overflow: 'visible'
+        }}
+      >
+        {introCards.map((card) => {
+          return (
+            <motion.div
+              key={card.id}
+              className="preloader-card"
+              transformTemplate={({ x, y }) => `translate(-50%, -50%) translate3d(${x}, ${y}, 0)`}
+              initial={{
+                x: card.initialX,
+                y: 950,
+                opacity: 1,
+                scale: 1,
+                rotate: 0
+              }}
+              animate={{
+                x: 0,
+                y: card.stackY || 0,
+                opacity: 1,
+                scale: 1,
+                rotate: 0
+              }}
+              transition={{
+                type: 'spring',
+                damping: 48,
+                stiffness: 220,
+                mass: 1,
+                delay: card.delay
+              }}
+              style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                width: '600px',
+                aspectRatio: '1.6',
+                zIndex: card.zIndex,
+                borderRadius: '16px',
+                border: '1px solid rgba(255, 255, 255, 0.12)',
+                overflow: 'hidden',
+                backgroundColor: '#0a0a0d',
+                boxShadow: '0 20px 60px rgba(0, 0, 0, 0.8), 0 0 1px rgba(255, 255, 255, 0.2)',
+                willChange: 'transform'
+              }}
+            >
+              <img
+                src={card.image}
+                alt={card.name}
+                decoding="async"
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center',
+                  borderRadius: '16px'
+                }}
+              />
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* Responsive Styles strictly matching original CSS rules */}
+      <style>{`
+        @media (max-width: 1199.98px) {
+          .preloader-card {
+            width: 500px !important;
+          }
+        }
+        @media (max-width: 809.98px) {
+          .preloader-card {
+            width: 300px !important;
+          }
+          .preloader-brand {
+            top: 40px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+          }
+          .preloader-counter {
+            top: 64px !important;
+            right: unset !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+          }
+        }
+      `}</style>
+    </div>
   );
 }

@@ -1,0 +1,662 @@
+{
+  "stickyEls": [
+    {
+      "tag": "DIV",
+      "name": "Sticky",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Section - Services"
+    },
+    {
+      "tag": "DIV",
+      "name": "Sticky Video",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Video Column"
+    },
+    {
+      "tag": "DIV",
+      "name": "Sticky Column",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Grid"
+    },
+    {
+      "tag": "DIV",
+      "name": "",
+      "top": "0px",
+      "parentHeight": 440,
+      "parentName": null
+    },
+    {
+      "tag": "DIV",
+      "name": "",
+      "top": "0px",
+      "parentHeight": 484,
+      "parentName": null
+    },
+    {
+      "tag": "DIV",
+      "name": "",
+      "top": "0px",
+      "parentHeight": 220,
+      "parentName": null
+    },
+    {
+      "tag": "DIV",
+      "name": "Sticky Column",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Grid"
+    },
+    {
+      "tag": "DIV",
+      "name": "Sticky",
+      "top": "0px",
+      "parentHeight": 4500,
+      "parentName": "Section - Templates"
+    },
+    {
+      "tag": "DIV",
+      "name": "Main",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Content"
+    },
+    {
+      "tag": "DIV",
+      "name": "Main",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Content"
+    },
+    {
+      "tag": "DIV",
+      "name": "Main",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Content"
+    },
+    {
+      "tag": "DIV",
+      "name": "Main",
+      "top": "0px",
+      "parentHeight": 2700,
+      "parentName": "Content"
+    },
+    {
+      "tag": "DIV",
+      "name": "Main",
+      "top": "0px",
+      "parentHeight": 1800,
+      "parentName": "Content"
+    }
+  ],
+  "rangeA": [
+    {
+      "y": 0,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 150,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 300,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 450,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 600,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 750,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 900,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 1050,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    },
+    {
+      "y": 1200,
+      "heroTransform": "none",
+      "heroOpacity": "1",
+      "playreelTransform": "none",
+      "prVideoScale": null,
+      "prTextScale": null
+    }
+  ],
+  "rangeB": [
+    {
+      "y": 1400,
+      "wordCount": 47,
+      "opacities": [
+        {
+          "text": "You’ve",
+          "opacity": "1"
+        },
+        {
+          "text": "already",
+          "opacity": "1"
+        },
+        {
+          "text": "built",
+          "opacity": "1"
+        },
+        {
+          "text": "something",
+          "opacity": "1"
+        },
+        {
+          "text": "great.",
+          "opacity": "1"
+        },
+        {
+          "text": "Whether",
+          "opacity": "1"
+        },
+        {
+          "text": "it’s",
+          "opacity": "1"
+        },
+        {
+          "text": "just",
+          "opacity": "1"
+        },
+        {
+          "text": "taking",
+          "opacity": "1"
+        },
+        {
+          "text": "shape",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 1600,
+      "wordCount": 47,
+      "opacities": [
+        {
+          "text": "You’ve",
+          "opacity": "1"
+        },
+        {
+          "text": "already",
+          "opacity": "1"
+        },
+        {
+          "text": "built",
+          "opacity": "1"
+        },
+        {
+          "text": "something",
+          "opacity": "1"
+        },
+        {
+          "text": "great.",
+          "opacity": "1"
+        },
+        {
+          "text": "Whether",
+          "opacity": "1"
+        },
+        {
+          "text": "it’s",
+          "opacity": "1"
+        },
+        {
+          "text": "just",
+          "opacity": "1"
+        },
+        {
+          "text": "taking",
+          "opacity": "1"
+        },
+        {
+          "text": "shape",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 1800,
+      "wordCount": 47,
+      "opacities": [
+        {
+          "text": "You’ve",
+          "opacity": "1"
+        },
+        {
+          "text": "already",
+          "opacity": "1"
+        },
+        {
+          "text": "built",
+          "opacity": "1"
+        },
+        {
+          "text": "something",
+          "opacity": "1"
+        },
+        {
+          "text": "great.",
+          "opacity": "1"
+        },
+        {
+          "text": "Whether",
+          "opacity": "1"
+        },
+        {
+          "text": "it’s",
+          "opacity": "1"
+        },
+        {
+          "text": "just",
+          "opacity": "1"
+        },
+        {
+          "text": "taking",
+          "opacity": "1"
+        },
+        {
+          "text": "shape",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 2000,
+      "wordCount": 47,
+      "opacities": [
+        {
+          "text": "You’ve",
+          "opacity": "1"
+        },
+        {
+          "text": "already",
+          "opacity": "1"
+        },
+        {
+          "text": "built",
+          "opacity": "1"
+        },
+        {
+          "text": "something",
+          "opacity": "1"
+        },
+        {
+          "text": "great.",
+          "opacity": "1"
+        },
+        {
+          "text": "Whether",
+          "opacity": "1"
+        },
+        {
+          "text": "it’s",
+          "opacity": "1"
+        },
+        {
+          "text": "just",
+          "opacity": "1"
+        },
+        {
+          "text": "taking",
+          "opacity": "1"
+        },
+        {
+          "text": "shape",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 2200,
+      "wordCount": 47,
+      "opacities": [
+        {
+          "text": "You’ve",
+          "opacity": "1"
+        },
+        {
+          "text": "already",
+          "opacity": "1"
+        },
+        {
+          "text": "built",
+          "opacity": "1"
+        },
+        {
+          "text": "something",
+          "opacity": "1"
+        },
+        {
+          "text": "great.",
+          "opacity": "1"
+        },
+        {
+          "text": "Whether",
+          "opacity": "1"
+        },
+        {
+          "text": "it’s",
+          "opacity": "1"
+        },
+        {
+          "text": "just",
+          "opacity": "1"
+        },
+        {
+          "text": "taking",
+          "opacity": "1"
+        },
+        {
+          "text": "shape",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 2400,
+      "wordCount": 47,
+      "opacities": [
+        {
+          "text": "You’ve",
+          "opacity": "1"
+        },
+        {
+          "text": "already",
+          "opacity": "1"
+        },
+        {
+          "text": "built",
+          "opacity": "1"
+        },
+        {
+          "text": "something",
+          "opacity": "1"
+        },
+        {
+          "text": "great.",
+          "opacity": "1"
+        },
+        {
+          "text": "Whether",
+          "opacity": "1"
+        },
+        {
+          "text": "it’s",
+          "opacity": "1"
+        },
+        {
+          "text": "just",
+          "opacity": "1"
+        },
+        {
+          "text": "taking",
+          "opacity": "1"
+        },
+        {
+          "text": "shape",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 2600,
+      "wordCount": 47,
+      "opacities": [
+        {
+          "text": "You’ve",
+          "opacity": "1"
+        },
+        {
+          "text": "already",
+          "opacity": "1"
+        },
+        {
+          "text": "built",
+          "opacity": "1"
+        },
+        {
+          "text": "something",
+          "opacity": "1"
+        },
+        {
+          "text": "great.",
+          "opacity": "1"
+        },
+        {
+          "text": "Whether",
+          "opacity": "1"
+        },
+        {
+          "text": "it’s",
+          "opacity": "1"
+        },
+        {
+          "text": "just",
+          "opacity": "1"
+        },
+        {
+          "text": "taking",
+          "opacity": "1"
+        },
+        {
+          "text": "shape",
+          "opacity": "1"
+        }
+      ]
+    }
+  ],
+  "rangeC": [
+    {
+      "y": 2900,
+      "cards": [
+        {
+          "name": "Service",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "name": "Our Services",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 3300,
+      "cards": [
+        {
+          "name": "Service",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "name": "Our Services",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 3700,
+      "cards": [
+        {
+          "name": "Service",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "name": "Our Services",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 4100,
+      "cards": [
+        {
+          "name": "Service",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "name": "Our Services",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 4500,
+      "cards": [
+        {
+          "name": "Service",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "name": "Our Services",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 4900,
+      "cards": [
+        {
+          "name": "Service",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "name": "Our Services",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "y": 5300,
+      "cards": [
+        {
+          "name": "Service",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "name": "Our Services",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    }
+  ],
+  "rangeD": [
+    {
+      "y": 5600,
+      "text": "Testimonial",
+      "transform": "none"
+    },
+    {
+      "y": 6100,
+      "text": "Testimonial",
+      "transform": "none"
+    },
+    {
+      "y": 6600,
+      "text": "Testimonial",
+      "transform": "none"
+    },
+    {
+      "y": 7100,
+      "text": "Testimonial",
+      "transform": "none"
+    },
+    {
+      "y": 7600,
+      "text": "Testimonial",
+      "transform": "none"
+    },
+    {
+      "y": 8100,
+      "text": "Testimonial",
+      "transform": "none"
+    }
+  ],
+  "rangeE": [
+    {
+      "y": 8400,
+      "dialTransform": "none"
+    },
+    {
+      "y": 9100,
+      "dialTransform": "none"
+    },
+    {
+      "y": 9800,
+      "dialTransform": "none"
+    },
+    {
+      "y": 10500,
+      "dialTransform": "none"
+    },
+    {
+      "y": 11200,
+      "dialTransform": "none"
+    },
+    {
+      "y": 11900,
+      "dialTransform": "none"
+    },
+    {
+      "y": 12600,
+      "dialTransform": "none"
+    }
+  ]
+}

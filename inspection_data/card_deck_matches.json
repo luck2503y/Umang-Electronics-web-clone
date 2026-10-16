@@ -1,0 +1,54 @@
+[
+  {
+    "tag": "DIV",
+    "name": "Intro-3",
+    "id": "",
+    "classes": "framer-17j0eho",
+    "rect": {
+      "top": 262.5,
+      "height": 375,
+      "width": 600
+    },
+    "parentName": "Mask",
+    "grandParentName": "Desktop-2"
+  },
+  {
+    "tag": "DIV",
+    "name": null,
+    "id": "",
+    "classes": "",
+    "rect": {
+      "top": 262.5,
+      "height": 375,
+      "width": 600
+    },
+    "parentName": "Intro-3",
+    "grandParentName": "Mask"
+  },
+  {
+    "tag": "DIV",
+    "name": "Intro-6",
+    "id": "",
+    "classes": "framer-1ne3oib",
+    "rect": {
+      "top": 262.5,
+      "height": 375,
+      "width": 600
+    },
+    "parentName": "Mask",
+    "grandParentName": "Desktop-2"
+  },
+  {
+    "tag": "DIV",
+    "name": null,
+    "id": "",
+    "classes": "",
+    "rect": {
+      "top": 262.5,
+      "height": 375,
+      "width": 600
+    },
+    "parentName": "Intro-6",
+    "grandParentName": "Mask"
+  }
+]
