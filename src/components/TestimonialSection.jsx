@@ -52,6 +52,7 @@ function QuoteCard({ item }) {
   return (
     <div
       ref={cardRef}
+      className="testimonial-card"
       style={{
         minHeight: '620px',
         display: 'flex',
@@ -111,6 +112,7 @@ export default function TestimonialSection() {
       ref={containerRef}
       id="testimonial"
       data-framer-name="Section - Testimonial"
+      className="testimonial-section"
       style={{
         position: 'relative',
         width: '100%',
@@ -120,7 +122,34 @@ export default function TestimonialSection() {
         padding: '0 40px'
       }}
     >
+      <style>{`
+        @media (max-width: 810px) {
+          .testimonial-section {
+            min-height: auto !important;
+            padding: 60px 20px !important;
+          }
+          .testimonial-grid {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 20px !important;
+          }
+          .testimonial-sticky-col {
+            position: relative !important;
+            top: auto !important;
+            padding-top: 0 !important;
+          }
+          .testimonial-right-col {
+            padding-top: 0 !important;
+          }
+          .testimonial-card {
+            min-height: auto !important;
+            padding: 24px 0 !important;
+            padding-right: 0 !important;
+          }
+        }
+      `}</style>
       <div
+        className="testimonial-grid"
         style={{
           maxWidth: '1360px',
           margin: '0 auto',
@@ -133,6 +162,7 @@ export default function TestimonialSection() {
       >
         {/* Sticky Left Column: "Testimonial" */}
         <div
+          className="testimonial-sticky-col"
           style={{
             position: 'sticky',
             top: '120px',
@@ -153,7 +183,7 @@ export default function TestimonialSection() {
         </div>
 
         {/* Right Column: 3 Quotes revealing clearly and progressively */}
-        <div style={{ paddingTop: '60px' }}>
+        <div className="testimonial-right-col" style={{ paddingTop: '60px' }}>
           {testimonials.map((item, index) => (
             <QuoteCard
               key={index}

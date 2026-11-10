@@ -295,7 +295,7 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
           position: 'relative',
           width: '100%',
           height: '100%',
-          overflow: 'visible'
+          overflow: 'hidden'
         }}
       >
         {introCards.map((card) => {
@@ -329,7 +329,7 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
                 position: 'absolute',
                 top: '50%',
                 left: '50%',
-                width: '600px',
+                width: 'min(600px, 86vw)',
                 aspectRatio: '1.6',
                 zIndex: card.zIndex,
                 borderRadius: '16px',
@@ -367,15 +367,19 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
         }
         @media (max-width: 809.98px) {
           .preloader-card {
-            width: 300px !important;
+            width: min(320px, 86vw) !important;
           }
           .preloader-brand {
             top: 40px !important;
             left: 50% !important;
             transform: translateX(-50%) !important;
+            width: 100% !important;
+            text-align: center !important;
+            display: flex !important;
+            justify-content: center !important;
           }
           .preloader-counter {
-            top: 64px !important;
+            top: 68px !important;
             right: unset !important;
             left: 50% !important;
             transform: translateX(-50%) !important;

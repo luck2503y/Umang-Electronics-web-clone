@@ -48,6 +48,7 @@ export default function FAQSection({ onOpenContact }) {
     <section
       data-framer-name="Section - FAQ"
       id="faq"
+      className="faq-section"
       style={{
         width: '100%',
         backgroundColor: '#efefef',
@@ -59,6 +60,7 @@ export default function FAQSection({ onOpenContact }) {
       }}
     >
       <div
+        className="faq-container-grid"
         style={{
           maxWidth: '1200px',
           width: '100%',
@@ -179,11 +181,17 @@ export default function FAQSection({ onOpenContact }) {
 
       <style>{`
         @media (max-width: 810px) {
-          .faq-left-col {
-            grid-column: span 12 !important;
+          .faq-section {
+            padding: 70px 20px !important;
           }
-          .faq-right-col {
-            grid-column: span 12 !important;
+          .faq-container-grid {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 32px !important;
+          }
+          .faq-left-col, .faq-right-col {
+            width: 100% !important;
+            grid-column: unset !important;
           }
         }
       `}</style>

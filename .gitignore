@@ -2,3 +2,18 @@ node_modules/
 dist/
 *.log
 .DS_Store
+
+# Temporary recordings and inspection assets
+Screen Recording*.mp4
+audit_*.js
+extract_*.js
+find_*.js
+generate_*.py
+inspect_*.js
+test_*.js
+inspection_data/
+inspection_fixes/
+inspection_mobile/
+inspection_screenshots/
+public/assets/services_raw/
+

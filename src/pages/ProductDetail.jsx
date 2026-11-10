@@ -35,9 +35,11 @@ export default function ProductDetail({ onOpenContact }) {
     >
       {/* FULL-SCREEN 3D APPLIANCE STAGE */}
       <div
+        className="pdetail-hero"
         style={{
           position: 'relative',
-          width: '100vw',
+          width: '100%',
+          maxWidth: '100vw',
           height: '100vh',
           minHeight: '700px',
           display: 'flex',
@@ -48,6 +50,88 @@ export default function ProductDetail({ onOpenContact }) {
           padding: '80px 40px 100px'
         }}
       >
+        <style>{`
+          @media (max-width: 900px) {
+            .pdetail-hero {
+              height: auto !important;
+              min-height: 85vh !important;
+              padding: 85px 16px 80px !important;
+            }
+            .pdetail-top-bar {
+              position: relative !important;
+              top: auto !important;
+              left: auto !important;
+              right: auto !important;
+              width: 100% !important;
+              margin-bottom: 20px !important;
+              flex-wrap: wrap !important;
+              gap: 12px !important;
+            }
+            .pdetail-stage {
+              height: 48vh !important;
+              max-height: 380px !important;
+              border-radius: 20px !important;
+            }
+            .pdetail-bottom-bar {
+              position: fixed !important;
+              bottom: 14px !important;
+              left: 10px !important;
+              right: 10px !important;
+              width: auto !important;
+              max-width: calc(100vw - 20px) !important;
+              display: flex !important;
+              justifyContent: space-between !important;
+              gap: 8px !important;
+              z-index: 40 !important;
+            }
+            .pdetail-bottom-bar button {
+              padding: 9px 12px !important;
+              font-size: 11px !important;
+              white-space: nowrap !important;
+            }
+            .pdetail-drawer {
+              left: 12px !important;
+              right: 12px !important;
+              width: auto !important;
+              max-width: calc(100vw - 24px) !important;
+              bottom: 70px !important;
+              padding: 20px !important;
+            }
+            .pdetail-details-section {
+              padding: 50px 16px !important;
+            }
+            .pdetail-details-grid {
+              display: flex !important;
+              flex-direction: column !important;
+              gap: 40px !important;
+            }
+            .pdetail-left-col, .pdetail-right-col {
+              width: 100% !important;
+              grid-column: unset !important;
+            }
+            .pdetail-specs-table {
+              padding: 24px 16px !important;
+              border-radius: 20px !important;
+            }
+            .pdetail-spec-row {
+              display: flex !important;
+              flex-direction: column !important;
+              align-items: flex-start !important;
+              gap: 4px !important;
+              padding: 12px 0 !important;
+            }
+            .pdetail-spec-val {
+              text-align: left !important;
+            }
+            .pdetail-related-section {
+              padding: 50px 16px 120px !important;
+            }
+            .pdetail-related-grid {
+              grid-template-columns: 1fr !important;
+              gap: 16px !important;
+            }
+          }
+        `}</style>
         {/* Subtle Background Glow & Radial Gradient */}
         <div
           style={{
@@ -61,6 +145,7 @@ export default function ProductDetail({ onOpenContact }) {
 
         {/* Top Floating Breadcrumb Bar */}
         <div
+          className="pdetail-top-bar"
           style={{
             position: 'absolute',
             top: '100px',
@@ -119,6 +204,7 @@ export default function ProductDetail({ onOpenContact }) {
           initial={{ opacity: 0, scale: 0.94 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          className="pdetail-stage"
           style={{
             position: 'relative',
             zIndex: 10,
@@ -212,6 +298,7 @@ export default function ProductDetail({ onOpenContact }) {
 
         {/* Fixed Bottom Glass Action Bar */}
         <div
+          className="pdetail-bottom-bar"
           style={{
             position: 'absolute',
             bottom: '36px',
@@ -322,6 +409,7 @@ export default function ProductDetail({ onOpenContact }) {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 40, scale: 0.96 }}
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+            className="pdetail-drawer"
             style={{
               position: 'fixed',
               bottom: '100px',
@@ -418,6 +506,7 @@ export default function ProductDetail({ onOpenContact }) {
 
       {/* COMPREHENSIVE PRODUCT DETAILS & SPECIFICATIONS SECTION */}
       <section
+        className="pdetail-details-section"
         style={{
           padding: '100px 40px',
           borderTop: '1px solid rgba(255, 255, 255, 0.1)',
@@ -426,6 +515,7 @@ export default function ProductDetail({ onOpenContact }) {
         }}
       >
         <div
+          className="pdetail-details-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(12, 1fr)',
@@ -434,7 +524,7 @@ export default function ProductDetail({ onOpenContact }) {
           }}
         >
           {/* Left Column (5 cols): Overview & Highlights */}
-          <div style={{ gridColumn: 'span 5' }}>
+          <div className="pdetail-left-col" style={{ gridColumn: 'span 5' }}>
             <span
               style={{
                 fontFamily: '"TWK Lausanne 400", sans-serif',
@@ -539,8 +629,9 @@ export default function ProductDetail({ onOpenContact }) {
           </div>
 
           {/* Right Column (7 cols): Verified Specifications Table */}
-          <div style={{ gridColumn: 'span 7' }}>
+          <div className="pdetail-right-col" style={{ gridColumn: 'span 7' }}>
             <div
+              className="pdetail-specs-table"
               style={{
                 backgroundColor: 'rgba(255, 255, 255, 0.03)',
                 borderRadius: '24px',
@@ -569,6 +660,7 @@ export default function ProductDetail({ onOpenContact }) {
                 {Object.entries(product.specs || {}).map(([key, value], idx) => (
                   <div
                     key={key}
+                    className="pdetail-spec-row"
                     style={{
                       display: 'grid',
                       gridTemplateColumns: '200px 1fr',
@@ -582,7 +674,7 @@ export default function ProductDetail({ onOpenContact }) {
                     }}
                   >
                     <span style={{ color: 'rgba(255, 255, 255, 0.55)', fontWeight: '400' }}>{key}</span>
-                    <span style={{ color: '#ffffff', fontWeight: '500', lineHeight: '1.4' }}>{value}</span>
+                    <span className="pdetail-spec-val" style={{ color: '#ffffff', fontWeight: '500', lineHeight: '1.4' }}>{value}</span>
                   </div>
                 ))}
               </div>
@@ -615,6 +707,7 @@ export default function ProductDetail({ onOpenContact }) {
       {/* RELATED APPLIANCES IN THIS CATEGORY */}
       {relatedProducts.length > 0 && (
         <section
+          className="pdetail-related-section"
           style={{
             padding: '80px 40px 120px',
             borderTop: '1px solid rgba(255, 255, 255, 0.1)',
@@ -652,6 +745,7 @@ export default function ProductDetail({ onOpenContact }) {
           </div>
 
           <div
+            className="pdetail-related-grid"
             style={{
               display: 'grid',
               gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))',

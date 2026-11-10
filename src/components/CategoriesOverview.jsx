@@ -40,6 +40,7 @@ export default function CategoriesOverview() {
   return (
     <section
       data-framer-name="Section - Categories"
+      className="categories-section"
       style={{
         width: '100%',
         backgroundColor: '#000000',
@@ -49,6 +50,17 @@ export default function CategoriesOverview() {
         overflow: 'hidden'
       }}
     >
+      <style>{`
+        @media (max-width: 810px) {
+          .categories-section {
+            padding: 60px 20px !important;
+          }
+          .categories-grid {
+            grid-template-columns: 1fr !important;
+            gap: 20px !important;
+          }
+        }
+      `}</style>
       <div
         style={{
           maxWidth: '1360px',
@@ -121,9 +133,10 @@ export default function CategoriesOverview() {
 
         {/* 3 Prominent Cards Grid */}
         <div
+          className="categories-grid"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
             gap: '32px'
           }}
         >

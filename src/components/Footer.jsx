@@ -41,7 +41,7 @@ export default function Footer({ onOpenContact }) {
         width: '100%',
         backgroundColor: '#000000',
         color: '#ffffff',
-        padding: '72px 40px 32px',
+        padding: '72px 40px 120px',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -289,14 +289,17 @@ export default function Footer({ onOpenContact }) {
           />
         </div>
 
-        {/* Bottom Bar: Timezone + Scroll to Top Button */}
+        {/* Bottom Bar: Timezone + Copyright Notice + Scroll to Top Button */}
         <div
+          className="footer-bottom-bar"
           style={{
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
             marginTop: '28px',
-            width: '100%'
+            width: '100%',
+            flexWrap: 'wrap',
+            gap: '16px'
           }}
         >
           {/* Timezone (GMT +7) */}
@@ -331,6 +334,21 @@ export default function Footer({ onOpenContact }) {
             >
               (GMT +7)
             </span>
+          </div>
+
+          {/* Copyright: © 2026 Vyomara Technologies. All rights reserved. */}
+          <div
+            className="footer-copyright"
+            style={{
+              fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
+              fontSize: '13px',
+              lineHeight: '20px',
+              letterSpacing: '-0.06px',
+              color: 'rgba(255, 255, 255, 0.6)',
+              textAlign: 'center'
+            }}
+          >
+            © 2026 Vyomara Technologies. All rights reserved.
           </div>
 
           {/* Scroll to Top Round Glass Button */}
@@ -378,6 +396,24 @@ export default function Footer({ onOpenContact }) {
           </button>
         </div>
       </div>
+
+      <style>{`
+        @media (max-width: 810px) {
+          footer {
+            padding: 48px 20px 110px !important;
+          }
+          .footer-bottom-bar {
+            flex-direction: column !important;
+            align-items: center !important;
+            text-align: center !important;
+            gap: 16px !important;
+            margin-bottom: 24px !important;
+          }
+          .footer-copyright {
+            order: 2;
+          }
+        }
+      `}</style>
     </footer>
   );
 }

@@ -4,6 +4,7 @@ export default function CTASection({ onOpenContact }) {
   return (
     <section
       data-framer-name="Section - CTA"
+      className="cta-section"
       style={{
         width: '100%',
         minHeight: '80vh',
@@ -19,9 +20,21 @@ export default function CTASection({ onOpenContact }) {
         overflow: 'hidden'
       }}
     >
+      <style>{`
+        @media (max-width: 810px) {
+          .cta-section {
+            padding: 80px 20px !important;
+            min-height: 50vh !important;
+          }
+          .cta-heading {
+            font-size: clamp(34px, 8.5vw, 52px) !important;
+            letter-spacing: -1.2px !important;
+          }
+        }
+      `}</style>
       {/* Background Video with subtle dark overlay */}
       <video
-        src="https://stream.mux.com/kvyETSxTWR4yWLgS7zJjL7W1my00PprfrISoZPY1rurM/1080p.mp4"
+        src="/assets/videos/cta-ambient-electronics.mp4"
         autoPlay
         loop
         muted
@@ -71,6 +84,7 @@ export default function CTASection({ onOpenContact }) {
         }}
       >
         <h2
+          className="cta-heading"
           style={{
             fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
             fontSize: 'clamp(52px, 8vw, 96px)',

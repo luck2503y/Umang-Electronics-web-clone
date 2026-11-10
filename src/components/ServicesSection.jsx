@@ -9,7 +9,7 @@ const services = [
     deliverables: 'Delivery, Unboxing, Wall Mounting & Safety Check',
     description: 'Certified doorstep installation for split air conditioners, front-load washing machines, and wall-mounted televisions. Includes pressure checks, copper pipe insulation, and electrical surge validation.',
     price: 'Included Support',
-    video: 'https://stream.mux.com/BP0200Otu1K9wAS3EYw00ewY7oNNy4gBzZiQqh758BrbsQ/1080p.mp4'
+    video: '/assets/videos/service-delivery-setup.mp4'
   },
   {
     id: 'home-theatre-calibration',
@@ -18,7 +18,7 @@ const services = [
     deliverables: 'Acoustic Positioning, 4K HDR Calibration, Wire Concealment',
     description: 'Elevate your living room into a cinema. We tune 5.1 channel surround acoustics, calibrate OLED & QLED picture profiles for dynamic range, and set up eARC audio pass-through.',
     price: 'Specialist Service',
-    video: 'https://stream.mux.com/SJ2mU2IfrQe3jkt22bmriMiit7Xl00El9gNpFXisIZ2w/1080p.mp4'
+    video: '/assets/videos/service-consultation-demo.mp4'
   },
   {
     id: 'warranty-maintenance',
@@ -27,7 +27,7 @@ const services = [
     deliverables: 'Brand Warranty Registration, Filter Kits, Scheduled Descaling',
     description: 'Complete peace of mind. We handle manufacturer serial registration, supply authentic replacement cartridges for water purifiers, and provide expert diagnostic guidance.',
     price: 'Official Care',
-    video: 'https://stream.mux.com/jeHaeZGXsR4q11ul6jRFPgLtAPhO53B5epZj39cw7jw/1080p.mp4'
+    video: '/assets/videos/service-authorized-store.mp4'
   }
 ];
 
@@ -71,6 +71,7 @@ export default function ServicesSection({ onOpenContact }) {
       ref={containerRef}
       id="service"
       data-framer-name="Section - Services"
+      className="services-section"
       style={{
         position: 'relative',
         width: '100%',
@@ -79,8 +80,50 @@ export default function ServicesSection({ onOpenContact }) {
         color: '#000000'
       }}
     >
+      <style>{`
+        @media (max-width: 900px) {
+          .services-section {
+            height: auto !important;
+            padding: 70px 20px !important;
+          }
+          .services-sticky-viewport {
+            position: relative !important;
+            top: auto !important;
+            height: auto !important;
+            padding: 0 !important;
+          }
+          .services-grid {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 32px !important;
+          }
+          .services-left-col {
+            padding: 0 !important;
+          }
+          .services-right-card {
+            height: auto !important;
+            padding: 24px 16px !important;
+            border-radius: 20px !important;
+          }
+          .services-menu-tabs {
+            align-items: center !important;
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+            justifyContent: center !important;
+            gap: 12px !important;
+            margin-top: 20px !important;
+          }
+          .services-menu-tabs button {
+            font-size: 13px !important;
+            padding: 6px 12px !important;
+            background: rgba(255, 255, 255, 0.08) !important;
+            border-radius: 100px !important;
+          }
+        }
+      `}</style>
       {/* Pinned Sticky Viewport (100vh) */}
       <div
+        className="services-sticky-viewport"
         style={{
           position: 'sticky',
           top: 0,
@@ -94,6 +137,7 @@ export default function ServicesSection({ onOpenContact }) {
         }}
       >
         <div
+          className="services-grid"
           style={{
             maxWidth: '1360px',
             width: '100%',
@@ -105,6 +149,7 @@ export default function ServicesSection({ onOpenContact }) {
         >
           {/* Left Column: Service Details */}
           <div
+            className="services-left-col"
             style={{
               display: 'flex',
               flexDirection: 'column',
@@ -318,6 +363,7 @@ export default function ServicesSection({ onOpenContact }) {
 
           {/* Right Column: Black Container with Video Stack & Menu */}
           <div
+            className="services-right-card"
             style={{
               backgroundColor: '#000000',
               borderRadius: '28px',
@@ -367,7 +413,7 @@ export default function ServicesSection({ onOpenContact }) {
                     }}
                   >
                     <video
-                      src={s.video}
+                      key={s.video}
                       autoPlay
                       loop
                       muted
@@ -378,7 +424,10 @@ export default function ServicesSection({ onOpenContact }) {
                         objectFit: 'cover',
                         display: 'block'
                       }}
-                    />
+                    >
+                      <source src={s.video} type="video/mp4" />
+                      <source src={s.video.replace('.mp4', '.webm')} type="video/webm" />
+                    </video>
                   </motion.div>
                 );
               })}
@@ -386,6 +435,7 @@ export default function ServicesSection({ onOpenContact }) {
 
             {/* Bottom Right: Interactive Menu */}
             <div
+              className="services-menu-tabs"
               style={{
                 display: 'flex',
                 flexDirection: 'column',

@@ -59,6 +59,7 @@ export default function Products({ onOpenContact }) {
 
   return (
     <main
+      className="products-main-page"
       style={{
         backgroundColor: '#efefef',
         color: '#000000',
@@ -69,6 +70,30 @@ export default function Products({ onOpenContact }) {
         paddingRight: '40px'
       }}
     >
+      <style>{`
+        @media (max-width: 810px) {
+          .products-main-page {
+            padding: 90px 16px 60px !important;
+          }
+          .products-grid {
+            grid-template-columns: 1fr !important;
+            gap: 20px !important;
+          }
+          .products-toolbar {
+            flex-direction: column !important;
+            align-items: stretch !important;
+            gap: 16px !important;
+          }
+          .products-search-box {
+            max-width: 100% !important;
+          }
+          .products-summary-bar {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            gap: 10px !important;
+          }
+        }
+      `}</style>
       <div
         style={{
           maxWidth: '1360px',
@@ -136,6 +161,7 @@ export default function Products({ onOpenContact }) {
 
         {/* Filter & Search Toolbar */}
         <div
+          className="products-toolbar"
           style={{
             display: 'flex',
             justifyContent: 'space-between',
@@ -149,6 +175,7 @@ export default function Products({ onOpenContact }) {
         >
           {/* Real-time Search Box */}
           <div
+            className="products-search-box"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -196,7 +223,7 @@ export default function Products({ onOpenContact }) {
           </div>
 
           {/* Right: Results Count & Sort Dropdown */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+          <div className="products-summary-bar" style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
             <span
               style={{
                 fontFamily: '"TWK Lausanne 400", sans-serif',
@@ -265,9 +292,10 @@ export default function Products({ onOpenContact }) {
         {/* 3-Column Responsive Grid for all 36 Products */}
         <motion.div
           layout
+          className="products-grid"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
             gap: '40px 32px'
           }}
         >

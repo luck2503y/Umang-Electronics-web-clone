@@ -84,6 +84,7 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.94, y: 15 }}
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+            className="contact-modal-card"
             style={{
               position: 'relative',
               zIndex: 2,
@@ -97,6 +98,17 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
               overflowY: 'auto'
             }}
           >
+            <style>{`
+              @media (max-width: 480px) {
+                .contact-modal-card {
+                  padding: 24px 18px !important;
+                  border-radius: 20px !important;
+                }
+                .contact-modal-title {
+                  font-size: 24px !important;
+                }
+              }
+            `}</style>
             {/* Close Button */}
             <button
               onClick={onClose}

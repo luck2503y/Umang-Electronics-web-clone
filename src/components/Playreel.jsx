@@ -85,7 +85,7 @@ export default function Playreel() {
                 color: 'rgba(255, 255, 255, 0.96)'
               }}
             >
-              [ 00:44 ]
+              [ 00:30 ]
             </span>
           </div>
         </div>
@@ -266,15 +266,18 @@ export default function Playreel() {
             }}
           >
             <video
-              src="https://stream.mux.com/kvyETSxTWR4yWLgS7zJjL7W1my00PprfrISoZPY1rurM/1080p.mp4"
               controls
               autoPlay
+              playsInline
               style={{
                 width: '100%',
                 height: '100%',
                 display: 'block'
               }}
-            />
+            >
+              <source src="/assets/videos/playreel-showcase.mp4" type="video/mp4" />
+              <source src="/assets/videos/playreel-showcase.webm" type="video/webm" />
+            </video>
             <button
               onClick={() => setModalOpen(false)}
               style={{
@@ -301,14 +304,33 @@ export default function Playreel() {
         @media (max-width: 809.98px) {
           #playreel {
             height: 100vh !important;
-            min-height: 600px !important;
+            min-height: 520px !important;
+            overflow: hidden !important;
+            max-width: 100vw !important;
+          }
+          #playreel-text-play, #playreel-text-reel, #playreel-text-copy {
+            transform: translateX(0) !important;
           }
           #5czkxl button {
-            width: 110px !important;
-            height: 52px !important;
+            width: 90px !important;
+            height: 44px !important;
           }
           #playreel span[style*="clamp"] {
-            letter-spacing: -1.8px !important;
+            font-size: clamp(36px, 10vw, 64px) !important;
+            letter-spacing: -1.2px !important;
+          }
+        }
+        @media (max-width: 480px) {
+          #playreel [data-framer-name="Container"] {
+            padding: 0 8px !important;
+          }
+          #5czkxl button {
+            width: 70px !important;
+            height: 36px !important;
+          }
+          #playreel span[style*="clamp"] {
+            font-size: clamp(26px, 8vw, 40px) !important;
+            letter-spacing: -0.8px !important;
           }
         }
       `}</style>

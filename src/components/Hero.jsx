@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import ShaderSphere from './ShaderSphere';
 
 export default function Hero({ onOpenContact, isPreloaderActive = false }) {
   const [currentTime, setCurrentTime] = useState('');
@@ -100,8 +99,10 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
       }
 
       // Simultaneously update Playreel typography & play button scale
-      const playX = -300 * (1 - progress);
-      const reelX = 300 * (1 - progress);
+      const isMobile = window.innerWidth < 768;
+      const maxShift = isMobile ? Math.min(80, window.innerWidth * 0.2) : 300;
+      const playX = -maxShift * (1 - progress);
+      const reelX = maxShift * (1 - progress);
       const btnScale = 0.5 + 0.5 * progress;
 
       const playEl = document.getElementById('playreel-text-play');
@@ -218,52 +219,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             width: '100%'
           }}
         >
-          {/* Authorized Electronics Destination Badge */}
-          <div
-            style={{
-              alignSelf: 'stretch',
-              display: 'flex',
-              justifyContent: 'flex-start',
-              alignItems: 'center',
-              width: '100%',
-              marginBottom: '8px'
-            }}
-            className="hero-badge-container"
-          >
-            <div
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
-                padding: '7px 14px',
-                borderRadius: '12px',
-                border: '1px solid rgba(255, 255, 255, 0.2)',
-                backgroundColor: 'rgba(255, 255, 255, 0.05)',
-                backdropFilter: 'blur(8px)',
-                WebkitBackdropFilter: 'blur(8px)'
-              }}
-              className="hero-badge-pill"
-            >
-              {/* Electronics Zap / Spark Icon SVG */}
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" fill="white" />
-              </svg>
-              <span
-                style={{
-                  fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                  fontSize: '12px',
-                  lineHeight: '16px',
-                  fontWeight: '400',
-                  letterSpacing: '-0.06px',
-                  color: 'rgb(255, 255, 255)'
-                }}
-                className="hero-badge-text"
-              >
-                Authorized Consumer Electronics & Home Appliances
-              </span>
-            </div>
-          </div>
-
           {/* Main 3-Row Headline Stack */}
           <div
             style={{
@@ -357,8 +312,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
                 >
                   <video
                     ref={videoRef}
-                    src="https://stream.mux.com/921N3eqnEGvaG6c735ET923SDF5OMbSeYls00HTIQ2Cg/1080p.mp4"
-                    poster="https://image.mux.com/921N3eqnEGvaG6c735ET923SDF5OMbSeYls00HTIQ2Cg/thumbnail.webp"
                     autoPlay
                     loop
                     muted
@@ -370,7 +323,10 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
                       objectFit: 'cover',
                       display: 'block'
                     }}
-                  />
+                  >
+                    <source src="/assets/videos/hero-showcase.mp4" type="video/mp4" />
+                    <source src="/assets/videos/hero-showcase.webm" type="video/webm" />
+                  </video>
                   <div
                     ref={overlayRef}
                     id="hero-video-overlay"
@@ -401,13 +357,13 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
               </span>
             </div>
 
-            {/* ROW 3: smart [Rotating Sphere 80px] appliances */}
+            {/* ROW 3: smart appliances */}
             <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: '14px',
+                gap: '24px',
                 height: '96px'
               }}
               className="hero-row-3"
@@ -425,25 +381,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
               >
                 smart
               </span>
-
-              {/* 3D WebGL Shader Sphere Badge (80x80) */}
-              <div
-                style={{
-                  width: '80px',
-                  height: '80px',
-                  borderRadius: '50%',
-                  overflow: 'hidden',
-                  position: 'relative',
-                  flexShrink: 0,
-                  boxShadow: '0 8px 24px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(255, 255, 255, 0.3)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center'
-                }}
-                className="hero-sphere-badge"
-              >
-                <ShaderSphere />
-              </div>
 
               <span
                 style={{
@@ -678,24 +615,19 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             height: 100vh !important;
             min-height: 640px !important;
           }
-          .hero-badge-container {
-            justify-content: flex-start !important;
-            width: 100% !important;
-            margin-bottom: 4px !important;
-          }
-          .hero-badge-pill {
-            padding: 6px 12px !important;
-          }
-          .hero-badge-text {
-            font-size: 11px !important;
-          }
           .hero-headline-stack {
             width: 100% !important;
           }
-          .hero-row-1, .hero-row-2, .hero-row-3 {
+          .hero-row-1, .hero-row-2 {
             width: 100% !important;
             justify-content: space-between !important;
             gap: unset !important;
+            height: 58px !important;
+          }
+          .hero-row-3 {
+            width: 100% !important;
+            justify-content: center !important;
+            gap: 12px !important;
             height: 58px !important;
           }
           .hero-row-1 span, .hero-row-2 span, .hero-row-3 span {
@@ -707,10 +639,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             width: 64px !important;
             height: 40px !important;
             border-radius: 10px !important;
-          }
-          .hero-sphere-badge {
-            width: 40px !important;
-            height: 40px !important;
           }
           .hero-shimmer-container {
             justify-content: flex-end !important;
@@ -742,6 +670,39 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
           .hero-bottom-center p {
             font-size: 13px !important;
             line-height: 18px !important;
+          }
+        }
+
+        @media (max-width: 480px) {
+          #hero {
+            padding: 0 16px !important;
+            min-height: 580px !important;
+          }
+          .hero-row-1, .hero-row-2, .hero-row-3 {
+            height: auto !important;
+            margin: 4px 0 !important;
+            gap: 8px !important;
+            flex-wrap: wrap !important;
+            justify-content: center !important;
+          }
+          .hero-row-1 span, .hero-row-2 span, .hero-row-3 span {
+            font-size: clamp(24px, 7.5vw, 36px) !important;
+            line-height: 1.15 !important;
+            letter-spacing: -1px !important;
+          }
+          #hero-video-anchor, .hero-preview-pill {
+            width: 56px !important;
+            height: 34px !important;
+            border-radius: 8px !important;
+          }
+          .hero-shimmer-container {
+            justify-content: center !important;
+            text-align: center !important;
+            margin-top: 8px !important;
+          }
+          .hero-shimmer-container p {
+            font-size: 12px !important;
+            line-height: 16px !important;
           }
         }
       `}</style>

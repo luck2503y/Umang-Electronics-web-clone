@@ -536,10 +536,17 @@ export default function Docs({ onOpenContact }) {
         @media (max-width: 810px) {
           .docs-layout-grid {
             grid-template-columns: 1fr !important;
+            padding: 16px 16px 80px !important;
+            gap: 32px !important;
           }
           .docs-sidebar {
             position: static !important;
             max-height: none !important;
+            padding-right: 0 !important;
+          }
+          .docs-layout-grid article {
+            padding: 24px 16px !important;
+            min-height: auto !important;
           }
         }
       `}</style>

@@ -58,6 +58,8 @@ const templates = [
 export default function FeaturedTemplates() {
   const containerRef = useRef(null);
   const [activeIdx, setActiveIdx] = useState(0);
+  const touchStartY = useRef(0);
+  const touchStartX = useRef(0);
 
   // Track scroll inside the 4500px pinned container
   const { scrollYProgress } = useScroll({
@@ -73,17 +75,35 @@ export default function FeaturedTemplates() {
   });
 
   const scrollToTemplate = (idx) => {
-    setActiveIdx(idx);
+    const clamped = Math.max(0, Math.min(4, idx));
+    setActiveIdx(clamped);
     if (!containerRef.current) return;
     const top = containerRef.current.offsetTop;
     const h = containerRef.current.offsetHeight - window.innerHeight;
     // Scroll to the midpoint of the template slice
-    const sliceCenter = (idx + 0.5) / 5;
+    const sliceCenter = (clamped + 0.5) / 5;
     const targetY = top + sliceCenter * h;
     if (window.lenis) {
       window.lenis.scrollTo(targetY, { duration: 0.9 });
     } else {
       window.scrollTo({ top: targetY, behavior: 'smooth' });
+    }
+  };
+
+  const handleTouchStart = (e) => {
+    touchStartY.current = e.touches[0].clientY;
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e) => {
+    const diffY = touchStartY.current - e.changedTouches[0].clientY;
+    const diffX = touchStartX.current - e.changedTouches[0].clientX;
+    if (Math.abs(diffX) > 35 && Math.abs(diffX) > Math.abs(diffY)) {
+      if (diffX > 0 && activeIdx < 4) {
+        scrollToTemplate(activeIdx + 1);
+      } else if (diffX < 0 && activeIdx > 0) {
+        scrollToTemplate(activeIdx - 1);
+      }
     }
   };
 
@@ -94,6 +114,7 @@ export default function FeaturedTemplates() {
       ref={containerRef}
       id="templates"
       data-framer-name="Section - Templates"
+      className="templates-section"
       style={{
         position: 'relative',
         width: '100%',
@@ -102,8 +123,61 @@ export default function FeaturedTemplates() {
         color: '#ffffff'
       }}
     >
+      <style>{`
+        @media (max-width: 900px) {
+          .templates-section {
+            height: 3800px !important;
+            padding: 0 !important;
+          }
+          .templates-sticky-viewport {
+            position: sticky !important;
+            top: 0 !important;
+            height: 100vh !important;
+            min-height: 560px !important;
+            padding: 70px 16px 20px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justifyContent: center !important;
+            align-items: center !important;
+            box-sizing: border-box !important;
+          }
+          .templates-content-stage {
+            display: flex !important;
+            flex-direction: column !important;
+            min-height: auto !important;
+            padding: 0 !important;
+            gap: 24px !important;
+            text-align: center !important;
+            align-items: center !important;
+          }
+          .templates-dial-box {
+            width: min(240px, 66vw) !important;
+            height: min(240px, 66vw) !important;
+          }
+          .templates-dial-portal {
+            width: min(200px, 54vw) !important;
+            height: min(200px, 54vw) !important;
+          }
+          .templates-dial-rings {
+            width: min(240px, 66vw) !important;
+            height: min(240px, 66vw) !important;
+          }
+          .templates-dial-rings > div {
+            width: min(240px, 66vw) !important;
+            height: min(240px, 66vw) !important;
+          }
+          .templates-right-info {
+            padding-left: 0 !important;
+            align-items: center !important;
+            text-align: center !important;
+          }
+        }
+      `}</style>
       {/* Pinned Sticky Viewport (100vh) */}
       <div
+        className="templates-sticky-viewport"
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
         style={{
           position: 'sticky',
           top: 0,
@@ -167,6 +241,7 @@ export default function FeaturedTemplates() {
 
         {/* 3-Column Content Stage */}
         <div
+          className="templates-content-stage"
           style={{
             position: 'relative',
             zIndex: 10,
@@ -197,10 +272,11 @@ export default function FeaturedTemplates() {
 
           {/* Center Column: Dial & Circular Portal Lens */}
           <div
+            className="templates-dial-box"
             style={{
               position: 'relative',
-              width: '498px',
-              height: '498px',
+              width: 'min(498px, 82vw)',
+              height: 'min(498px, 82vw)',
               margin: '0 auto',
               display: 'flex',
               alignItems: 'center',
@@ -211,10 +287,11 @@ export default function FeaturedTemplates() {
             <Link
               to={`/products/${current.id}`}
               title={`View ${current.name} Appliance`}
+              className="templates-dial-portal"
               style={{
                 position: 'relative',
-                width: '440px',
-                height: '440px',
+                width: 'min(440px, 72vw)',
+                height: 'min(440px, 72vw)',
                 borderRadius: '50%',
                 overflow: 'hidden',
                 zIndex: 5,
@@ -262,11 +339,12 @@ export default function FeaturedTemplates() {
             {/* Dial: 5 Segmented Rings (Circle-1 to Circle-5) */}
             <div
               data-framer-name="Center Pagination"
+              className="templates-dial-rings"
               style={{
                 position: 'absolute',
                 inset: 0,
-                width: '498px',
-                height: '498px',
+                width: '100%',
+                height: '100%',
                 pointerEvents: 'none',
                 zIndex: 15
               }}
@@ -283,8 +361,8 @@ export default function FeaturedTemplates() {
                     style={{
                       position: 'absolute',
                       inset: 0,
-                      width: '498px',
-                      height: '498px',
+                      width: '100%',
+                      height: '100%',
                       borderRadius: '50%',
                       border: '2px solid #ffffff',
                       boxSizing: 'border-box',
@@ -312,8 +390,8 @@ export default function FeaturedTemplates() {
                     style={{
                       position: 'absolute',
                       inset: 0,
-                      width: '498px',
-                      height: '498px',
+                      width: '100%',
+                      height: '100%',
                       borderRadius: '50%',
                       transform: `rotate(${deg}deg)`,
                       pointerEvents: 'none'
@@ -355,6 +433,7 @@ export default function FeaturedTemplates() {
 
           {/* Right Column: Template Title & Category / Price */}
           <div
+            className="templates-right-info"
             style={{
               display: 'flex',
               flexDirection: 'column',

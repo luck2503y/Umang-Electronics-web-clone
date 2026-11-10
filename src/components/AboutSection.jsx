@@ -43,6 +43,7 @@ export default function AboutSection() {
       ref={containerRef}
       data-framer-name="Section - Introduction"
       id="introductions"
+      className="about-section"
       style={{
         width: '100%',
         backgroundColor: '#efefef',
@@ -90,7 +91,7 @@ export default function AboutSection() {
               }}
             >
               <video
-                src="https://stream.mux.com/NK902P1FV71RSNwUOJxq11aMWzCN6GjiI89kynjcRQyc/480p.mp4"
+                src="/assets/videos/about-electronics.mp4"
                 autoPlay
                 loop
                 muted
@@ -178,12 +179,13 @@ export default function AboutSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+              className="about-counter"
               style={{
                 fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                fontSize: 'clamp(100px, 14vw, 180px)',
-                lineHeight: '164px',
+                fontSize: 'clamp(80px, 14vw, 180px)',
+                lineHeight: '1.1',
                 fontWeight: '400',
-                letterSpacing: '-5.4px',
+                letterSpacing: '-3px',
                 color: 'rgba(0, 0, 0, 0.96)',
                 marginTop: '12px'
               }}
@@ -216,10 +218,20 @@ export default function AboutSection() {
 
       <style>{`
         @media (max-width: 810px) {
+          .about-section {
+            padding: 70px 20px !important;
+          }
+          .about-section > div {
+            gap: 48px !important;
+          }
           .about-top-grid, .about-bottom-grid {
             display: flex !important;
             flex-direction: column !important;
             gap: 24px !important;
+          }
+          .about-counter {
+            font-size: clamp(60px, 18vw, 90px) !important;
+            line-height: 1 !important;
           }
         }
       `}</style>
