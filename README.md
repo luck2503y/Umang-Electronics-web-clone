@@ -14,5 +14,5 @@ Official web application for Umang Electronics, featuring comprehensive consumer
 - **Deployment:** Vercel
 
 ## Copyright
-© 2026 Vyomara Technologies. All rights reserved.
+© 2026 Vyomara Technologies Pvt. Ltd. All rights reserved.
 

@@ -336,7 +336,7 @@ export default function Footer({ onOpenContact }) {
             </span>
           </div>
 
-          {/* Copyright: © 2026 Vyomara Technologies. All rights reserved. */}
+          {/* Copyright: © 2026 Vyomara Technologies Pvt. Ltd. All rights reserved. */}
           <div
             className="footer-copyright"
             style={{
@@ -348,7 +348,7 @@ export default function Footer({ onOpenContact }) {
               textAlign: 'center'
             }}
           >
-            © 2026 Vyomara Technologies. All rights reserved.
+            © 2026 Vyomara Technologies Pvt. Ltd. All rights reserved.
           </div>
 
           {/* Scroll to Top Round Glass Button */}
