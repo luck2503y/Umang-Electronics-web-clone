@@ -332,7 +332,7 @@ export default function Navbar({ onOpenContact }) {
 
                 <div style={{ width: '100%', height: '1px', backgroundColor: 'rgba(255, 255, 255, 0.08)' }} />
 
-                {/* Bottom Social / Utility Links */}
+                {/* Bottom Social / Utility Links (Non-functional dummy elements) */}
                 <div
                   style={{
                     display: 'flex',
@@ -342,53 +342,22 @@ export default function Navbar({ onOpenContact }) {
                     flexWrap: 'wrap'
                   }}
                 >
-                  {[
-                    { name: 'X (Twitter)', href: 'https://x.com' },
-                    { name: 'Instagram', href: 'https://instagram.com' },
-                    { name: 'Thread', href: 'https://threads.net' },
-                    { name: 'Contra', href: 'https://contra.com' },
-                    { name: 'Docs', href: '/docs', isInternal: true }
-                  ].map((s) => (
-                    s.isInternal ? (
-                      <Link
-                        key={s.name}
-                        to={s.href}
-                        onClick={() => setMenuOpen(false)}
-                        style={{
-                          fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                          fontSize: '13px',
-                          lineHeight: '20px',
-                          letterSpacing: '-0.07px',
-                          color: 'rgba(255, 255, 255, 0.6)',
-                          textDecoration: 'none',
-                          transition: 'color 0.2s ease'
-                        }}
-                        onMouseEnter={(e) => (e.currentTarget.style.color = '#ffffff')}
-                        onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.6)')}
-                      >
-                        {s.name}
-                      </Link>
-                    ) : (
-                      <a
-                        key={s.name}
-                        href={s.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                          fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                          fontSize: '13px',
-                          lineHeight: '20px',
-                          letterSpacing: '-0.07px',
-                          color: 'rgba(255, 255, 255, 0.6)',
-                          textDecoration: 'none',
-                          transition: 'color 0.2s ease'
-                        }}
-                        onMouseEnter={(e) => (e.currentTarget.style.color = '#ffffff')}
-                        onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.6)')}
-                      >
-                        {s.name}
-                      </a>
-                    )
+                  {['X (Twitter)', 'Instagram', 'Thread', 'Contra', 'Docs'].map((name) => (
+                    <span
+                      key={name}
+                      style={{
+                        fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
+                        fontSize: '13px',
+                        lineHeight: '20px',
+                        letterSpacing: '-0.07px',
+                        color: 'rgba(255, 255, 255, 0.6)',
+                        cursor: 'default',
+                        pointerEvents: 'none',
+                        userSelect: 'none'
+                      }}
+                    >
+                      {name}
+                    </span>
                   ))}
                 </div>
               </motion.div>
