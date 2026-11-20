@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
+import { motion, AnimatePresence, useScroll, useMotionValueEvent, useInView } from 'framer-motion';
 
 const services = [
   {
@@ -33,6 +33,7 @@ const services = [
 
 export default function ServicesSection({ onOpenContact }) {
   const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { margin: '200px 0px 200px 0px' });
   const [activeIdx, setActiveIdx] = useState(0);
 
   // Scroll progression inside the 2700px pinned container
@@ -412,23 +413,33 @@ export default function ServicesSection({ onOpenContact }) {
                       cursor: isActive ? 'default' : 'pointer'
                     }}
                   >
-                    <video
-                      key={s.video}
-                      autoPlay={isActive}
-                      loop
-                      muted
-                      playsInline
-                      preload="none"
-                      style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                        display: 'block'
-                      }}
-                    >
-                      <source src={s.video.replace('.mp4', '.webm')} type="video/webm" />
-                      <source src={s.video} type="video/mp4" />
-                    </video>
+                    {isInView && isActive ? (
+                      <video
+                        key={s.video}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        preload="none"
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          objectFit: 'cover',
+                          display: 'block'
+                        }}
+                      >
+                        <source src={s.video.replace('.mp4', '.webm')} type="video/webm" />
+                        <source src={s.video} type="video/mp4" />
+                      </video>
+                    ) : (
+                      <div
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          backgroundColor: '#111'
+                        }}
+                      />
+                    )}
                   </motion.div>
                 );
               })}

@@ -90,7 +90,7 @@ export default function Footer({ onOpenContact }) {
               <br />
               <span>Premium Home Appliances, TV & Entertainment Systems, and Small Kitchen Appliances.</span>
               <br />
-              <span style={{ color: 'rgba(255, 255, 255, 0.45)' }}>Authorized Brand Warranty · Doorstep Setup</span>
+              <span style={{ color: 'rgba(255, 255, 255, 0.72)' }}>Authorized Brand Warranty · Doorstep Setup</span>
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function Footer({ onOpenContact }) {
                   fontSize: '12px',
                   lineHeight: '16px',
                   letterSpacing: '-0.06px',
-                  color: 'rgba(255, 255, 255, 0.4)',
+                  color: 'rgba(255, 255, 255, 0.72)',
                   marginBottom: '16px'
                 }}
               >
@@ -198,7 +198,7 @@ export default function Footer({ onOpenContact }) {
                   fontSize: '12px',
                   lineHeight: '16px',
                   letterSpacing: '-0.06px',
-                  color: 'rgba(255, 255, 255, 0.4)',
+                  color: 'rgba(255, 255, 255, 0.72)',
                   marginBottom: '16px'
                 }}
               >

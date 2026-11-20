@@ -218,6 +218,8 @@ export default function FeaturedTemplates() {
               <img
                 src={t.bg}
                 alt=""
+                loading="lazy"
+                decoding="async"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -318,6 +320,8 @@ export default function FeaturedTemplates() {
                   <img
                     src={current.centerImg}
                     alt={`${current.name} template preview`}
+                    loading="lazy"
+                    decoding="async"
                     style={{
                       width: '100%',
                       height: '100%',

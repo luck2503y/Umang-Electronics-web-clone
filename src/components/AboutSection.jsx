@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 
 const introText = "Modern living begins with reliable electronics that make everyday life effortless, comfortable, and intuitive. From energy-efficient climate control to cinema-grade entertainment and precision culinary appliances, Umang Electronics provides premium consumer electronics backed by genuine manufacturer warranty and certified setup support.";
 
@@ -28,6 +28,7 @@ function RevealIntroWord({ word, progress, start, end }) {
 
 export default function AboutSection() {
   const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { margin: '200px 0px 200px 0px' });
   const words = introText.split(' ');
 
   const { scrollYProgress } = useScroll({
@@ -90,19 +91,21 @@ export default function AboutSection() {
                 y: videoY
               }}
             >
-              <video
-                src="/assets/videos/about-electronics.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                preload="none"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover'
-                }}
-              />
+              {isInView && (
+                <video
+                  src="/assets/videos/about-electronics.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="none"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover'
+                  }}
+                />
+              )}
             </motion.div>
           </div>
 

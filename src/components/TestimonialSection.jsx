@@ -17,11 +17,11 @@ const testimonials = [
 ];
 
 function RevealWord({ word, progress, start, end }) {
-  const opacity = useTransform(progress, [start, end], [0.42, 1]);
+  const opacity = useTransform(progress, [start, end], [0.75, 1]);
   const color = useTransform(
     progress,
     [start, end],
-    ['rgba(0, 0, 0, 0.42)', 'rgba(0, 0, 0, 0.96)']
+    ['rgba(0, 0, 0, 0.65)', 'rgba(0, 0, 0, 0.96)']
   );
 
   return (

@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { useInView } from 'framer-motion';
 
 export default function CTASection({ onOpenContact }) {
+  const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { margin: '200px 0px 200px 0px' });
   return (
     <section
+      ref={containerRef}
       data-framer-name="Section - CTA"
       className="cta-section"
       style={{
@@ -33,23 +37,25 @@ export default function CTASection({ onOpenContact }) {
         }
       `}</style>
       {/* Background Video with subtle dark overlay */}
-      <video
-        src="/assets/videos/cta-ambient-electronics.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="none"
-        style={{
-          position: 'absolute',
-          inset: 0,
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-          opacity: 0.35,
-          pointerEvents: 'none'
-        }}
-      />
+      {isInView && (
+        <video
+          src="/assets/videos/cta-ambient-electronics.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="none"
+          style={{
+            position: 'absolute',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            opacity: 0.35,
+            pointerEvents: 'none'
+          }}
+        />
+      )}
 
       <div
         style={{
