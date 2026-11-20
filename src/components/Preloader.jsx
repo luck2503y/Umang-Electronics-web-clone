@@ -142,11 +142,11 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
     let animFrameId;
     const startTime = performance.now();
 
-    // Exact calibrated timeline strictly matching madebykota.com
-    const counterStart = 1000;     // counter sits at 0% for ~1.0s while brand unblurs & cards fly in
-    const counterDuration = 1600;  // smoothly counts up to 100% at ~2600ms
-    const curtainStart = 3700;     // holds complete 8-card stack + 100% counter for ~1.1s, wipes at 3700ms
-    const curtainDuration = 900;   // curtain lift completes at 4600ms
+    // Calibrated high-performance timeline for instant responsiveness & 90+ Lighthouse score
+    const counterStart = 150;     // starts at 150ms
+    const counterDuration = 550;  // counts to 100% in 550ms
+    const curtainStart = 800;     // holds briefly at 100%
+    const curtainDuration = 350;  // curtain lifts cleanly, completing by 1150ms
 
     const tick = (now) => {
       const elapsed = now - startTime;
