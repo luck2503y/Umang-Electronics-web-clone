@@ -180,6 +180,8 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
         <img
           src="/assets/hero-electronics-bg.jpg"
           alt="Umang Electronics Showcase"
+          fetchPriority="high"
+          decoding="async"
           style={{
             width: '100%',
             height: '100%',
@@ -316,7 +318,7 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
                     loop
                     muted
                     playsInline
-                    preload="metadata"
+                    preload="none"
                     poster="/assets/hero-electronics-bg.jpg"
                     style={{
                       width: '100%',
