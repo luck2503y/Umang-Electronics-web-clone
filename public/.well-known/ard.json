@@ -20,6 +20,7 @@
       ],
       "trustManifest": {
         "publisher": "Vyomara Technologies Pvt. Ltd.",
+        "identity": "https://umang-electronics.vercel.app",
         "contact": "mailto:contact@vyomara.com",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "canonical": "https://umang-electronics.vercel.app/",
@@ -40,6 +41,7 @@
       ],
       "trustManifest": {
         "publisher": "Vyomara Technologies Pvt. Ltd.",
+        "identity": "https://umang-electronics.vercel.app",
         "contact": "mailto:contact@vyomara.com",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "canonical": "https://umang-electronics.vercel.app/",

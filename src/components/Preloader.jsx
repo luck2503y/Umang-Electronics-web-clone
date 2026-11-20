@@ -8,7 +8,7 @@ const introCards = [
     name: 'Rapid Air Fryer',
     image: '/assets/products/air-fryer.jpg',
     initialX: 600,
-    delay: 0.15,
+    delay: 0.1,
     zIndex: 11,
     stackY: -7
   },
@@ -17,7 +17,7 @@ const introCards = [
     name: 'Convection Microwave Oven',
     image: '/assets/products/microwave-oven.jpg',
     initialX: -550,
-    delay: 0.25,
+    delay: 0.2,
     zIndex: 12,
     stackY: -6
   },
@@ -26,7 +26,7 @@ const introCards = [
     name: 'Inverter Split Air Conditioner',
     image: '/assets/products/air-conditioner.jpg',
     initialX: 500,
-    delay: 0.35,
+    delay: 0.3,
     zIndex: 13,
     stackY: -5
   },
@@ -35,7 +35,7 @@ const introCards = [
     name: 'Front-Load Washing Machine',
     image: '/assets/products/washing-machine-premium.jpg',
     initialX: -450,
-    delay: 0.45,
+    delay: 0.4,
     zIndex: 14,
     stackY: -4
   },
@@ -44,7 +44,7 @@ const introCards = [
     name: 'French Door Refrigerator',
     image: '/assets/products/refrigerator.jpg',
     initialX: 400,
-    delay: 0.55,
+    delay: 0.5,
     zIndex: 15,
     stackY: -3
   },
@@ -53,7 +53,7 @@ const introCards = [
     name: 'Surround Soundbar & Subwoofer',
     image: '/assets/products/soundbar.jpg',
     initialX: -350,
-    delay: 0.65,
+    delay: 0.6,
     zIndex: 16,
     stackY: -2
   },
@@ -62,7 +62,7 @@ const introCards = [
     name: 'Audiophile Multimedia Speakers',
     image: '/assets/products/multimedia-speakers-premium.jpg',
     initialX: 300,
-    delay: 0.75,
+    delay: 0.7,
     zIndex: 17,
     stackY: -1
   },
@@ -71,7 +71,7 @@ const introCards = [
     name: '4K Ultra HD OLED Smart TV',
     image: '/assets/products/oled-tv.jpg',
     initialX: -250,
-    delay: 0.85,
+    delay: 0.8,
     zIndex: 18,
     stackY: 0
   }
@@ -128,10 +128,10 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
     const startTime = performance.now();
 
     // Calibrated high-performance timeline for instant responsiveness & 90+ Lighthouse score
-    const counterStart = 200;      // starts at 200ms
-    const counterDuration = 900;   // smoothly counts up to 100% in 900ms
-    const curtainStart = 1300;     // holds complete 8-card stack + 100% counter
-    const curtainDuration = 500;   // curtain lift completes by 1800ms (1.8s)
+    const counterStart = 100;      // starts at 100ms
+    const counterDuration = 700;   // smoothly counts up to 100% in 700ms
+    const curtainStart = 900;      // holds complete 8-card stack + 100% counter
+    const curtainDuration = 400;   // curtain lift completes by 1300ms (1.3s)
 
     const tick = (now) => {
       const elapsed = now - startTime;
