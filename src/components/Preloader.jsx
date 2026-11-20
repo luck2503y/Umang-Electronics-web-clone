@@ -108,25 +108,9 @@ function createCubicBezier(x1, y1, x2, y2) {
 const curtainEase = createCubicBezier(0.3, 0, 0.2, 1.01);
 
 export default function Preloader({ onComplete, brandName = 'Umang Electronics' }) {
-  const isBotOrLighthouse = typeof navigator !== 'undefined' && (
-    navigator.webdriver ||
-    /Lighthouse|Headless|PageSpeed|bot|crawl/i.test(navigator.userAgent) ||
-    (typeof window !== 'undefined' && (
-      window.__LIGHTHOUSE__ ||
-      (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)
-    ))
-  );
-
   const [progress, setProgress] = useState(0);
-  const [isCompleted, setIsCompleted] = useState(isBotOrLighthouse);
+  const [isCompleted, setIsCompleted] = useState(false);
   const maskRef = useRef(null);
-
-  // If running in Lighthouse or automated test, complete immediately
-  useEffect(() => {
-    if (isBotOrLighthouse) {
-      if (onComplete) onComplete();
-    }
-  }, [isBotOrLighthouse, onComplete]);
 
   // Preload all 8 cards immediately to eliminate any asset latency
   useEffect(() => {
@@ -137,8 +121,6 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
   }, []);
 
   useEffect(() => {
-    if (isBotOrLighthouse) return;
-
     // Lock scroll during preloader
     document.body.style.overflow = 'hidden';
 
