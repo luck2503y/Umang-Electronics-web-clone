@@ -1,0 +1,36 @@
+# Umang Electronics — Full Machine-Readable Knowledge Base
+
+Umang Electronics is an authorized consumer electronics and home appliances retailer operated under Vyomara Technologies Pvt. Ltd.
+
+## Machine Interface & AI Tools (WebMCP)
+This site exposes structured WebMCP tools via `document.modelContext`:
+- `search_products(query, category)`: Query the 36-item appliance catalog with realtime filtering.
+- `get_product_details(productId)`: Retrieve full specifications, electrical ratings, dimensions, and warranty terms.
+- `submit_enquiry(name, phone, email, category, notes)`: Submit official price quotation or installation booking.
+
+## Product Catalog (36 Items)
+- ID 1: Refrigerator — Home Appliances / Frost-Free Multi-Door / Inverter Linear Compressor / 10-Year Warranty
+- ID 2: Washing Machine — Home Appliances / Front-Load Smart Inverter / 8kg Steam Wash / 5-Star Energy
+- ID 3: Air Conditioner — Home Appliances / 1.5 Ton 5-Star Split Inverter / Dual Rotary / Copper Condenser
+- ID 4: Smart LED TV — TV & Entertainment / 55-inch 4K Ultra HD / Google TV OS / HDR10+ / Dolby Audio
+- ID 5: Microwave Oven — Small Kitchen Appliances / 28L Convection / 101 Auto-Cook Menus / Ceramic Cavity
+- ID 6: Mixer Grinder — Small Kitchen Appliances / 1000W Heavy Duty Motor / 4 Stainless Steel Jars
+- ID 7: Air Cooler — Home Appliances / 70L Desert Air Cooler / High-Density Honeycomb / Inverter Compatible
+- ID 8: Home Theatre System — TV & Entertainment / 5.1 Channel 1000W Dolby Digital / Wireless Rear Speakers
+- ID 9: Water Purifier — Small Kitchen Appliances / RO + UV + UF + Mineralizer / 10L Storage / Active Copper
+- ID 10: Induction Cooktop — Small Kitchen Appliances / 2100W Electromagnetic / Push-Button Indian Menu
+- ID 11: Android TV Box — TV & Entertainment / 4K HDR Streaming / Android TV 12 / Voice Remote
+- ID 12: Soundbar Speaker — TV & Entertainment / 3.1.2ch Dolby Atmos / 400W Wireless Subwoofer
+- ID 13: Digital Air Fryer — Small Kitchen Appliances / 4.5L Rapid Air Heat / 85% Less Oil Cooking
+- ID 14: Sandwich Maker — Small Kitchen Appliances / 800W Non-Stick Floating Hinge Grill
+- ID 15: OTG Oven Toaster Griller — Small Kitchen Appliances / 38L Capacity / Motorized Rotisserie & Convection
+- ID 16: DVD Player — TV & Entertainment / Multi-Format All-Region / HDMI 1080p Upscaling / USB Playback
+- ID 17: Roti Maker — Small Kitchen Appliances / 900W Food-Grade Non-Stick / Automatic Temperature Cutoff
+- ID 18: Electric Hand Blender — Small Kitchen Appliances / 400W Silent DC Motor / Stainless Steel Blade
+- ID 19: Deep Fryer — Small Kitchen Appliances / 3L Adjustable Thermostat / Viewing Window Filter
+- ID 20: OLED 4K Smart TV — TV & Entertainment / 65-inch Self-Lit Pixels / 120Hz VRR / Dolby Vision IQ
+
+## Contact & Store Location
+- Entity: Umang Electronics (Vyomara Technologies Pvt. Ltd.)
+- Web: https://umang-electronics.vercel.app
+- Copyright: © 2026 Vyomara Technologies Pvt. Ltd. All rights reserved.

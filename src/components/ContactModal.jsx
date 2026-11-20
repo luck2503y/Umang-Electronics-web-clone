@@ -80,6 +80,9 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
 
           {/* Modal Container */}
           <motion.div
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="contact-modal-heading"
             initial={{ opacity: 0, scale: 0.94, y: 15 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.94, y: 15 }}
@@ -160,13 +163,19 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
+              <form
+                onSubmit={handleSubmit}
+                toolname="submit_product_enquiry"
+                tooldescription="Submit product pricing and doorstep installation enquiry"
+                style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}
+              >
                 <div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'rgba(0,0,0,0.5)', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '4px' }}>
                     <Zap size={14} color="#000" />
                     <span>Umang Electronics Service Desk</span>
                   </div>
                   <h2
+                    id="contact-modal-heading"
                     style={{
                       fontSize: '32px',
                       lineHeight: '1.2',
@@ -195,7 +204,7 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
                   >
                     <img
                       src={selectedProduct.image}
-                      alt=""
+                      alt={selectedProduct.name}
                       style={{ width: '44px', height: '36px', objectFit: 'cover', borderRadius: '6px' }}
                     />
                     <div>
@@ -211,8 +220,10 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
 
                 {/* Name */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <label style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Full Name</label>
+                  <label htmlFor="enquiry-name" style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Full Name</label>
                   <input
+                    id="enquiry-name"
+                    name="name"
                     type="text"
                     required
                     placeholder="e.g. Ramesh Patel"
@@ -234,8 +245,10 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
                 {/* Contact Row: Phone & Email */}
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                    <label style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Phone Number</label>
+                    <label htmlFor="enquiry-phone" style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Phone Number</label>
                     <input
+                      id="enquiry-phone"
+                      name="phone"
                       type="tel"
                       required
                       placeholder="+91 98765 43210"
@@ -255,8 +268,10 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
                   </div>
 
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                    <label style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Email Address</label>
+                    <label htmlFor="enquiry-email" style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Email Address</label>
                     <input
+                      id="enquiry-email"
+                      name="email"
                       type="email"
                       required
                       placeholder="name@example.com"
@@ -278,8 +293,10 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
 
                 {/* Enquiry Type */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <label style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Enquiry Type</label>
+                  <label htmlFor="enquiry-type" style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Enquiry Type</label>
                   <select
+                    id="enquiry-type"
+                    name="enquiryType"
                     value={formData.enquiryType}
                     onChange={(e) => setFormData({ ...formData, enquiryType: e.target.value })}
                     style={{
@@ -304,8 +321,10 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
 
                 {/* Department */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <label style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Appliance Category</label>
+                  <label htmlFor="enquiry-category" style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Appliance Category</label>
                   <select
+                    id="enquiry-category"
+                    name="category"
                     value={formData.category}
                     onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                     style={{
@@ -328,8 +347,10 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
 
                 {/* Additional notes / City */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <label style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Specific Model Requirements / Delivery City</label>
+                  <label htmlFor="enquiry-notes" style={{ fontSize: '13px', fontWeight: '500', color: 'rgba(0, 0, 0, 0.85)' }}>Specific Model Requirements / Delivery City</label>
                   <textarea
+                    id="enquiry-notes"
+                    name="notes"
                     rows={2}
                     placeholder="Enter preferred capacity, installation location, or any questions..."
                     value={formData.notes}

@@ -414,10 +414,11 @@ export default function ServicesSection({ onOpenContact }) {
                   >
                     <video
                       key={s.video}
-                      autoPlay
+                      autoPlay={isActive}
                       loop
                       muted
                       playsInline
+                      preload="none"
                       style={{
                         width: '100%',
                         height: '100%',
@@ -425,8 +426,8 @@ export default function ServicesSection({ onOpenContact }) {
                         display: 'block'
                       }}
                     >
-                      <source src={s.video} type="video/mp4" />
                       <source src={s.video.replace('.mp4', '.webm')} type="video/webm" />
+                      <source src={s.video} type="video/mp4" />
                     </video>
                   </motion.div>
                 );

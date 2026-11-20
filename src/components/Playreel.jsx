@@ -269,17 +269,19 @@ export default function Playreel() {
               controls
               autoPlay
               playsInline
+              preload="none"
               style={{
                 width: '100%',
                 height: '100%',
                 display: 'block'
               }}
             >
-              <source src="/assets/videos/playreel-showcase.mp4" type="video/mp4" />
               <source src="/assets/videos/playreel-showcase.webm" type="video/webm" />
+              <source src="/assets/videos/playreel-showcase.mp4" type="video/mp4" />
             </video>
             <button
               onClick={() => setModalOpen(false)}
+              aria-label="Close Video Player Modal"
               style={{
                 position: 'absolute',
                 top: '20px',

@@ -1,0 +1,43 @@
+# Umang Electronics
+
+> Premium Consumer Electronics & Home Appliances Store. Authorized dealer for smart televisions, home appliances, kitchen appliances, audio systems, and professional installation & warranty support.
+
+## Core Navigation & Links
+- [Home Page](https://umang-electronics.vercel.app/): Brand introduction, featured electronics, service capabilities, customer testimonials, and FAQs.
+- [Store / Products Catalog](https://umang-electronics.vercel.app/products): Complete 36-product catalog across Home Appliances, TV & Entertainment, and Small Kitchen Appliances.
+- [Product Details](https://umang-electronics.vercel.app/products/1): Individual technical specifications, dimensions, features, and official warranty information.
+- [Direct Product Enquiry](https://umang-electronics.vercel.app/contact): Request price quote, verify stock availability, and schedule doorstep delivery.
+
+## Product Categories & Availability
+1. **Home Appliances**:
+   - Multi-Door Inverter Refrigerators (Frost-Free, Double Door, Side-by-Side)
+   - Front-Load & Top-Load Smart Inverter Washing Machines
+   - 1.5 Ton & 2.0 Ton Split Inverter Air Conditioners (5-Star BEE rated)
+   - Heavy-Duty Desert Air Coolers with honeycomb cooling pads
+
+2. **TV & Entertainment**:
+   - 65" & 55" 4K OLED Smart TVs (Dolby Vision, 120Hz gaming display)
+   - 4K QLED Smart Google TVs (Quantum Dot, HDR10+)
+   - 5.1 & 7.1 Channel Surround Sound Home Theatre Systems
+   - High-Fidelity Wireless Soundbars with Wireless Subwoofers
+   - Android TV 4K Media Streaming Boxes & Ultra HD DVD Players
+
+3. **Small Kitchen Appliances**:
+   - 750W & 1000W Heavy-Duty Mixer Grinders (Stainless steel jars)
+   - Convection & Grill Microwave Ovens (Auto-cook menus)
+   - 35L & 48L OTG Oven Toaster Grillers (Motorized rotisserie)
+   - Rapid Air Circulation Digital Air Fryers
+   - Smart Induction Cooktops with pre-programmed Indian cooking presets
+   - Multi-Stage RO + UV + UF Mineral Water Purifiers
+   - Non-Stick Sandwich & Panini Makers, Electric Roti Makers, Hand Blenders
+
+## Services Provided
+- **Certified Doorstep Delivery & Installation**: 24-48 hour delivery and professional unboxing, mounting, and electrical safety checks.
+- **Audio-Visual Acoustic Calibration**: Expert acoustic tuning, speaker angle calibration, and eARC 4K HDR configuration.
+- **Official Brand Warranty & Maintenance**: Manufacturer serial registration, authorized warranty coverage, and genuine spare parts.
+
+## Company Information
+- **Brand**: Umang Electronics
+- **Parent Company**: Vyomara Technologies Pvt. Ltd.
+- **Copyright**: © 2026 Vyomara Technologies Pvt. Ltd. All rights reserved.
+- **Service Desk**: Available Monday – Saturday, 9:00 AM – 8:00 PM IST

@@ -36,6 +36,8 @@ export default function Footer({ onOpenContact }) {
 
   return (
     <footer
+      role="contentinfo"
+      aria-label="Footer"
       data-framer-name="Large - Black"
       style={{
         width: '100%',

@@ -4,11 +4,11 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 const introText = "Modern living begins with reliable electronics that make everyday life effortless, comfortable, and intuitive. From energy-efficient climate control to cinema-grade entertainment and precision culinary appliances, Umang Electronics provides premium consumer electronics backed by genuine manufacturer warranty and certified setup support.";
 
 function RevealIntroWord({ word, progress, start, end }) {
-  const opacity = useTransform(progress, [start, end], [0.45, 1]);
+  const opacity = useTransform(progress, [start, end], [0.75, 1]);
   const color = useTransform(
     progress,
     [start, end],
-    ['rgba(0, 0, 0, 0.45)', 'rgba(0, 0, 0, 0.96)']
+    ['rgba(0, 0, 0, 0.65)', 'rgba(0, 0, 0, 0.96)']
   );
 
   return (
@@ -96,6 +96,7 @@ export default function AboutSection() {
                 loop
                 muted
                 playsInline
+                preload="none"
                 style={{
                   width: '100%',
                   height: '100%',

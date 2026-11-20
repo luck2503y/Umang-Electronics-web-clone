@@ -80,6 +80,7 @@ export default function Navbar({ onOpenContact }) {
       </AnimatePresence>
 
       <header
+        role="banner"
         className="navbar-header"
         style={{
           position: 'fixed',
@@ -231,7 +232,7 @@ export default function Navbar({ onOpenContact }) {
                 }}
               >
                 {/* Main Links */}
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <nav role="navigation" aria-label="Main Navigation" style={{ display: 'flex', flexDirection: 'column' }}>
                   {/* Home */}
                   <Link
                     to="/"
@@ -327,7 +328,7 @@ export default function Navbar({ onOpenContact }) {
                   >
                     Book a call
                   </button>
-                </div>
+                </nav>
 
                 <div style={{ width: '100%', height: '1px', backgroundColor: 'rgba(255, 255, 255, 0.08)' }} />
 

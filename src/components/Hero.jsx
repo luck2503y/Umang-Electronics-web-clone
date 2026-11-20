@@ -316,7 +316,8 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
                     loop
                     muted
                     playsInline
-                    preload="auto"
+                    preload="metadata"
+                    poster="/assets/hero-electronics-bg.jpg"
                     style={{
                       width: '100%',
                       height: '100%',
@@ -324,8 +325,8 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
                       display: 'block'
                     }}
                   >
-                    <source src="/assets/videos/hero-showcase.mp4" type="video/mp4" />
                     <source src="/assets/videos/hero-showcase.webm" type="video/webm" />
+                    <source src="/assets/videos/hero-showcase.mp4" type="video/mp4" />
                   </video>
                   <div
                     ref={overlayRef}

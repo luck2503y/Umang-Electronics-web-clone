@@ -39,6 +39,7 @@ export default function CTASection({ onOpenContact }) {
         loop
         muted
         playsInline
+        preload="none"
         style={{
           position: 'absolute',
           inset: 0,
