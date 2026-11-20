@@ -1,13 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import Hero from '../components/Hero';
 import Playreel from '../components/Playreel';
 import CategoriesOverview from '../components/CategoriesOverview';
 import AboutSection from '../components/AboutSection';
 import ServicesSection from '../components/ServicesSection';
-import TestimonialSection from '../components/TestimonialSection';
-import FeaturedTemplates from '../components/FeaturedTemplates';
-import FAQSection from '../components/FAQSection';
-import CTASection from '../components/CTASection';
+
+const TestimonialSection = lazy(() => import('../components/TestimonialSection'));
+const FeaturedTemplates = lazy(() => import('../components/FeaturedTemplates'));
+const FAQSection = lazy(() => import('../components/FAQSection'));
+const CTASection = lazy(() => import('../components/CTASection'));
 
 export default function Home({ onOpenContact, isPreloaderActive }) {
   useEffect(() => {
@@ -22,10 +23,12 @@ export default function Home({ onOpenContact, isPreloaderActive }) {
       <CategoriesOverview />
       <AboutSection />
       <ServicesSection onOpenContact={onOpenContact} />
-      <TestimonialSection />
-      <FeaturedTemplates />
-      <FAQSection onOpenContact={onOpenContact} />
-      <CTASection onOpenContact={onOpenContact} />
+      <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
+        <TestimonialSection />
+        <FeaturedTemplates />
+        <FAQSection onOpenContact={onOpenContact} />
+        <CTASection onOpenContact={onOpenContact} />
+      </Suspense>
     </main>
   );
 }
