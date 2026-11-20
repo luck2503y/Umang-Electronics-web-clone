@@ -128,6 +128,14 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
     }
   }, [isBotOrLighthouse, onComplete]);
 
+  // Preload all 8 cards immediately to eliminate any asset latency
+  useEffect(() => {
+    introCards.forEach(card => {
+      const img = new Image();
+      img.src = card.image;
+    });
+  }, []);
+
   useEffect(() => {
     if (isBotOrLighthouse) return;
 
@@ -137,11 +145,11 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
     let animFrameId;
     const startTime = performance.now();
 
-    // Calibrated high-performance timeline for instant responsiveness & 90+ Lighthouse score
-    const counterStart = 80;      // starts at 80ms
-    const counterDuration = 320;  // counts to 100% in 320ms
-    const curtainStart = 450;     // holds briefly at 100%
-    const curtainDuration = 250;  // curtain lifts cleanly, completing by 700ms
+    // Exact calibrated timeline strictly matching madebykota.com
+    const counterStart = 1000;     // counter sits at 0% for ~1.0s while brand unblurs & cards fly in
+    const counterDuration = 1600;  // smoothly counts up to 100% at ~2600ms
+    const curtainStart = 3700;     // holds complete 8-card stack + 100% counter for ~1.1s, wipes at 3700ms
+    const curtainDuration = 900;   // curtain lift completes at 4600ms
 
     const tick = (now) => {
       const elapsed = now - startTime;

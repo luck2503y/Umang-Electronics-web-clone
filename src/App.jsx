@@ -23,26 +23,7 @@ function ScrollToTop() {
 }
 
 export default function App() {
-  const [showPreloader, setShowPreloader] = useState(() => {
-    if (typeof window === 'undefined') return false;
-    // Fast-path for automated audits, Lighthouse, and headless tests
-    if (navigator.webdriver || /Lighthouse|Headless|PageSpeed|bot|crawl/i.test(navigator.userAgent)) {
-      return false;
-    }
-    try {
-      return !sessionStorage.getItem('umang_preloaded');
-    } catch {
-      return true;
-    }
-  });
-
-  const handlePreloaderComplete = () => {
-    setShowPreloader(false);
-    try {
-      sessionStorage.setItem('umang_preloaded', 'true');
-    } catch {}
-  };
-
+  const [showPreloader, setShowPreloader] = useState(true);
   const [contactModalOpen, setContactModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -79,7 +60,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      {showPreloader && <Preloader onComplete={handlePreloaderComplete} />}
+      {showPreloader && <Preloader onComplete={() => setShowPreloader(false)} />}
       <ScrollToTop />
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <Navbar onOpenContact={() => handleOpenContact()} />
