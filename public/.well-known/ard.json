@@ -1,0 +1,50 @@
+{
+  "specVersion": "0.91",
+  "host": {
+    "displayName": "Umang Electronics",
+    "identifier": "umang-electronics.vercel.app"
+  },
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:umang-electronics.vercel.app:catalog:search",
+      "displayName": "Umang Electronics Catalog Search",
+      "type": "application/json",
+      "url": "https://umang-electronics.vercel.app/llms.txt",
+      "description": "Full catalog of 36 home appliances, OLED and QLED televisions, split air conditioners, refrigerators, and kitchen appliances with technical specifications and warranty details.",
+      "representativeQueries": [
+        "search for 4K OLED TV specifications",
+        "find 5-star inverter air conditioner price and capacity",
+        "check warranty coverage for front-load washing machine",
+        "compare side-by-side vs french door refrigerators"
+      ],
+      "trustManifest": {
+        "publisher": "Vyomara Technologies Pvt. Ltd.",
+        "contact": "mailto:contact@vyomara.com",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "canonical": "https://umang-electronics.vercel.app/",
+        "lastUpdated": "2026-11-20"
+      }
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:umang-electronics.vercel.app:service:enquiry",
+      "displayName": "Umang Electronics Installation & Enquiry Service",
+      "type": "application/json",
+      "url": "https://umang-electronics.vercel.app/#contact",
+      "description": "Book certified technician doorstep installation, request commercial quotes, and enquire about appliance availability across North India.",
+      "representativeQueries": [
+        "book AC doorstep installation",
+        "submit inquiry for home appliance package",
+        "request price quote for bulk microwave ovens"
+      ],
+      "trustManifest": {
+        "publisher": "Vyomara Technologies Pvt. Ltd.",
+        "contact": "mailto:contact@vyomara.com",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "canonical": "https://umang-electronics.vercel.app/",
+        "lastUpdated": "2026-11-20"
+      }
+    }
+  ]
+}
