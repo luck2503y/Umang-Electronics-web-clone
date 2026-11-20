@@ -14,11 +14,16 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
   const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
-    if (selectedProduct) {
+    if (selectedProduct && selectedProduct.name && selectedProduct.id) {
       setFormData((prev) => ({
         ...prev,
         category: selectedProduct.category || prev.category,
         notes: `Interested in: ${selectedProduct.name} (Ref: ${selectedProduct.id})`
+      }));
+    } else {
+      setFormData((prev) => ({
+        ...prev,
+        notes: ''
       }));
     }
   }, [selectedProduct, isOpen]);
@@ -96,15 +101,25 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
               backgroundColor: '#ffffff',
               borderRadius: '28px',
               boxShadow: '0 25px 60px rgba(0, 0, 0, 0.25)',
-              padding: '36px',
+              padding: '36px 36px 44px',
               maxHeight: '90vh',
-              overflowY: 'auto'
+              overflowY: 'auto',
+              boxSizing: 'border-box'
             }}
           >
             <style>{`
+              .contact-modal-card::-webkit-scrollbar {
+                display: none !important;
+                width: 0 !important;
+                height: 0 !important;
+              }
+              .contact-modal-card {
+                -ms-overflow-style: none !important;
+                scrollbar-width: none !important;
+              }
               @media (max-width: 480px) {
                 .contact-modal-card {
-                  padding: 24px 18px !important;
+                  padding: 24px 20px 36px !important;
                   border-radius: 20px !important;
                 }
                 .contact-modal-title {
@@ -188,35 +203,6 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
                     Product & Installation Enquiry
                   </h2>
                 </div>
-
-                {/* Selected Product Pill if active */}
-                {selectedProduct && (
-                  <div
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '12px',
-                      padding: '12px 14px',
-                      borderRadius: '14px',
-                      backgroundColor: 'rgba(0, 0, 0, 0.04)',
-                      border: '1px solid rgba(0, 0, 0, 0.08)'
-                    }}
-                  >
-                    <img
-                      src={selectedProduct.image}
-                      alt={selectedProduct.name}
-                      style={{ width: '44px', height: '36px', objectFit: 'cover', borderRadius: '6px' }}
-                    />
-                    <div>
-                      <span style={{ fontSize: '11px', textTransform: 'uppercase', color: 'rgba(0,0,0,0.5)', display: 'block' }}>
-                        Inquiring about
-                      </span>
-                      <strong style={{ fontSize: '14px', color: '#000' }}>
-                        {selectedProduct.name}
-                      </strong>
-                    </div>
-                  </div>
-                )}
 
                 {/* Name */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
@@ -371,27 +357,31 @@ export default function ContactModal({ isOpen, onClose, selectedProduct }) {
                 </div>
 
                 {/* Submit button */}
-                <button
-                  type="submit"
-                  style={{
-                    width: '100%',
-                    padding: '14px',
-                    borderRadius: '1000px',
-                    backgroundColor: '#000000',
-                    color: '#ffffff',
-                    fontSize: '14px',
-                    fontWeight: '500',
-                    border: 'none',
-                    cursor: 'pointer',
-                    marginTop: '4px',
-                    boxShadow: '0 4px 14px rgba(0, 0, 0, 0.15)',
-                    transition: 'all 0.2s ease'
-                  }}
-                  onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#222')}
-                  onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#000')}
-                >
-                  Submit Product Enquiry
-                </button>
+                <div style={{ paddingTop: '8px', paddingBottom: '6px' }}>
+                  <button
+                    type="submit"
+                    style={{
+                      width: '100%',
+                      padding: '16px 24px',
+                      borderRadius: '1000px',
+                      backgroundColor: '#000000',
+                      color: '#ffffff',
+                      fontSize: '15px',
+                      fontWeight: '500',
+                      border: 'none',
+                      cursor: 'pointer',
+                      boxShadow: '0 4px 16px rgba(0, 0, 0, 0.2)',
+                      transition: 'all 0.2s ease',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                    onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#222')}
+                    onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#000')}
+                  >
+                    Submit Product Enquiry
+                  </button>
+                </div>
               </form>
             )}
           </motion.div>

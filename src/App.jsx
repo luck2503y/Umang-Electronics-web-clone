@@ -28,7 +28,13 @@ export default function App() {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleOpenContact = (product = null) => {
-    setSelectedProduct(product);
+    if (product && product.nativeEvent) {
+      setSelectedProduct(null);
+    } else if (product && product.name && product.id) {
+      setSelectedProduct(product);
+    } else {
+      setSelectedProduct(null);
+    }
     setContactModalOpen(true);
   };
 

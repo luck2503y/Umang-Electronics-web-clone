@@ -106,7 +106,7 @@ export default function CTASection({ onOpenContact }) {
         </h2>
 
         <button
-          onClick={onOpenContact}
+          onClick={() => onOpenContact && onOpenContact()}
           className="glass-pill-btn"
           style={{
             padding: '14px 36px',
