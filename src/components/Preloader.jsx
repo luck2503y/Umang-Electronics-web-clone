@@ -8,7 +8,7 @@ const introCards = [
     name: 'Rapid Air Fryer',
     image: '/assets/products/air-fryer.jpg',
     initialX: 600,
-    delay: 0.1,
+    delay: 0.55,
     zIndex: 11,
     stackY: -7
   },
@@ -17,7 +17,7 @@ const introCards = [
     name: 'Convection Microwave Oven',
     image: '/assets/products/microwave-oven.jpg',
     initialX: -550,
-    delay: 0.2,
+    delay: 0.75,
     zIndex: 12,
     stackY: -6
   },
@@ -26,7 +26,7 @@ const introCards = [
     name: 'Inverter Split Air Conditioner',
     image: '/assets/products/air-conditioner.jpg',
     initialX: 500,
-    delay: 0.3,
+    delay: 0.95,
     zIndex: 13,
     stackY: -5
   },
@@ -35,7 +35,7 @@ const introCards = [
     name: 'Front-Load Washing Machine',
     image: '/assets/products/washing-machine-premium.jpg',
     initialX: -450,
-    delay: 0.4,
+    delay: 1.15,
     zIndex: 14,
     stackY: -4
   },
@@ -44,7 +44,7 @@ const introCards = [
     name: 'French Door Refrigerator',
     image: '/assets/products/refrigerator.jpg',
     initialX: 400,
-    delay: 0.5,
+    delay: 1.35,
     zIndex: 15,
     stackY: -3
   },
@@ -53,7 +53,7 @@ const introCards = [
     name: 'Surround Soundbar & Subwoofer',
     image: '/assets/products/soundbar.jpg',
     initialX: -350,
-    delay: 0.6,
+    delay: 1.55,
     zIndex: 16,
     stackY: -2
   },
@@ -62,7 +62,7 @@ const introCards = [
     name: 'Audiophile Multimedia Speakers',
     image: '/assets/products/multimedia-speakers-premium.jpg',
     initialX: 300,
-    delay: 0.7,
+    delay: 1.75,
     zIndex: 17,
     stackY: -1
   },
@@ -71,7 +71,7 @@ const introCards = [
     name: '4K Ultra HD OLED Smart TV',
     image: '/assets/products/oled-tv.jpg',
     initialX: -250,
-    delay: 0.8,
+    delay: 1.95,
     zIndex: 18,
     stackY: 0
   }
@@ -127,11 +127,11 @@ export default function Preloader({ onComplete, brandName = 'Umang Electronics' 
     let animFrameId;
     const startTime = performance.now();
 
-    // Calibrated high-performance timeline for instant responsiveness & 90+ Lighthouse score
-    const counterStart = 100;      // starts at 100ms
-    const counterDuration = 700;   // smoothly counts up to 100% in 700ms
-    const curtainStart = 900;      // holds complete 8-card stack + 100% counter
-    const curtainDuration = 400;   // curtain lift completes by 1300ms (1.3s)
+    // Exact calibrated timeline strictly matching madebykota.com
+    const counterStart = 1000;     // counter sits at 0% for ~1.0s while brand unblurs & cards fly in
+    const counterDuration = 1600;  // smoothly counts up to 100% at ~2600ms
+    const curtainStart = 3700;     // holds complete 8-card stack + 100% counter for ~1.1s, wipes at 3700ms
+    const curtainDuration = 900;   // curtain lift completes at 4600ms
 
     const tick = (now) => {
       const elapsed = now - startTime;
