@@ -400,60 +400,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
               </span>
             </div>
           </div>
-
-          {/* Right Bottom Shimmer Availability Text */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
-            style={{
-              alignSelf: 'stretch',
-              display: 'flex',
-              justifyContent: 'flex-end',
-              alignItems: 'center',
-              width: '100%',
-              marginTop: '4px'
-            }}
-            className="hero-shimmer-container"
-          >
-            <div style={{ position: 'relative', userSelect: 'none' }}>
-              <p
-                style={{
-                  fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                  fontSize: '14px',
-                  fontWeight: '400',
-                  letterSpacing: '-0.07px',
-                  lineHeight: '20px',
-                  color: 'rgb(109, 109, 109)',
-                  margin: 0
-                }}
-              >
-                Genuine Warranties & Expert Doorstep Setup
-              </p>
-              <p
-                aria-hidden="true"
-                className="text-shimmer-Rdpc6mlp"
-                style={{
-                  fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                  fontSize: '14px',
-                  fontWeight: '400',
-                  letterSpacing: '-0.07px',
-                  lineHeight: '20px',
-                  color: 'transparent',
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                  zIndex: 1,
-                  margin: 0,
-                  pointerEvents: 'none'
-                }}
-              >
-                Genuine Warranties & Expert Doorstep Setup
-              </p>
-            </div>
-          </motion.div>
         </div>
       </div>
 
@@ -643,11 +589,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             height: 40px !important;
             border-radius: 10px !important;
           }
-          .hero-shimmer-container {
-            justify-content: flex-end !important;
-            width: 100% !important;
-            margin-top: 4px !important;
-          }
           .hero-bottom-left {
             display: none !important;
           }
@@ -697,15 +638,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             width: 56px !important;
             height: 34px !important;
             border-radius: 8px !important;
-          }
-          .hero-shimmer-container {
-            justify-content: center !important;
-            text-align: center !important;
-            margin-top: 8px !important;
-          }
-          .hero-shimmer-container p {
-            font-size: 12px !important;
-            line-height: 16px !important;
           }
         }
       `}</style>
