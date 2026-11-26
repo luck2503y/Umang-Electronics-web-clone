@@ -2,11 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function Hero({ onOpenContact, isPreloaderActive = false }) {
-  const [currentTime, setCurrentTime] = useState('');
   const { scrollY } = useScroll();
 
   const bgY = useTransform(scrollY, [0, 600], [0, 90]);
-  const bottomOpacity = useTransform(scrollY, [0, 250], [1, 0]);
 
   const pillAnchorRef = useRef(null);
   const videoContainerRef = useRef(null);
@@ -132,21 +130,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
       window.removeEventListener('resize', measureAnchor);
       if (animFrameId !== null) cancelAnimationFrame(animFrameId);
     };
-  }, []);
-
-  useEffect(() => {
-    const updateTime = () => {
-      const now = new Date();
-      const timeStr = now.toLocaleTimeString('en-US', {
-        hour: 'numeric',
-        minute: '2-digit',
-        hour12: true
-      });
-      setCurrentTime(timeStr);
-    };
-    updateTime();
-    const interval = setInterval(updateTime, 1000);
-    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -403,140 +386,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
         </div>
       </div>
 
-      {/* Bottom Row Fixed Elements */}
-      {/* 1. Bottom Left: Timezone */}
-      <motion.div
-        initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-        style={{
-          position: 'absolute',
-          bottom: '40px',
-          left: '40px',
-          zIndex: 9,
-          display: 'flex',
-          alignItems: 'center',
-          gap: '6px',
-          opacity: bottomOpacity
-        }}
-        className="hero-bottom-left"
-      >
-        <span
-          style={{
-            fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
-            fontSize: '14px',
-            fontWeight: '300',
-            lineHeight: '20px',
-            letterSpacing: '-0.07px',
-            color: '#ffffff',
-            fontVariantNumeric: 'tabular-nums'
-          }}
-        >
-          {currentTime || '11:09 AM'}
-        </span>
-        <span
-          style={{
-            fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
-            fontSize: '14px',
-            fontWeight: '300',
-            lineHeight: '20px',
-            letterSpacing: '-0.07px',
-            color: 'rgba(255, 255, 255, 0.6)'
-          }}
-        >
-          (Live Store Desk)
-        </span>
-      </motion.div>
-
-      {/* 2. Bottom Center: Subtitle Paragraph */}
-      <motion.div
-        initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-        style={{
-          position: 'absolute',
-          bottom: '40px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          zIndex: 9,
-          textAlign: 'center',
-          maxWidth: '520px',
-          width: 'calc(100% - 320px)',
-          opacity: bottomOpacity
-        }}
-        className="hero-bottom-center"
-      >
-        <p
-          style={{
-            fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
-            fontSize: '14px',
-            fontWeight: '300',
-            lineHeight: '20px',
-            letterSpacing: '-0.07px',
-            color: 'rgba(255, 255, 255, 0.7)',
-            margin: 0
-          }}
-        >
-          Umang Electronics delivers premium home appliances, 4K entertainment systems, and precision kitchen equipment with certified manufacturer support.
-        </p>
-      </motion.div>
-
-      {/* 3. Bottom Right: Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-        style={{
-          position: 'absolute',
-          bottom: '40px',
-          right: '40px',
-          zIndex: 9,
-          display: 'flex',
-          alignItems: 'center',
-          gap: '12px',
-          opacity: bottomOpacity
-        }}
-        className="hero-bottom-right"
-      >
-        <div style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }} className="hero-scroll-text">
-          <span
-            style={{
-              fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
-              fontSize: '14px',
-              fontWeight: '300',
-              lineHeight: '20px',
-              letterSpacing: '-0.07px',
-              color: 'rgba(255, 255, 255, 0.6)',
-              whiteSpace: 'nowrap'
-            }}
-          >
-            <span style={{ color: 'rgba(255, 255, 255, 0.96)' }}>Scroll </span>for more
-          </span>
-        </div>
-
-        {/* Animated Light Line */}
-        <div
-          style={{
-            width: '2px',
-            height: '90px',
-            backgroundColor: 'rgba(255, 255, 255, 0.15)',
-            position: 'relative',
-            overflow: 'hidden'
-          }}
-          className="hero-scroll-line"
-        >
-          <motion.div
-            animate={{ y: ['-100%', '100%'] }}
-            transition={{ repeat: Infinity, duration: 2, ease: 'easeInOut' }}
-            style={{
-              width: '100%',
-              height: '45px',
-              background: 'linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)'
-            }}
-          />
-        </div>
-      </motion.div>
-
       <style>{`
         @keyframes shimmer-Rdpc6mlp {
           0% { background-position: 200%; }
@@ -588,32 +437,6 @@ export default function Hero({ onOpenContact, isPreloaderActive = false }) {
             width: 64px !important;
             height: 40px !important;
             border-radius: 10px !important;
-          }
-          .hero-bottom-left {
-            display: none !important;
-          }
-          .hero-bottom-right {
-            bottom: 100px !important;
-            left: 50% !important;
-            right: unset !important;
-            transform: translateX(-50%) !important;
-          }
-          .hero-scroll-text {
-            display: none !important;
-          }
-          .hero-scroll-line {
-            height: 60px !important;
-          }
-          .hero-bottom-center {
-            bottom: 24px !important;
-            left: 50% !important;
-            transform: translateX(-50%) !important;
-            width: calc(100% - 40px) !important;
-            max-width: 350px !important;
-          }
-          .hero-bottom-center p {
-            font-size: 13px !important;
-            line-height: 18px !important;
           }
         }
 

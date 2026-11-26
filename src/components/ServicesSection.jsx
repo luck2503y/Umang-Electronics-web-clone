@@ -9,7 +9,7 @@ const services = [
     deliverables: 'Delivery, Unboxing, Wall Mounting & Safety Check',
     description: 'Certified doorstep installation for split air conditioners, front-load washing machines, and wall-mounted televisions. Includes pressure checks, copper pipe insulation, and electrical surge validation.',
     price: 'Included Support',
-    video: '/assets/videos/service-delivery-setup.mp4'
+    video: '/assets/videos/service-installation-setup.webm'
   },
   {
     id: 'home-theatre-calibration',
@@ -18,7 +18,7 @@ const services = [
     deliverables: 'Acoustic Positioning, 4K HDR Calibration, Wire Concealment',
     description: 'Elevate your living room into a cinema. We tune 5.1 channel surround acoustics, calibrate OLED & QLED picture profiles for dynamic range, and set up eARC audio pass-through.',
     price: 'Specialist Service',
-    video: '/assets/videos/service-consultation-demo.mp4'
+    video: '/assets/videos/tv_remote_tuning.mp4'
   },
   {
     id: 'warranty-maintenance',
@@ -27,7 +27,7 @@ const services = [
     deliverables: 'Brand Warranty Registration, Filter Kits, Scheduled Descaling',
     description: 'Complete peace of mind. We handle manufacturer serial registration, supply authentic replacement cartridges for water purifiers, and provide expert diagnostic guidance.',
     price: 'Official Care',
-    video: '/assets/videos/service-authorized-store.mp4'
+    video: '/assets/videos/service-warranty-care.webm'
   }
 ];
 
@@ -160,18 +160,6 @@ export default function ServicesSection({ onOpenContact }) {
           >
             {/* Top block */}
             <div>
-              <p
-                style={{
-                  fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                  fontSize: '14px',
-                  color: 'rgba(0, 0, 0, 0.96)',
-                  marginBottom: '36px',
-                  letterSpacing: '-0.07px'
-                }}
-              >
-                Our Services
-              </p>
-
               <AnimatePresence mode="wait">
                 <motion.div
                   key={current.id}
@@ -281,7 +269,7 @@ export default function ServicesSection({ onOpenContact }) {
               </AnimatePresence>
             </div>
 
-            {/* Bottom block: Price and Start a project Button */}
+            {/* Bottom block */}
             <div
               style={{
                 display: 'flex',
@@ -292,18 +280,6 @@ export default function ServicesSection({ onOpenContact }) {
               }}
             >
               <div>
-                <span
-                  style={{
-                    display: 'block',
-                    fontFamily: '"TWK Lausanne 400", sans-serif',
-                    fontSize: '14px',
-                    color: 'rgba(0, 0, 0, 0.6)',
-                    marginBottom: '6px',
-                    letterSpacing: '-0.07px'
-                  }}
-                >
-                  Starting from
-                </span>
                 <AnimatePresence mode="wait">
                   <motion.span
                     key={current.price}
@@ -325,40 +301,6 @@ export default function ServicesSection({ onOpenContact }) {
                   </motion.span>
                 </AnimatePresence>
               </div>
-
-              {/* Glass Pill Button */}
-              <button
-                onClick={onOpenContact}
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  padding: '12px 28px',
-                  borderRadius: '1000px',
-                  backgroundColor: 'rgba(0, 0, 0, 0.08)',
-                  border: '1px solid rgba(0, 0, 0, 0.1)',
-                  backdropFilter: 'blur(8px)',
-                  WebkitBackdropFilter: 'blur(8px)',
-                  color: '#000000',
-                  fontFamily: '"TWK Lausanne 400", sans-serif',
-                  fontSize: '14px',
-                  fontWeight: '400',
-                  letterSpacing: '-0.07px',
-                  cursor: 'pointer',
-                  transition: 'all 0.25s cubic-bezier(0.16, 1, 0.3, 1)',
-                  boxShadow: '0 1px 2px rgba(0, 0, 0, 0.04)'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.14)';
-                  e.currentTarget.style.transform = 'translateY(-1px)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.08)';
-                  e.currentTarget.style.transform = 'translateY(0)';
-                }}
-              >
-                Start a project
-              </button>
             </div>
           </div>
 
@@ -420,7 +362,7 @@ export default function ServicesSection({ onOpenContact }) {
                         loop
                         muted
                         playsInline
-                        preload="none"
+                        preload="metadata"
                         style={{
                           width: '100%',
                           height: '100%',
@@ -428,8 +370,7 @@ export default function ServicesSection({ onOpenContact }) {
                           display: 'block'
                         }}
                       >
-                        <source src={s.video.replace('.mp4', '.webm')} type="video/webm" />
-                        <source src={s.video} type="video/mp4" />
+                        <source src={s.video} type={s.video.endsWith('.webm') ? 'video/webm' : 'video/mp4'} />
                       </video>
                     ) : (
                       <div

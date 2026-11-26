@@ -257,20 +257,7 @@ export default function FeaturedTemplates() {
           }}
         >
           {/* Left Column: Section Title */}
-          <div style={{ alignSelf: 'center' }}>
-            <h2
-              style={{
-                fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                fontSize: '14px',
-                fontWeight: '400',
-                letterSpacing: '-0.07px',
-                color: 'rgba(255, 255, 255, 0.96)',
-                margin: 0
-              }}
-            >
-              Featured Electronics
-            </h2>
-          </div>
+          <div style={{ alignSelf: 'center' }} />
 
           {/* Center Column: Dial & Circular Portal Lens */}
           <div
@@ -467,17 +454,6 @@ export default function FeaturedTemplates() {
                 >
                   {current.name}
                 </h3>
-                <p
-                  style={{
-                    fontFamily: '"TWK Lausanne 400", sans-serif',
-                    fontSize: '15px',
-                    letterSpacing: '-0.07px',
-                    color: 'rgba(255, 255, 255, 0.6)',
-                    margin: 0
-                  }}
-                >
-                  {current.category} / {current.price}
-                </p>
               </motion.div>
             </AnimatePresence>
           </div>

@@ -182,20 +182,6 @@ export default function ProductDetail({ onOpenContact }) {
             <span style={{ color: 'rgba(255, 255, 255, 0.3)' }}>/</span>
             <span style={{ color: '#ffffff', fontWeight: '500' }}>{product.name}</span>
           </div>
-
-          <div
-            style={{
-              padding: '6px 14px',
-              borderRadius: '100px',
-              backgroundColor: 'rgba(255, 255, 255, 0.08)',
-              border: '1px solid rgba(255, 255, 255, 0.15)',
-              backdropFilter: 'blur(8px)',
-              fontSize: '12px',
-              color: 'rgba(255, 255, 255, 0.85)'
-            }}
-          >
-            {product.tag}
-          </div>
         </div>
 
         {/* Center: Main High-Definition Product Showcase Stage */}
@@ -251,48 +237,22 @@ export default function ProductDetail({ onOpenContact }) {
               left: '28px',
               right: '28px',
               display: 'flex',
-              justifyContent: 'space-between',
               alignItems: 'flex-end',
               zIndex: 2
             }}
           >
-            <div>
-              <span
-                style={{
-                  fontSize: '12px',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.08em',
-                  color: 'rgba(255, 255, 255, 0.6)'
-                }}
-              >
-                {product.category}
-              </span>
-              <h1
-                style={{
-                  fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                  fontSize: 'clamp(26px, 3.2vw, 38px)',
-                  fontWeight: '400',
-                  margin: '4px 0 0',
-                  color: '#ffffff',
-                  letterSpacing: '-1px'
-                }}
-              >
-                {product.name}
-              </h1>
-            </div>
-
-            <div
+            <h1
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px',
-                fontSize: '12px',
-                color: 'rgba(255, 255, 255, 0.8)'
+                fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
+                fontSize: 'clamp(26px, 3.2vw, 38px)',
+                fontWeight: '400',
+                margin: 0,
+                color: '#ffffff',
+                letterSpacing: '-1px'
               }}
             >
-              <ShieldCheck size={16} color="#10b981" />
-              <span>Official Warranty Covered</span>
-            </div>
+              {product.name}
+            </h1>
           </div>
         </motion.div>
 
@@ -428,15 +388,10 @@ export default function ProductDetail({ onOpenContact }) {
               overflowY: 'auto'
             }}
           >
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-              <div>
-                <span style={{ fontSize: '11px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.5)' }}>
-                  {product.category}
-                </span>
-                <h4 style={{ fontFamily: '"TWK Lausanne 400", sans-serif', fontSize: '20px', margin: '2px 0 0', color: '#fff' }}>
-                  {product.name}
-                </h4>
-              </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
+              <h4 style={{ fontFamily: '"TWK Lausanne 400", sans-serif', fontSize: '22px', margin: 0, color: '#fff' }}>
+                {product.name}
+              </h4>
               <button
                 onClick={() => setInfoOpen(false)}
                 style={{
@@ -450,10 +405,6 @@ export default function ProductDetail({ onOpenContact }) {
                 <X size={18} />
               </button>
             </div>
-
-            <p style={{ fontFamily: '"TWK Lausanne 300", sans-serif', fontSize: '13px', lineHeight: '20px', color: 'rgba(255, 255, 255, 0.75)', marginBottom: '20px' }}>
-              {product.description}
-            </p>
 
             {/* Verified Specs Table in Drawer */}
             <div style={{ marginBottom: '20px' }}>
@@ -525,19 +476,6 @@ export default function ProductDetail({ onOpenContact }) {
         >
           {/* Left Column (5 cols): Overview & Highlights */}
           <div className="pdetail-left-col" style={{ gridColumn: 'span 5' }}>
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 400", sans-serif',
-                fontSize: '12px',
-                textTransform: 'uppercase',
-                letterSpacing: '0.08em',
-                color: 'rgba(255, 255, 255, 0.5)',
-                display: 'block',
-                marginBottom: '12px'
-              }}
-            >
-              Appliance Overview
-            </span>
             <h2
               style={{
                 fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
@@ -640,7 +578,7 @@ export default function ProductDetail({ onOpenContact }) {
                 boxShadow: '0 20px 40px rgba(0, 0, 0, 0.4)'
               }}
             >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
+              <div style={{ marginBottom: '24px' }}>
                 <h3
                   style={{
                     fontFamily: '"TWK Lausanne 400", sans-serif',
@@ -651,9 +589,6 @@ export default function ProductDetail({ onOpenContact }) {
                 >
                   Verified Technical Specifications
                 </h3>
-                <span style={{ fontSize: '12px', color: 'rgba(255, 255, 255, 0.5)' }}>
-                  Model Reference: {product.id}
-                </span>
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -800,9 +735,6 @@ export default function ProductDetail({ onOpenContact }) {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <span style={{ fontSize: '15px', color: '#fff', fontWeight: '500' }}>
                     {item.name}
-                  </span>
-                  <span style={{ fontSize: '12px', color: 'rgba(255, 255, 255, 0.5)' }}>
-                    {item.tag}
                   </span>
                 </div>
               </Link>

@@ -1,31 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Footer({ onOpenContact }) {
-  const [timeStr, setTimeStr] = useState('');
-
-  // Live store clock (GMT+7)
-  useEffect(() => {
-    function updateClock() {
-      try {
-        const now = new Date();
-        const formatter = new Intl.DateTimeFormat('en-US', {
-          timeZone: 'Asia/Bangkok', // GMT+7
-          hour: 'numeric',
-          minute: '2-digit',
-          hour12: true
-        });
-        setTimeStr(formatter.format(now));
-      } catch (err) {
-        setTimeStr('3:00 PM');
-      }
-    }
-
-    updateClock();
-    const timer = setInterval(updateClock, 1000);
-    return () => clearInterval(timer);
-  }, []);
-
   const scrollToTop = () => {
     if (window.lenis) {
       window.lenis.scrollTo(0, { duration: 1.2 });
@@ -304,40 +280,6 @@ export default function Footer({ onOpenContact }) {
             gap: '16px'
           }}
         >
-          {/* Timezone (GMT +7) */}
-          <div
-            data-framer-name="Timezone"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px'
-            }}
-          >
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
-                fontSize: '14px',
-                lineHeight: '20px',
-                letterSpacing: '-0.07px',
-                color: '#ffffff',
-                fontVariantNumeric: 'tabular-nums'
-              }}
-            >
-              {timeStr || '3:00 PM'}
-            </span>
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 300", "TWK Lausanne", sans-serif',
-                fontSize: '14px',
-                lineHeight: '20px',
-                letterSpacing: '-0.07px',
-                color: 'rgba(255, 255, 255, 0.6)'
-              }}
-            >
-              (GMT +7)
-            </span>
-          </div>
-
           {/* Copyright: © 2026 Vyomara Technologies Pvt. Ltd. All rights reserved. */}
           <div
             className="footer-copyright"

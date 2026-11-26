@@ -102,19 +102,6 @@ export default function Products({ onOpenContact }) {
       >
         {/* Page Top Heading & Category Counts */}
         <div style={{ marginBottom: '40px' }}>
-          <span
-            style={{
-              fontFamily: '"TWK Lausanne 400", sans-serif',
-              fontSize: '12px',
-              textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              color: 'rgba(0, 0, 0, 0.5)',
-              display: 'block',
-              marginBottom: '12px'
-            }}
-          >
-            Umang Electronics Catalog
-          </span>
           <h1
             style={{
               fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
@@ -222,18 +209,8 @@ export default function Products({ onOpenContact }) {
             )}
           </div>
 
-          {/* Right: Results Count & Sort Dropdown */}
+          {/* Right: Sort Dropdown */}
           <div className="products-summary-bar" style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 400", sans-serif',
-                fontSize: '13px',
-                color: 'rgba(0, 0, 0, 0.6)'
-              }}
-            >
-              Showing <strong>{filteredProducts.length}</strong> of 36 products
-            </span>
-
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <span style={{ fontSize: '12px', textTransform: 'uppercase', color: 'rgba(0,0,0,0.4)', letterSpacing: '0.05em' }}>
                 Sort:
@@ -352,41 +329,7 @@ export default function Products({ onOpenContact }) {
                         display: 'block'
                       }}
                     />
-
-                    {/* Badge */}
-                    <div
-                      style={{
-                        position: 'absolute',
-                        top: '12px',
-                        left: '12px',
-                        padding: '4px 10px',
-                        borderRadius: '100px',
-                        backgroundColor: 'rgba(0, 0, 0, 0.75)',
-                        backdropFilter: 'blur(8px)',
-                        fontSize: '11px',
-                        fontWeight: '500',
-                        color: '#ffffff',
-                        letterSpacing: '0.02em'
-                      }}
-                    >
-                      {item.tag}
-                    </div>
                   </Link>
-
-                  {/* Category Pill */}
-                  <span
-                    style={{
-                      fontFamily: '"TWK Lausanne 400", sans-serif',
-                      fontSize: '11px',
-                      textTransform: 'uppercase',
-                      letterSpacing: '0.06em',
-                      color: 'rgba(0, 0, 0, 0.5)',
-                      display: 'inline-block',
-                      marginBottom: '6px'
-                    }}
-                  >
-                    {item.category}
-                  </span>
 
                   {/* Product Name */}
                   <Link
@@ -402,30 +345,13 @@ export default function Products({ onOpenContact }) {
                         fontSize: '18px',
                         fontWeight: '500',
                         letterSpacing: '-0.3px',
-                        margin: '0 0 8px 0',
+                        margin: '0 0 16px 0',
                         lineHeight: '1.3'
                       }}
                     >
                       {item.name}
                     </h3>
                   </Link>
-
-                  {/* Short Original Description */}
-                  <p
-                    style={{
-                      fontFamily: '"TWK Lausanne 300", sans-serif',
-                      fontSize: '13px',
-                      lineHeight: '1.5',
-                      color: 'rgba(0, 0, 0, 0.65)',
-                      margin: '0 0 20px 0',
-                      display: '-webkit-box',
-                      WebkitLineClamp: 2,
-                      WebkitBoxOrient: 'vertical',
-                      overflow: 'hidden'
-                    }}
-                  >
-                    {item.shortDescription}
-                  </p>
                 </div>
 
                 {/* Working Action Buttons: View Details & Enquire Now */}
@@ -511,19 +437,6 @@ export default function Products({ onOpenContact }) {
             textAlign: 'center'
           }}
         >
-          <span
-            style={{
-              fontFamily: '"TWK Lausanne 400", sans-serif',
-              fontSize: '12px',
-              textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              color: 'rgba(0, 0, 0, 0.5)',
-              marginBottom: '16px'
-            }}
-          >
-            Tailored Electronics Consultation
-          </span>
-
           <h2
             style={{
               fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',

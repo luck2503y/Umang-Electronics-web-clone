@@ -83,19 +83,6 @@ export default function CategoriesOverview() {
           }}
         >
           <div>
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 400", sans-serif',
-                fontSize: '12px',
-                textTransform: 'uppercase',
-                letterSpacing: '0.08em',
-                color: 'rgba(255, 255, 255, 0.5)',
-                display: 'block',
-                marginBottom: '12px'
-              }}
-            >
-              Curated Departments
-            </span>
             <h2
               style={{
                 fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
@@ -196,109 +183,45 @@ export default function CategoriesOverview() {
                       background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.7) 100%)'
                     }}
                   />
-                  {/* Category Count Badge */}
-                  <div
-                    style={{
-                      position: 'absolute',
-                      top: '16px',
-                      right: '16px',
-                      padding: '6px 12px',
-                      borderRadius: '100px',
-                      backgroundColor: 'rgba(0, 0, 0, 0.65)',
-                      backdropFilter: 'blur(8px)',
-                      border: '1px solid rgba(255, 255, 255, 0.2)',
-                      fontSize: '12px',
-                      fontWeight: '500',
-                      color: '#ffffff'
-                    }}
-                  >
-                    {cat.count}
-                  </div>
                 </div>
 
                 {/* Content Block */}
                 <div
                   style={{
-                    padding: '28px',
+                    padding: '24px 28px',
                     display: 'flex',
                     flexDirection: 'column',
-                    flex: 1,
-                    justifyContent: 'space-between',
                     gap: '20px'
                   }}
                 >
-                  <div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
-                      <div
-                        style={{
-                          width: '32px',
-                          height: '32px',
-                          borderRadius: '8px',
-                          backgroundColor: 'rgba(255, 255, 255, 0.08)',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          color: '#ffffff'
-                        }}
-                      >
-                        <IconComponent size={16} />
-                      </div>
-                      <h3
-                        style={{
-                          fontFamily: '"TWK Lausanne 400", sans-serif',
-                          fontSize: '22px',
-                          fontWeight: '400',
-                          letterSpacing: '-0.5px',
-                          margin: 0,
-                          color: '#ffffff'
-                        }}
-                      >
-                        {cat.title}
-                      </h3>
-                    </div>
-
-                    <p
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <div
                       style={{
-                        fontFamily: '"TWK Lausanne 300", sans-serif',
-                        fontSize: '13px',
-                        color: 'rgba(255, 255, 255, 0.6)',
-                        lineHeight: '1.4',
-                        margin: '0 0 16px 0'
+                        width: '36px',
+                        height: '36px',
+                        borderRadius: '10px',
+                        backgroundColor: 'rgba(255, 255, 255, 0.08)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        color: '#ffffff',
+                        flexShrink: 0
                       }}
                     >
-                      {cat.tagline}
-                    </p>
-
-                    <p
+                      <IconComponent size={18} />
+                    </div>
+                    <h3
                       style={{
-                        fontFamily: '"TWK Lausanne 300", sans-serif',
-                        fontSize: '14px',
-                        color: 'rgba(255, 255, 255, 0.8)',
-                        lineHeight: '1.6',
-                        margin: '0 0 20px 0'
+                        fontFamily: '"TWK Lausanne 400", sans-serif',
+                        fontSize: '20px',
+                        fontWeight: '400',
+                        letterSpacing: '-0.5px',
+                        margin: 0,
+                        color: '#ffffff'
                       }}
                     >
-                      {cat.description}
-                    </p>
-
-                    {/* Quick Item Tags */}
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                      {cat.items.map((item, i) => (
-                        <span
-                          key={i}
-                          style={{
-                            fontSize: '11px',
-                            padding: '4px 8px',
-                            borderRadius: '6px',
-                            backgroundColor: 'rgba(255, 255, 255, 0.06)',
-                            border: '1px solid rgba(255, 255, 255, 0.08)',
-                            color: 'rgba(255, 255, 255, 0.7)'
-                          }}
-                        >
-                          {item}
-                        </span>
-                      ))}
-                    </div>
+                      {cat.title}
+                    </h3>
                   </div>
 
                   <Link
@@ -316,8 +239,7 @@ export default function CategoriesOverview() {
                       textDecoration: 'none',
                       fontSize: '13px',
                       fontWeight: '500',
-                      transition: 'all 0.2s ease',
-                      marginTop: '8px'
+                      transition: 'all 0.2s ease'
                     }}
                     onMouseEnter={(e) => {
                       e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';

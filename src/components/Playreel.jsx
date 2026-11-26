@@ -44,7 +44,7 @@ export default function Playreel() {
         />
       </div>
 
-      {/* Centered Typography: [ 00:44 ] PLAY [BUTTON] REEL ©2026 */}
+      {/* Centered Typography: PLAY [BUTTON] REEL */}
       <div
         data-framer-name="Container"
         style={{
@@ -58,38 +58,6 @@ export default function Playreel() {
           padding: '0 20px'
         }}
       >
-        {/* Top: [ 00:44 ] aligned to start of PLAY */}
-        <div
-          style={{
-            width: '100%',
-            display: 'flex',
-            justifyContent: 'flex-start',
-            paddingLeft: '12px',
-            marginBottom: '-8px'
-          }}
-        >
-          <div
-            id="playreel-text-time"
-            style={{
-              willChange: 'transform',
-              opacity: 1,
-              transform: 'translateX(-300px)'
-            }}
-          >
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                fontSize: '13px',
-                fontWeight: '400',
-                letterSpacing: '-0.07px',
-                color: 'rgba(255, 255, 255, 0.96)'
-              }}
-            >
-              [ 00:30 ]
-            </span>
-          </div>
-        </div>
-
         {/* Middle: PLAY [Glass Play Button] REEL */}
         <div
           style={{
@@ -198,38 +166,6 @@ export default function Playreel() {
               }}
             >
               REEL
-            </span>
-          </div>
-        </div>
-
-        {/* Bottom: ©2026 aligned to end of REEL */}
-        <div
-          style={{
-            width: '100%',
-            display: 'flex',
-            justifyContent: 'flex-end',
-            paddingRight: '12px',
-            marginTop: '-4px'
-          }}
-        >
-          <div
-            id="playreel-text-copy"
-            style={{
-              willChange: 'transform',
-              opacity: 1,
-              transform: 'translateX(300px)'
-            }}
-          >
-            <span
-              style={{
-                fontFamily: '"TWK Lausanne 400", "TWK Lausanne", sans-serif',
-                fontSize: '13px',
-                fontWeight: '400',
-                letterSpacing: '-0.07px',
-                color: 'rgba(255, 255, 255, 0.85)'
-              }}
-            >
-              ©2026
             </span>
           </div>
         </div>
